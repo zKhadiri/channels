@@ -1,0 +1,25 @@
+config.skin.primary_skin=hd_glass16/skin.xml
+config.misc.firstrun=false
+config.misc.initialchannelselection=false
+config.misc.startCounter=24
+config.misc.languageselected=false
+config.misc.videowizardenabled=false
+config.av.videorate.1080i=multi
+config.av.videoport=DVI
+config.av.videomode.DVI=1080i
+config.Nims.0.diseqcA=3550
+config.Nims.0.diseqcMode=diseqc_a_b_c_d
+config.Nims.0.diseqcC=130
+config.Nims.0.diseqcD=192
+config.Nims.0.diseqcB=3300
+config.tv.lastroot=1:7:1:0:0:0:0:0:0:0:(type == 1) || (type == 17) || (type == 22) || (type == 25) || (type == 134) || (type == 195) FROM SATELLITES ORDER BY satellitePosition;1:7:0:0:0:0:C00000:0:0:0:(satellitePosition == 192) && (type == 1) || (type == 17) || (type == 22) || (type == 25) || (type == 134) || (type == 195) ORDER BY name:Astra 1KR/1L/1M/2C (19.2E) - Services;
+config.tv.lastservice=1:0:19:84:9:85:C00000:0:0:0:
+config.usage.allowed_timeshift_paths=['/media/usb/Timeshift/']
+config.usage.timeshift_path=/media/usb/Timeshift/
+config.plugins.setupGlass16.par11=80
+config.plugins.setupGlass16.par10=85
+config.plugins.setupGlass16.par17=true
+config.plugins.setupGlass16.par52=85
+config.plugins.setupGlass16.par51=870
+config.OpenWebif.enabled=false
+config.audio.volume=45
