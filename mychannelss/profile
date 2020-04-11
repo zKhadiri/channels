@@ -1,0 +1,98 @@
+  0.166	PYTHON_START
+  0.194	SetupDevices
+ 19.675	SimpleSummary
+ 20.165	LOAD:GUISkin
+ 20.321	LOAD:ElementTree
+ 20.333	LOAD:enigma_skin
+ 20.691	LoadSkin
+ 23.297	LoadSkinDefaultDone
+ 23.472	LOAD:Source
+ 23.491	LOAD:GUIComponent
+ 23.514	LOAD:eRCInput
+ 48.687	ChannelSelection.py 1
+ 49.180	ChannelSelection.py 2
+ 49.195	ChannelSelection.py 2.1
+ 49.318	ChannelSelection.py 2.2
+ 49.329	ChannelSelection.py 2.3
+ 49.340	ChannelSelection.py 3
+ 52.805	ChannelSelection.py 4
+ 52.912	ChannelSelection.py after imports
+ 53.363	LOAD:enigma
+ 53.368	LOAD:InfoBarGenerics
+ 54.292	VolumeControl
+ 62.377	LOAD:InitBar_Components
+ 62.392	LOAD:HelpableScreen
+ 62.565	Bouquets
+ 62.855	ParentalControl
+ 63.067	LOAD:Navigation
+ 63.282	LOAD:skin
+ 63.311	LOAD:Tools
+ 63.378	config.misc
+ 63.711	Twisted
+142.091	LOAD:Plugin
+142.290	LOAD:Wizard
+143.037	misc
+143.044	LOAD:ScreenGlobals
+143.251	Screen
+143.278	Standby,PowerKey
+143.286	Scart
+143.306	Load:CI
+143.630	Load:VolumeControl
+143.636	Load:StackTracePrinter
+143.723	Init:skin
+153.021	InputDevice
+155.180	AVSwitch
+156.815	HdmiRecord
+156.864	RecordingConfig
+157.255	UsageConfig
+164.401	Init:DebugLogCheck
+165.438	Init:NTPSync
+165.450	keymapparser
+169.124	Network
+169.191	LCD
+169.869	UserInterface
+170.037	EpgCacheSched
+170.082	RFMod
+170.115	Init:CI
+170.268	RcModel
+170.275	readPluginList
+170.321	plugin NetworkBrowser
+172.074	plugin MPHelp
+172.152	plugin Toolkit
+172.171	plugin VideoTune
+172.202	plugin PositionerSetup
+172.394	plugin WirelessLan
+172.732	plugin Satfinder
+172.924	plugin NetworkWizard
+172.959	plugin SoftwareManager
+182.042	plugin HdmiCEC
+182.243	plugin VideoEnhancement
+182.830	plugin CommonInterfaceAssignment
+183.058	plugin Hotplug
+183.104	plugin SatVenusPanel
+185.560	plugin EPGImport
+187.462	plugin OpenWebif
+219.864	plugin MediaPlayer
+220.215	plugin DVDPlayer
+220.254	plugin Tuxtxt
+220.308	plugin Volume_adjust
+220.404	plugin WebInterface
+220.447	plugin Infopanel
+221.524	plugin ArabicSavior
+221.579	plugin AtileHD
+221.824	plugin MediaScanner
+221.928	plugin PicturePlayer
+221.979	plugin Epg_Plugin
+223.272	plugin IMDb
+224.064	plugin CutListEditor
+224.404	plugin ProgrammlistenUpdater
+224.649	plugin AutoTimer
+226.960	plugin MyMetrixLite
+241.274	plugin EPGSearch
+244.738	Init:Session
+245.436	wizards
+283.753	Init:VolumeControl
+284.158	Init:PowerKey
+284.404	Init:Trashcan
+284.407	Init:AutoVideoMode
+285.767	RunReactor

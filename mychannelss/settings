@@ -1,6 +1,6 @@
-config.Nims.0.diseqcA=192
-config.Nims.0.diseqcB=130
-config.Nims.0.diseqcC=282
-config.Nims.0.diseqcD=3300
-config.Nims.0.diseqcMode=diseqc_a_b_c_d
-config.Nims.0.dvbs.diseqcA=3530
+config.Nims.0.dvbs.diseqcA=450
+config.Nims.0.dvbs.diseqcB=3530
+config.Nims.0.dvbs.diseqcC=192
+config.Nims.0.dvbs.diseqcD=3601
+config.Nims.0.dvbs.diseqcMode=diseqc_a_b_c_d
+
