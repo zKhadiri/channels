@@ -1,5 +1,5 @@
 config.Nims.0.diseqcA=390
 config.Nims.0.diseqcB=3530
-config.Nims.0.diseqcC=90
+config.Nims.0.diseqcC=160
 config.Nims.0.diseqcD=3601
 config.Nims.0.diseqcMode=diseqc_a_b_c_d
