@@ -3,4 +3,3 @@ config.Nims.0.diseqcB=3530
 config.Nims.0.diseqcC=192
 config.Nims.0.diseqcD=130
 config.Nims.0.diseqcMode=diseqc_a_b_c_d
-
