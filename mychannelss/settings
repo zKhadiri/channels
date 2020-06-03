@@ -6,4 +6,6 @@ config.Nims.0.diseqcMode=diseqc_a_b_c_d
 config.plugins.OSDPositionSetup.dst_height=550
 config.plugins.OSDPositionSetup.dst_left=18
 config.plugins.OSDPositionSetup.dst_top=14
-config.plugins.OSDPositionSetup.dst_width=682
+config.plugins.OSDPositionSetup.dst_width=685
+config.timezone.val=Casablanca
+config.misc.SyncTimeUsing=1
