@@ -365,7 +365,7 @@ t:0dca0000:0064:077e,s:11012000:27500000:0:2:-70:2:0:1:2:0:2
 t:0dca0000:00c8:077e,s:11055000:27500000:0:2:-70:2:0:1:2:0:2
 t:0dca0000:012c:077e,s:12604000:27500000:0:2:-70:2:0:1:2:0:2
 t:0dca0000:4e84:077e,s:11158000:5000000:1:9:-70:2:0:1:2:0:2
-t:0dca0000:4ee8:077e,s:10992000:5000000:1:9:-70:2:0:1:2:0:2
+t:0dca0000:4ee8:077e,s:10971000:27500000:1:0:-70:2:0
 t:0dca0000:9d08:077e,s:11475000:27500000:1:3:-70:2:0
 t:0dca0000:9d6c:077e,s:11513000:27500000:1:2:-70:2:0:1:2:2:2
 t:0dca0000:0001:0800,s:11747000:27500000:1:3:-70:2:0
@@ -490,13 +490,15 @@ s:0396:0dde0000:4f4c:055f:0:0:0,"SSU Maya Xena",p:Eutelsat
 s:039b:0dde0000:4f4c:055f:0:0:0,"SSU SRT7405",p:Eutelsat
 s:fff6:0dca0000:0011:0800:0:0:0,""
 s:fff7:0dca0000:000a:0800:0:0:0,"",f:40
+s:fff9:0dca0000:0014:0800:0:0:0,"",f:40
 s:fffa:0dca0000:0002:0800:0:0:0,"",f:40
 s:fffa:0dca0000:000a:0800:0:0:0,"",f:40
 s:fffb:0dca0000:0011:0800:0:0:0,""
+s:fffb:0dca0000:0014:0800:0:0:0,"",f:40
 s:fffd:0dca0000:0003:0800:0:0:0,"",f:40
 s:0200:0e080000:001b:02c0:1:0:0,"Comedy Central Family Hungary.",p:MTV Networks Europe,C:0
 s:0200:005a0000:2134:009c:1:0:0,"TeleBom/TeleDom",p:KabelKiosk
-s:0b00:0dca0000:001c:0800:1:0:0,"B4U Aflam",p:du,c:001055,c:011056,c:031055,f:40
+s:0b00:0dca0000:001c:0800:1:0:0,"B4U Aflam",p:du,c:001055,c:011056,c:031055,f:1040
 s:1100:00820000:1644:fbff:1:0:0,"Sky TG24",p:SkyItalia
 s:1b00:00c00000:03fe:0001:1:0:0,"CGTN Documentary",p:GLOBECAST
 s:2b00:0e082f3c:000b:1111:1:0:0,"Inedit TV",p:ESS
@@ -531,7 +533,7 @@ s:0001:01860000:0006:001c:1:0:0,"RIKSat",p:HellasSAT,f:40
 s:0001:0dca0000:9d08:077e:1:0:0,"Al Aoula Inter HD",p:SNRT,f:1040
 s:0001:00820000:2e18:00b0:1:0:0,"Al Maghribia HD",p:SNRT
 s:0001:0dca0000:0230:0800:1:0:0,"Spare 1",f:40
-s:0001:0dca0000:0032:0064:1:0:0,"Abu Dhabi TV HD",p:ADTV,f:40
+s:0001:0dca0000:0032:0064:1:0:0,"Abu Dhabi TV HD",p:ADTV,c:0064,c:0165,c:0364,c:051,f:1040
 s:0001:0ce4aaa5:3138:ff01:1:0:0,"SAT TEST 1",p:INGEST TELECOM,f:40
 s:0001:0dca0000:003c:0800:1:0:0,"Al Hadath",p:MBC,f:40
 s:0001:00820000:1964:013e:1:0:0,"MTV Live HD",p:Cyfrowy Polsat S.A.,C:0
@@ -620,7 +622,7 @@ s:0004:0dca0000:9d08:077e:1:0:0,"Athaqafia",p:SNRT,f:40
 s:0004:0ce4aa8a:000f:0002:1:0:0,"Feeds 4 TSA",p:TSA
 s:0004:00820000:2e18:00b0:1:0:0,"Athaqafia HD",p:SNRT,c:002e,c:012f,c:032e,c:051
 s:0004:0dca0000:0230:0800:1:0:0,"Spare 4",p:ADTV,C:0,f:40
-s:0004:0dca0000:0032:0064:1:0:0,"AD DRAMA HD",p:ADTV,f:40
+s:0004:0dca0000:0032:0064:1:0:0,"AD DRAMA HD",p:ADTV,c:00190,c:01191,c:03190,c:051,f:1040
 s:0004:0ce4aaa5:3138:ff01:1:0:0,"SAT TEST 4",p:INGEST TELECOM,f:40
 s:0004:0dca0000:003c:0800:1:0:0,"MBC 4",p:MBC,c:00191,c:01192,c:03191,f:1040
 s:0004:00820000:1770:0110:1:0:0,"Iris",p:Mediaset,C:0
@@ -638,7 +640,7 @@ s:1004:00300000:001a:0044:1:0:0,"ViP Premiere",p:VisionTV,C:0,f:40
 s:1004:0dde0000:5140:055f:1:0:0,"FRANCE 3 CAEN",p:EUTELSAT
 s:1104:00820000:1644:fbff:1:0:0,"Sky Meteo 24 Active",p:SkyItalia,C:0
 s:1904:0dca0000:0040:0800:1:0:0,"Palestine live",p:Nilesat,f:40
-s:2504:00820000:170c:fbff:1:0:0,"On Board Sky HD",p:SkyItalia,C:0
+s:2504:00820000:170c:fbff:1:0:0,"On Board Sky HD",p:SkyItalia,c:00a2,c:03a2,c:041a4,c:051,C:9cd
 s:3604:00820000:00c8:013e:1:0:0,"ESP1 Croatian",C:0
 s:7004:00c00000:0436:0001:1:0:0,"Comedy Central",p:MTV Networks Europe
 s:7604:00c00000:0408:0001:1:0:0,"ANTENA 3",p:DIGITAL +,C:0
@@ -655,7 +657,7 @@ s:0005:00820000:2e18:00b0:1:0:0,"Al Aoula Inter",p:SNRT
 s:0005:0dca0000:0230:0800:1:0:0,"Spare 5",p:ADTV,C:0,f:40
 s:0005:0dca0000:0032:0064:1:0:0,"AD Sport 1 HD",p:ADTV,f:40
 s:0005:0ce4aaa5:3138:ff01:1:0:0,"SAT TEST 5",p:INGEST TELECOM,f:40
-s:0005:0dca0000:003c:0800:1:0:0,"MBC 3",p:MBC,f:40
+s:0005:0dca0000:003c:0800:1:0:0,"MBC 3",p:MBC,c:001f5,c:011f6,c:031f5,f:1040
 s:0005:0dca2da0:2a94:0000:1:0:0,"TV 5",p:TDA,f:40
 s:0005:00820000:25e4:02be:1:0:0,"IQRAA",p:ARABSAT
 s:0005:01860000:25e4:02be:1:0:0,"IQRAA",p:ARABSAT
@@ -775,7 +777,7 @@ s:0309:00a00000:9d08:016e:1:0:0,"Pink Reality",p:Total TV,c:00115,c:01ebb,c:0311
 s:0409:005a0000:0009:00aa:1:0:0,"Atlas TV",p:OTE,C:0
 s:0709:00820000:32c8:013e:1:0:0,"Polsat Sport Premium 1",p:Cyfrowy Polsat S.A.,c:00101,c:01301,c:02501,c:03101,c:051,C:0
 s:0d09:0dca0000:0021:0800:1:0:0,"AL RASHEED TV",p:dU,f:40
-s:0e09:00820000:2d50:013e:1:0:0,"HBO2 HD",p:nc+
+s:0e09:00820000:2d50:013e:1:0:0,"HBO2 HD",p:nc+,c:00251,c:03251,c:04319,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
 s:1009:0dde0000:5078:055f:1:0:0,"FRANCE 3 LIMOGES",p:EUTELSAT
 s:1909:0dca0000:0040:0800:1:0:0,"Al Ghad SD",p:Nilesat,f:40
 s:2509:00820000:170c:fbff:1:0:0,"ON Board Mix HD",p:SkyItalia,C:0
@@ -799,7 +801,7 @@ s:010a:01860000:000f:001c:1:0:0,"E! Entertainment",C:0
 s:020a:0dca0000:0005:0800:1:0:0,"BBCW",p:NILESAT,f:40
 s:030a:00a00000:9d08:016e:1:0:0,"Vavoom",p:Total TV,C:0
 s:040a:0e082e56:0007:0001:1:0:0,"HISTORY",p:DigiTV,C:0
-s:070a:00820000:32c8:013e:1:0:0,"Polsat Sport Premium 2",p:Cyfrowy Polsat S.A.,c:00102,c:01202,c:02501,c:03102,c:051,C:0
+s:070a:00820000:32c8:013e:1:0:0,"Polsat Sport Premium 2",p:Cyfrowy Polsat S.A.,c:00102,c:01202,c:02501,c:03102,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
 s:0a0a:0e082e09:0005:0001:1:0:0,"Spiler 2",p:DigiTV,c:0024b,c:01334,c:0324b,C:0
 s:0a0a:00300000:0018:0044:1:0:0,"Discovery Science",p:VisionTV,C:0,f:40
 s:0d0a:0dca0000:0021:0800:1:0:0,"SamiraTV",p:dU,f:40
@@ -850,7 +852,7 @@ s:000c:00820000:1770:0110:1:0:0,"Topcrime",p:Mediaset,C:0
 s:000c:005a0000:1770:0064:1:0:0,"TIN_972737998873",p:RRSat
 s:020c:0dca0000:0005:0800:1:0:0,"Libya Alwataniya",p:NILESAT,f:40
 s:020c:0ce40000:0027:0036:1:0:0,"Eleven Sports 5",p:Eleven Sports 5,C:0
-s:030c:0dca0000:0007:0800:1:0:0,"Hekayat HD",c:0023a,c:01302,c:0323a,c:051,C:170b,C:170a,C:1709,C:1708,C:604,f:1000
+s:030c:0dca0000:0007:0800:1:0:0,"Hekayat HD",c:0023a,c:01302,c:0323a,c:051,C:604,C:1708,C:1709,C:170a,C:170b,f:1000
 s:030c:00a00000:9d08:016e:1:0:0,"Happy",p:Total TV,C:0
 s:030c:00820000:1b58:013e:1:0:0,"QVC Italia",p:Telespazio
 s:040c:0e082e7c:000c:0001:1:0:0,"DIGI Sport 3",p:DigiTV,c:00fd8,c:01fd9,c:03fd8,C:1802,C:1880
@@ -928,7 +930,7 @@ s:040f:005a0000:0002:00aa:1:0:0,"COSMOTESport4HD",p:OTE,c:001b7,c:0121b,c:031b7,
 s:070f:0dca0000:0011:006e:1:0:0,"TANASUH TV",f:40
 s:100f:0dca0000:0029:0800:1:0:0,"LIBYA 218",p:JMC,f:40
 s:170f:0dca0000:003b:0800:1:0:0,"ALASKANDRIA",p:Nilesat,f:40
-s:290f:00820000:1edc:0071:1:0:0,"HBO HD",p:Cyfrowy Polsat S.A.
+s:290f:00820000:1edc:0071:1:0:0,"HBO HD",p:Cyfrowy Polsat S.A.,c:006e,c:036e,c:04136,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
 s:330f:00820000:0190:013e:1:0:0,"ESP HD Hungarian",p:nc+
 s:360f:00820000:00c8:013e:1:0:0,"ESP Czech",p:Eutelsat
 s:420f:00820000:3db8:013e:1:0:0,"NITEGATE DTT5",p:Telespazio
@@ -1049,7 +1051,7 @@ s:d115:011a0000:0832:0002:1:0:0,"Channel 7",p:BSkyB
 s:0016:01860000:0002:02be:1:0:0,"RIK2"
 s:0016:018630af:0005:0001:1:0:0,"Eurosport HD",p:BULSATCOM,C:0,f:40
 s:0016:018630b0:0005:0001:1:0:0,"Eurosport HD",p:BULSATCOM,C:0,f:40
-s:0516:0dca0000:000d:0800:1:0:0,"CGTN",p:NILESAT,f:40
+s:0516:0dca0000:000d:0800:1:0:0,"CGTN",p:NILESAT,f:1040
 s:0516:0ce40000:0067:0053:1:0:0,"SIC Radical",C:0
 s:0716:0dca0000:0012:0800:1:0:0,"AL SHARQIYA",p:Nilesat,f:40
 s:0d16:0e082f62:0003:0001:1:0:0,"Spiler 1",p:DigiTV,c:00fb2,c:01fb3,c:03fb2,C:1802,C:1880
@@ -1066,7 +1068,7 @@ s:0017:01860000:0002:02be:1:0:0,"RIK3"
 s:0017:005a0000:170c:009e:1:0:0,"RTB TV"
 s:0017:00302f75:00c9:0001:1:0:0,"CORAL TV2 - PVU6",C:e00,f:40
 s:0217:00820000:0384:013e:1:0:0,"ETV NEWS"
-s:0517:0dca0000:000d:0800:1:0:0,"NHK WORLD-JAPAN",p:NILESAT,f:40
+s:0517:0dca0000:000d:0800:1:0:0,"NHK WORLD-JAPAN",p:NILESAT,f:1040
 s:0517:0ce40000:0067:0053:1:0:0,"Porto Canal",C:0
 s:0e17:0dca0000:0024:0800:1:0:0,"Test",p:Nilesat,f:40
 s:1017:0dca0000:0029:0800:1:0:0,"JORDAN NOW",p:jmc,f:40
@@ -1118,6 +1120,7 @@ s:051a:0ce40000:0067:0053:1:0:0,"FOX Comedy",C:0
 s:0e1a:0dca0000:0024:0800:1:0:0,"Test",p:NILESAT,f:40
 s:101a:0dca0000:0029:0800:1:0:0,"Syria Medical TV",p:jmc,f:40
 s:1e1a:00300000:002c:0055:1:0:0,"NicktoonsChannel",f:40
+s:251a:00820000:170c:fbff:1:0:0,"IEPG Data",p:SkyItalia,f:40
 s:291a:00820000:1edc:0071:1:0:0,"Cartoon Network HD",p:Cyfrowy Polsat S.A.
 s:421a:00820000:3db8:013e:1:0:0,"TRM h24",p:Telespazio
 s:d11a:011a0000:0832:0002:1:0:0,"Thane",p:BSkyB
@@ -1134,6 +1137,7 @@ s:051c:0ce40000:0067:0053:1:0:0,"SIC Caras",C:0
 s:071c:005a0000:0001:0064:1:0:0,"SISAL 2",p:Eutelsat
 s:0c1c:0030b048:0001:005e:1:0:0,"TLC Poland HD",C:e00,f:40
 s:101c:0dca0000:0029:0800:1:0:0,"Kunuz Al-Jannah",p:jmc,f:40
+s:141c:00820000:05dc:013e:1:0:0,"11488H SID 0x141c",p:DVB-S2 8PSK 11488H 13.0Â°E,f:40
 s:1b1c:00300000:0011:0055:1:0:0,"KRT",p:TRK Astra,f:40
 s:2f1c:00c00000:0441:0001:1:0:0,"VOX",p:CBC
 s:c51c:011a0000:0813:0002:1:0:0,"Brit Asia TV",p:BSkyB
@@ -1144,7 +1148,8 @@ s:051d:0dca0000:000d:0800:1:0:0,"LIBYAN TV",p:NILESAT,f:40
 s:051d:0ce40000:002f:0036:1:0:0,"BBC Entertainment",p:Canal BBC Entertainment
 s:051d:00820000:3d54:013e:1:0:0,"i24News HD French",p:Harmonic
 s:051d:0ce40000:0067:0053:1:0:0,"E! Entertainment",C:0
-s:0c1d:00820000:1e78:0071:1:0:0,"Polsat Sport HD",p:Cyfrowy Polsat S.A.
+s:0c1d:00820000:1e78:0071:1:0:0,"Polsat Sport HD",p:Cyfrowy Polsat S.A.,C:0
+s:141d:00820000:05dc:013e:1:0:0,"11488H SID 0x141d",p:DVB-S2 8PSK 11488H 13.0Â°E,f:40
 s:2f1d:00c00000:0441:0001:1:0:0,"NITRO",p:CBC
 s:331d:00820000:0190:013e:1:0:0,"ESP HD test D",p:nc+
 s:3e1d:00820000:2ee0:013e:1:0:0,"Sundance HD",p:Cyfrowy Polsat S.A.,C:0
@@ -1164,7 +1169,7 @@ s:051e:00820000:3d54:013e:1:0:0,"i24News HD English",p:Harmonic
 s:051e:0ce40000:0067:0053:1:0:0,"Eleven Sports 3",c:001769,c:01176a,c:031769,c:051,C:0
 s:0a1e:0e082e09:0005:0001:1:0:0,"H!T Music Channel",p:DigiTV,C:0
 s:0a1e:00300000:0018:0044:1:0:0,"Viasat History",p:VisionTV,C:0,f:40
-s:0c1e:00820000:1e78:0071:1:0:0,"Polsat Sport HD",p:Cyfrowy Polsat S.A.
+s:0c1e:00820000:1e78:0071:1:0:0,"Polsat Sport HD",p:Cyfrowy Polsat S.A.,c:0012d,c:01137,c:02139,c:0312d,c:051,C:6ed,C:1803,C:1861,C:186c
 s:341e:00820000:2710:fbff:1:0:0,"Primafila 28",p:SkyItalia,C:0
 s:3e1e:00820000:2ee0:013e:1:0:0,"E! Entertainment",p:Cyfrowy Polsat S.A.
 s:571e:011a0000:082b:0002:1:0:0,"QVC Style",p:BSkyB
@@ -1299,6 +1304,7 @@ s:1e25:00300000:002c:0055:1:0:0,"test3",f:40
 s:2525:00820000:13ef:013e:1:0:0,"ZAD TV"
 s:3e25:00820000:2ee0:013e:1:0:0,"Eurosport 1 HD",p:Cyfrowy Polsat S.A.
 s:4e25:00c00000:043a:0001:1:0:0,"SAT.1 A",p:ProSiebenSat.1
+s:7825:00c00000:0428:0001:1:0:0,"10935V SID 0x7825",p:DVB-S2 8PSK 10935V 19.2Â°E,f:40
 s:d325:011a0000:0836:0002:1:0:0,"DirtyTalk",p:BSkyB
 s:0026:01862fa2:0002:0001:1:0:0,"Sport+",p:BULSATCOM,c:0033c,c:0133d,c:0333c,C:0
 s:0026:01862fa3:0002:0001:1:0:0,"Sport+",p:BULSATCOM,C:0
@@ -1443,7 +1449,7 @@ s:012c:001e0000:0064:212c:1:0:0,"ANT1",p:DIGEA,c:00546,c:01547,c:03546,c:051,C:2
 s:032c:0dca0000:0008:0800:1:0:0,"Sawt Al-alam",f:40
 s:0a2c:0e08b00f:0002:005e:1:0:0,"Animal Planet HD Turkish",c:00a28,c:03a28,c:04a29,c:051,C:e00
 s:0a2c:0dca0000:001a:0800:1:0:0,"Al-EKhbaria",p:NILESAT,f:40
-s:0a2c:0dca0000:001a:02be:1:0:0,"Al Ekhbaria HD",p:SBA,f:40
+s:0a2c:0dca0000:001a:02be:1:0:0,"Al Ekhbaria HD",p:SBA,f:1040
 s:0c2c:00820000:1e78:0071:1:0:0,"TVP 2 HD",p:Cyfrowy Polsat S.A.
 s:0e2c:00820000:0708:00c8:1:0:0,"TG NORBA 24",p:M-Three satcom
 s:132c:00820000:33f4:013e:1:0:0,"Fashion Tv",p:Telespazio
@@ -1630,8 +1636,8 @@ s:7034:00c00000:041b:0001:1:0:0,"arte",p:ARD
 s:0035:00c00000:0007:0085:1:0:0,"N24 DOKU Austria",p:BetaDigital
 s:0035:0dca0000:0c11:006e:1:0:0,"DARBAKA AFLAM",p:EUTELSAT MENA,f:40
 s:0035:00303082:0065:0001:1:0:0,"WILLIAM HILL IP CLEAR - CISCO 6",C:e00,f:40
-s:0135:01860000:0011:001c:1:0:0,"Telekom Sport 2",c:0017d,c:011e1,c:0317d,C:92f,C:952
-s:0135:00820000:3e1c:013f:1:0:0,"W9",p:Eutelsat
+s:0135:01860000:0011:001c:1:0:0,"Telekom Sport 2",c:0017d,c:011e1,c:0317d,C:0
+s:0135:00820000:3e1c:013f:1:0:0,"W9",p:Eutelsat,c:0024f,c:01250,c:02254,c:0324f,c:051,C:500
 s:0135:0ce40000:0026:0036:1:0:0,"Sport TV 4",p:Sport TV 4,C:0
 s:0135:0082afc2:0065:0001:1:0:0,"Yamal 309",c:0111b2,c:0311b2
 s:0135:0ce40000:0067:0053:1:0:0,"Canal Panda",C:0
@@ -1838,6 +1844,7 @@ s:0041:00c00000:0007:0085:1:0:0,"DELUXE MUSIC",p:BetaDigital
 s:0041:0dca0000:0c11:006e:1:0:0,"KMS Channel",p:EUTELSAT MENA,f:40
 s:0041:00820000:1964:013e:1:0:0,"VOD 207",p:Cyfrowy Polsat S.A.
 s:0041:00302f75:00c9:0001:1:0:0,"ALT VC 66",C:e00,f:40
+s:0141:01860000:000e:001c:1:0:0,"12565V SID 0x141",p:DVB-S QPSK 12565V 39.0Â°E,f:40
 s:0141:00820000:3e1c:013f:1:0:0,"L'EQUIPE",p:Eutelsat
 s:0141:00820000:157c:013e:1:0:0,"MUX1S5",p:NetMed
 s:0641:0dca0000:0010:0800:1:0:0,"TV5",p:NILESAT,f:40
@@ -1910,7 +1917,7 @@ s:4244:00820000:3db8:013e:1:0:0,"Arte Atelier",p:Telespazio
 s:6e44:00c00000:0431:0001:1:0:0,"MDR Sachsen",p:ARD
 s:0045:0dca0000:001f:006e:1:0:0,"APPLE AFLAM",p:NOORSAT,f:40
 s:0145:01c20000:0004:00d5:1:0:0,"Da Vinci",p:VIVACOM,f:40
-s:0145:00820000:3e1c:013f:1:0:0,"CHERIE 25",p:Eutelsat
+s:0145:00820000:3e1c:013f:1:0:0,"CHERIE 25",p:Eutelsat,c:002d1,c:012d2,c:022d6,c:032d1,c:051,C:500
 s:0145:00820000:157c:013e:1:0:0,"MUX1S4",p:NetMed
 s:0645:0dca0000:0010:0800:1:0:0,"Mazzika",p:NILESAT,f:40
 s:0e45:00820000:0708:00c8:1:0:0,"HERCULES",p:M-Three Satcom
@@ -1946,7 +1953,7 @@ s:6e46:00c00000:0431:0001:1:0:0,"MDR Thüringen",p:ARD
 s:6f46:00c00000:0445:0001:1:0:0,"SR Fernsehen",p:ARD
 s:0047:00c00000:0007:0085:1:0:0,"TLC Austria",p:BetaDigital
 s:0047:00303082:0065:0001:1:0:0,"ALT VC 70",C:e00,f:40
-s:0047:00820000:1770:0110:1:0:0,"LA7",C:0
+s:0047:00820000:1770:0110:1:0:0,"LA7",c:003d4,c:013d5,c:033d4,C:183d,C:183e,C:1856
 s:0147:00820000:157c:013e:1:0:0,"Novacinema4HD",p:NetMed
 s:0e47:00820000:0708:00c8:1:0:0,"MYTIVI",p:M-Three Satcom
 s:1047:0dca0000:0029:0800:1:0:0,"ALDAWAA ALSHAFY",p:JMC,f:40
@@ -2019,6 +2026,7 @@ s:0d4b:0dca0000:0022:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0d4b:00820000:1450:013e:1:0:0,"Rai 3 HD",p:Rai,C:0
 s:0e4b:00820000:0708:00c8:1:0:0,"DIPRE'TV 2",p:M-Three Satcom
 s:104b:0dca0000:0029:0800:1:0:0,"Jordan Amen",p:JMC,f:40
+s:144b:00820000:05dc:013e:1:0:0,"",p:nc+,f:40
 s:164b:0dca0000:0039:0800:1:0:0,"ONTIME SPORTS",p:Nilesat,f:40
 s:1a4b:011a0000:0834:0002:1:0:0,"Club MTV",p:BSkyB,C:0
 s:264b:00c00000:0460:0001:1:0:0,"F3 COTE D'AZUR",p:CSAT,C:0
@@ -2036,7 +2044,7 @@ s:044c:0030b022:0001:005e:1:0:0,"Discovery Turkey HD",C:e00,f:40
 s:044c:0e08b00f:0002:005e:1:0:0,"Discovery Central Europe HD",c:0044c,c:0144d,c:0344c,c:051,C:e00
 s:064c:0dca0000:0010:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0d4c:0dca0000:0022:0800:1:0:0,"Test",p:NILESAT,f:40
-s:0d4c:00820000:1450:013e:1:0:0,"Rai Sport + HD",p:Rai,c:001f8,c:0223a,c:031f8,c:04266,c:051,C:183d,C:183e,C:1856
+s:0d4c:00820000:1450:013e:1:0:0,"Rai Sport + HD",p:Rai,c:001f8,c:0223a,c:031f8,c:04266,c:051,C:0
 s:0e4c:00820000:0708:00c8:1:0:0,"CITTAITALIATV",p:M-Three Satcom
 s:134c:0dca0000:01f4:5000:1:0:0,"OSM TV Channel",p:Gulfsat,f:40
 s:164c:0dca0000:0039:0800:1:0:0,"ON Drama",p:Nilesat,f:1040
@@ -2067,6 +2075,7 @@ s:0c4e:0e082e09:0005:0001:1:0:0,"Fashion TV",p:DigiTV
 s:0d4e:0dca0000:0022:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0d4e:00820000:1450:013e:1:0:0,"Rai Storia HD",p:Rai,C:0
 s:114e:00c00000:0404:0001:1:0:0,"DW English",p:DW
+s:144e:00820000:05dc:013e:1:0:0,"",p:nc+,f:40
 s:264e:00c00000:0460:0001:1:0:0,"F3 POITOUCHAR",p:CSAT,C:0
 s:314e:00c00000:0459:0001:1:0:0,"Maennersache TV",p:MB Satellite
 s:584e:011a0000:082e:0002:1:0:0,"TalkingPictures",p:BSkyB
@@ -2078,7 +2087,7 @@ s:0d4f:0dca0000:0022:0800:1:0:0,"SAFA TV",p:NILESAT,f:40
 s:0d4f:00820000:1450:013e:1:0:0,"Rai 5 HD",p:Rai,C:0
 s:1f4f:0dca0000:0012:006e:1:0:0,"AL SA3AA MOSALSALATE",p:EUTELSAT MENA,f:40
 s:264f:00c00000:0460:0001:1:0:0,"F3 CHAMP ARDENNE",p:CSAT,C:0
-s:2c4f:00820000:251c:fbff:1:0:0,"Boomerang +1",p:SkyItalia
+s:2c4f:00820000:251c:fbff:1:0:0,"Boomerang +1",p:SkyItalia,C:0
 s:314f:00c00000:0459:0001:1:0:0,"DateLine",p:MB Satellite
 s:584f:011a0000:082e:0002:1:0:0,"Faith World TV",p:BSkyB
 s:0050:0030300e:0000:0001:1:0:0,"SDL NATL",f:40
@@ -2230,7 +2239,7 @@ s:0b5b:0dca0000:001d:0800:1:0:0,"Test",p:NILESAT,f:40
 s:135b:00820000:33f4:013e:1:0:0,"Radio Radio TV",p:Telespazio
 s:1f5b:00820000:319c:013e:1:0:0,"Can TV HD",p:MB Satellite
 s:265b:00c00000:0460:0001:1:0:0,"F3 LORRAINE",p:CSAT
-s:2c5b:00820000:251c:fbff:1:0:0,"Cartoon +1",p:SkyItalia
+s:2c5b:00820000:251c:fbff:1:0:0,"Cartoon +1",p:SkyItalia,C:0
 s:315b:00c00000:0459:0001:1:0:0,"Babestation24",p:MB Satellite
 s:3d5b:00820000:2c88:013e:1:0:0,"CBS Reality HD",p:Canal+
 s:585b:011a0000:082e:0002:1:0:0,"PaversShoes.tv",p:BSkyB
@@ -2239,7 +2248,7 @@ s:005c:0dca0000:0001:002a:1:0:0,"TURKMENELI TV",p:EUTELSAT MENA,f:40
 s:005c:00302f75:00c9:0001:1:0:0,"SPANISH - PVU2",C:e00,f:40
 s:025c:0dca0000:0006:0800:1:0:0,"Nile Comedy",p:ERTU,f:1040
 s:055c:0e08af9b:0004:0001:1:0:0,"PRO 2",p:DigiTV
-s:085c:0dca0000:0015:0800:1:0:0,"CN Arabia",p:Du,f:40
+s:085c:0dca0000:0015:0800:1:0:0,"CN Arabia",p:Du,f:1040
 s:0b5c:0dca0000:001d:0800:1:0:0,"Test",p:NILESAT,f:40
 s:125c:00c00000:03f7:0001:1:0:0,"SES 01",p:BetaDigital
 s:1f5c:0dca0000:0012:006e:1:0:0,"AL SA3A MASRA7",p:EUTELSAT MENA,f:40
@@ -2350,7 +2359,7 @@ s:1263:00c00000:03f7:0001:1:0:0,"SES 08",p:BetaDigital
 s:1b63:00c00000:03fc:0001:1:0:0,"Arirang TV",p:GLOBECAST
 s:2763:00c00000:0402:0001:1:0:0,"Canal Algerie",p:TDA
 s:2b63:00820000:19c8:fbff:1:0:0,"#IoRestoACasa 1",p:SkyItalia,C:0
-s:2c63:00820000:251c:fbff:1:0:0,"Mosaico Bambini",p:SkyItalia
+s:2c63:00820000:251c:fbff:1:0:0,"Mosaico Bambini",p:SkyItalia,C:0
 s:3163:00c00000:0459:0001:1:0:0,"ALT Sendersuchlauf starten!!",p:MB Satellite
 s:3d63:00820000:2c88:013e:1:0:0,"15715",p:Canal+
 s:4463:00c00000:0453:0001:1:0:0,"SAT.1 Bayern",p:ProSiebenSat.1
@@ -2463,7 +2472,7 @@ s:0169:01860000:0011:001c:1:0:0,"MTV Romania",C:0
 s:0169:0ce40000:0067:0053:1:0:0,"FTV",p:SID FTV,C:0
 s:0169:00820000:1c84:013e:1:0:0,"Travel Channel HD",p:NetMed
 s:0169:005a0000:19c8:009e:1:0:0,"MST",p:GLOBECAST
-s:1069:0dca0000:002a:0800:1:0:0,"Al-Dawlyia",p:JASCO,f:40
+s:1069:0dca0000:002a:0800:1:0:0,"TEST 14",p:JASCO,f:40
 s:1169:00a00000:9ca4:016e:1:0:0,"SK HD",p:Total TV,c:00101,c:01df3,c:03101,c:051,C:0
 s:1169:00820000:2af8:013e:1:0:0,"National Geographic Wild HD",p:nc+
 s:1269:0dca0000:002f:0800:1:0:0,"Dubai Sports 2",p:du,f:40
@@ -2516,7 +2525,7 @@ s:026c:0030300e:0000:0001:1:0:0,"Diva Balkans",C:e00,f:40
 s:026c:0030300f:0000:0001:1:0:0,"Diva Balkans",C:e00,f:40
 s:026c:005a0000:1900:009c:1:0:0,"CGTN-E",p:Globecast,c:00fa1,c:01fab,c:031003
 s:076c:00300000:001d:0056:1:0:0,"Viasat Feed",C:0,f:40
-s:106c:0dca0000:002a:0800:1:0:0,"Beity TV",p:JASCO,f:40
+s:106c:0dca0000:002a:0800:1:0:0,"Beity TV",p:JASCO,c:001072,c:011073,c:031072,f:1040
 s:116c:00a00000:9ca4:016e:1:0:0,"FOX HD",p:Total TV,c:00104,c:01e11,c:03104,c:051,C:0
 s:126c:0dca0000:002f:0800:1:0:0,"Dubai Racing 3",p:du,f:40
 s:136c:00820000:33f4:013e:1:0:0,"TV Art Live",p:Telespazio
@@ -2623,6 +2632,7 @@ s:2f71:00c00000:0454:0001:1:0:0,"NRJ 12",p:SES ASTRA
 s:7471:00c00000:03f0:0001:1:0:0,"AXN WHITE",p:DIGITAL+,C:0
 s:0072:01c20000:0001:00d5:1:0:0,"БНТ 2",p:VIVACOM,C:0,f:40
 s:0072:005a0000:170c:009e:1:0:0,"Better-4",p:encoder
+s:0072:01860000:0012:001c:1:0:0,"",f:40
 s:0072:0ce40000:012f:162d:1:0:0,"Reserved SH",p:Pantelio
 s:0072:0ce40000:0065:0053:1:0:0,"Eurochannel",C:0
 s:0072:00302f75:00c9:0001:1:0:0,"PPTV1-UK",C:e00,f:40
@@ -2766,7 +2776,7 @@ s:027c:00820000:3c8c:013e:1:0:0,"IRAN E ARYAEE TV"
 s:057c:00820000:0320:fbff:1:0:0,"Comedy Central",p:SkyItalia,C:0
 s:057c:00820000:1a2c:fbff:1:0:0,"Comedy Central",p:SkyItalia,C:0
 s:057c:0ce40000:0068:0053:1:0:0,"National Geographic HD",C:0
-s:107c:0dca0000:002a:0800:1:0:0,"ALQUDS TODAY TV",p:JASCO,f:40
+s:107c:0dca0000:002a:0800:1:0:0,"TEST 15",p:JASCO,f:40
 s:177c:0dca0000:0018:006e:1:0:0,"M MUSIC",p:EUTELSAT MENA,f:40
 s:177c:0e080000:0af6:00bb:1:0:0,"Viasat Nature HD",p:Slovak Telekom,c:004b2,c:034b2,c:051,c:103,c:114b3,c:144b3,C:0
 s:2b7c:00820000:19c8:fbff:1:0:0,"Disney Junior",p:SkyItalia,C:0
@@ -2863,7 +2873,7 @@ s:0183:00820000:1c84:013e:1:0:0,"ÅÑÔ3",p:NetMed
 s:0383:00c00000:0021:0085:1:0:0,"meinTVshop",p:BetaDigital
 s:0383:00820000:1770:0110:1:0:0,"Infinity"
 s:0c83:0e08b00f:0002:005e:1:0:0,"Science Europe HD Russian",C:e00
-s:0c83:0dca0000:0020:0800:1:0:0,"BBC Arabic",p:NILESAT,f:40
+s:0c83:0dca0000:0020:0800:1:0:0,"BBC Arabic",p:NILESAT,f:1040
 s:0c83:00820000:1f40:013e:1:0:0,"TCI",p:overon
 s:0e83:00820000:3200:013e:1:0:0,"TVP Polonia",p:MB Satellite
 s:1383:00820000:33f4:013e:1:0:0,"Viva l`Italia Channel",p:Telespazio
@@ -2904,7 +2914,7 @@ s:7985:0e080000:02c7:0600:1:0:0,"Slager TV",p:UPC Direct
 s:0086:01c20000:0001:00d5:1:0:0,"VIVACOM ARENA",p:VIVACOM,f:40
 s:0086:018630af:0005:0001:1:0:0,"AMC",p:BULSATCOM,C:0,f:40
 s:0086:018630b0:0005:0001:1:0:0,"AMC",p:BULSATCOM,C:0,f:40
-s:0086:01860000:000f:001c:1:0:0,"Telekom Sport 3",C:0
+s:0086:01860000:000f:001c:1:0:0,"Telekom Sport 3",c:00bb9,c:01bba,c:03bb9,C:0
 s:0086:0ce40000:012e:162d:1:0:0,"HobbyTV",p:Pantelio
 s:0186:00820000:1c84:013e:1:0:0,"m2srv3",p:NetMed
 s:0386:0030b022:0001:005e:1:0:0,"Science Europe",C:e00,f:40
@@ -2930,6 +2940,7 @@ s:0b87:0e082e56:0007:0001:1:0:0,"Diva",p:DigiTV
 s:0c87:0dca0000:0020:0800:1:0:0,"Alhayat We Alnas",p:NILESAT,f:40
 s:1c87:00820000:1ce8:0071:1:0:0,"AXN Black",p:Cyfrowy Polsat S.A.
 s:1e87:0e080000:0014:0046:1:0:0,"History Europe"
+s:2c87:00820000:251c:fbff:1:0:0,"IEPG Data",p:SkyItalia,f:40
 s:4287:00820000:2bc0:013e:1:0:0,"Metro",p:Cyfrowy Polsat S.A.,C:0
 s:7987:0e080000:02c7:0600:1:0:0,"Investigation Discovery",p:UPC Direct
 s:cb87:011a0000:0831:0002:1:0:0,"ColorsRishtey",p:BSkyB,C:0
@@ -2967,7 +2978,7 @@ s:008a:018630b0:0005:0001:1:0:0,"FILMBOX",p:BULSATCOM,C:0,f:40
 s:008a:01860000:0012:001c:1:0:0,"Classica TV",C:0
 s:008a:0ce40000:0065:0053:1:0:0,"Globo",C:0
 s:018a:00820000:1c84:013e:1:0:0,"FOX Sports HD",p:NetMed
-s:038a:00820000:2134:013e:1:0:0,"Dubai Sports 1 HD",p:ETISALAT
+s:038a:00820000:2134:013e:1:0:0,"Dubai Sports 1 HD",p:ETISALAT,c:00c9,c:01ca,c:03c9,c:051
 s:0c8a:0dca0000:0020:0800:1:0:0,"Al Aoula inter",p:NILESAT,f:40
 s:138a:0ce40000:000d:0028:1:0:0,"RT Esp",p:GLOBECAST
 s:138a:0ce40000:0030:0036:1:0:0,"FOX Movies"
@@ -2990,13 +3001,14 @@ s:138b:01c20000:0006:00d5:1:0:0,"NHK World",p:VIVACOM,C:0,f:40
 s:138b:0dca0000:0032:0800:1:0:0,"Oman TV Sport",p:OMAN TV,f:40
 s:1c8b:00820000:1ce8:0071:1:0:0,"National Geographic Wild",p:Cyfrowy Polsat S.A
 s:428b:00820000:2bc0:013e:1:0:0,"Test 1",p:Cyfrowy Polsat S.A,C:0
+s:778b:00c00000:0424:0001:1:0:0,"PLAYBOY TV",p:Playboy TV,C:0,f:40
 s:798b:0e080000:02c7:0600:1:0:0,"Disney ROM",p:UPC Direct
 s:c78b:011a0000:0815:0002:1:0:0,"ComedyCent+1",p:BSkyB,C:0
 s:cb8b:011a0000:0831:0002:1:0:0,"NOW 70s",p:BSkyB
 s:008c:01c20000:0001:00d5:1:0:0,"Jim Jam",p:VIVACOM,f:40
 s:008c:01860000:0011:001c:1:0:0,"TVE",C:0
 s:008c:0dca0000:9d6c:077e:1:0:0,"Athaqafia HD",p:SNRt,f:40
-s:018c:01860000:000f:001c:1:0:0,"Telekom Sport 4",C:0
+s:018c:01860000:000f:001c:1:0:0,"Telekom Sport 4",c:00bbb,c:01bbc,c:03bbb,C:0
 s:0a8c:0e08b00f:0002:005e:1:0:0,"ID Xtra Europe HD",C:e00
 s:0a8c:0e082e09:0005:0001:1:0:0,"M2",p:DigiTV
 s:0a8c:0ce40000:0006:0006:1:0:0,"TSA-Record News",p:TSA
@@ -3008,6 +3020,7 @@ s:138c:0dca0000:0032:0800:1:0:0,"Oman TV Sport HD",p:OMAN TV,f:40
 s:1c8c:00820000:1ce8:0071:1:0:0,"Disco Polo Music",p:Cyfrowy Polsat S.A.
 s:338c:00820000:1388:013e:1:0:0,"Test GC 1",p:GLOBECAST
 s:428c:00c00000:0446:0001:1:0:0,"CHASSE ET PECHE",p:AB SAT,C:100,C:500
+s:778c:00c00000:0424:0001:1:0:0,"10876V SID 0x778c",p:DVB-S QPSK 10876V 19.2Â°E,f:40
 s:798c:0e080000:02c7:0600:1:0:0,"m5",p:UPC Direct
 s:c48c:011a0000:0811:0002:1:0:0,"CNN",p:BSkyB
 s:c78c:011a0000:0815:0002:1:0:0,"ComedyCentral",p:BSkyB,c:0091c,c:0191d,c:0291f,c:0391c,C:0
@@ -3042,10 +3055,11 @@ s:338e:00820000:1388:013e:1:0:0,"Test GC 3",p:GLOBECAST
 s:3c8e:00820000:1bbc:013e:1:0:0,"Nat Geo Wild HD",p:Netmed,C:0
 s:428e:00820000:2bc0:013e:1:0:0,"4Fun Gold Hits",p:Cyfrowy Polsat S.A.
 s:768e:00c00000:041e:0001:1:0:0,"ALQUILER 1",p:TQ1,c:00a8,c:0170,c:0238,c:03a8,C:0
-s:778e:00c00000:0424:0001:1:0:0,"#VAMOS BAR",p:Movistar+,C:0
+s:778e:00c00000:0424:0001:1:0:0,"#VAMOS BAR",p:Movistar+,c:00a1,c:0154,c:031429,C:100,C:1810
 s:798e:0e080000:02c7:0600:1:0:0,"Zenebutik",p:UPC Direct
 s:c78e:011a0000:0815:0002:1:0:0,"ComedyXtra",p:BSkyB,c:00926,c:01927,c:02929,c:03926,C:0
-s:0a8f:0dca0000:0001:002a:1:0:0,"Cinema 1",p:OSN,c:0024,c:0123,c:0324,C:170b,C:170a,C:1709,C:1708,f:1040
+s:008f:01860000:000f:001c:1:0:0,"Brazzers TV",C:0,f:40
+s:0a8f:0dca0000:0001:002a:1:0:0,"Cinema 1",p:OSN,c:0024,c:0123,c:0324,C:1708,C:1709,C:170a,C:170b,f:1040
 s:118f:00820000:2af8:013e:1:0:0,"DATA",p:nc+
 s:138f:0ce40000:0030:0036:1:0:0,"Mezzo"
 s:138f:0dca0000:0032:0800:1:0:0,"Oman TV Culture",p:OMAN TV,f:40
@@ -3055,7 +3069,7 @@ s:338f:00820000:1388:013e:1:0:0,"Test GC 4",p:GLOBECAST
 s:3c8f:00820000:1bbc:013e:1:0:0,"National Geographic HD",p:Netmed,C:0
 s:428f:00820000:2bc0:013e:1:0:0,"4Fun Dance",p:Cyfrowy Polsat S.A.
 s:708f:00c00000:0443:0001:1:0:0,"SUPER RTL A",p:RTL
-s:768f:00c00000:041e:0001:1:0:0,"ALQUILER 2",p:TQ2,c:00aa,c:0178,c:03aa,C:0
+s:768f:00c00000:041e:0001:1:0:0,"ALQUILER 2",p:TQ2,c:00aa,c:0178,c:023e,c:03aa,C:0
 s:778f:00c00000:0424:0001:1:0:0,"M. DEPORTES",p:Movistar+,C:0
 s:778f:0e080000:02c2:0600:1:0:0,"m2 / Petofi",p:UPC,C:0
 s:798f:0e080000:02c7:0600:1:0:0,"Megamax (SVT)",p:UPC Direct
@@ -3067,7 +3081,7 @@ s:0190:001e0000:0066:212c:1:0:0,"M.tv",p:DIGEA,C:0,f:40
 s:0190:00302f75:00c9:0001:1:0:0,"SIS+ (PVU1)",C:e00,f:40
 s:0590:00820000:0320:fbff:1:0:0,"Nick Jr",p:SkyItalia,C:0
 s:0590:00820000:1a2c:fbff:1:0:0,"Nick Jr",p:SkyItalia,C:0
-s:0a90:0dca0000:0001:002a:1:0:0,"Cinema 2",p:OSN,c:0021,c:015fe,c:0321,C:170b,C:170a,C:1709,C:1708,f:1040
+s:0a90:0dca0000:0001:002a:1:0:0,"Cinema 2",p:OSN,c:0021,c:015fe,c:0321,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0b90:0e082e56:0007:0001:1:0:0,"DaVinci Learning",p:DigiTV
 s:1090:00c00000:03ee:0001:1:0:0,"D7 TV",p:Harmonic
 s:1390:01c20000:0006:00d5:1:0:0,"Mediaset",p:VIVACOM,C:0,f:40
@@ -3076,17 +3090,19 @@ s:1390:0dca0000:0032:0800:1:0:0,"Oman TV Culture HD",p:OMAN TV,f:40
 s:1790:00a00000:016c:016e:1:0:0,"ALSAT M",p:AlbSat
 s:1c90:00820000:1ce8:0071:1:0:0,"Polsat Rodzina",p:Cyfrowy Polsat S.A.
 s:3c90:00820000:1bbc:013e:1:0:0,"Novasports2HD",p:Netmed,C:0
-s:4290:00820000:2bc0:013e:1:0:0,"Epic Drama HD",p:Cyfrowy Polsat S.A.,C:0
+s:4290:00820000:2bc0:013e:1:0:0,"Epic Drama HD",p:Cyfrowy Polsat S.A.,c:00140,c:01240,c:03140,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
 s:7690:00c00000:041e:0001:1:0:0,"M. LaLiga 8",p:Movistar+,C:0
 s:7790:00c00000:0424:0001:1:0:0,"CALLE 13",p:CL13,C:0
 s:7990:0e080000:02c7:0600:1:0:0,"AMC CE (SVT)",p:UPC Direct
 s:c490:011a0000:0811:0002:1:0:0,"GOLD",p:BSkyB,C:0
 s:c790:011a0000:0815:0002:1:0:0,"Nick Jr.",p:BSkyB,C:0
 s:cb90:011a0000:0831:0002:1:0:0,"Babenation",p:BSkyB
+s:0091:01860000:000f:001c:1:0:0,"Playboy TV",C:0,f:40
 s:0191:0030b022:0001:005e:1:0:0,"ID Xtra Europe",C:e00,f:40
 s:0191:0ce40000:0027:0036:1:0:0,"AXN Movies HD",p:AXN Movies HD,C:0
 s:0191:0ce40000:0068:0053:1:0:0,"Caçavision",C:0
 s:0191:00302f75:00c9:0001:1:0:0,"ALT VC 400",C:e00,f:40
+s:0191:0dca0000:4ee8:077e:1:0:0,"Al Jazeera",p:Al Jazeera,f:40
 s:1391:01c20000:0006:00d5:1:0:0,"MTV Hits",p:VIVACOM,C:0,f:40
 s:1391:0ce40000:0030:0036:1:0:0,"Biggs"
 s:1791:0dca0000:0018:006e:1:0:0,"AL BAIT BAITAK CINEMA",p:EUTELSAT MENA,f:40
@@ -3101,6 +3117,7 @@ s:cb91:011a0000:0831:0002:1:0:0,"Star GOLD",p:BSkyB,C:0
 s:0192:0030b022:0001:005e:1:0:0,"ID Xtra Europe",C:e00,f:40
 s:0192:0ce40000:0027:0036:1:0:0,"24 Kitchen HD",p:SID 24 Kitchen HD,c:001020,c:011021,c:031020,c:051,C:0
 s:0192:0ce40000:0068:0053:1:0:0,"My Cuisine",C:0
+s:0192:0dca0000:4ee8:077e:1:0:0,"Al Jazeera Mubasher",p:Al Jazeera,f:40
 s:0492:0e082e56:0007:0001:1:0:0,"ProCinema",p:DigiTV,C:0
 s:1392:01c20000:0006:00d5:1:0:0,"Nick Junior",p:VIVACOM,C:0,f:40
 s:1392:0ce40000:0030:0036:1:0:0,"TVE 24H"
@@ -3109,6 +3126,7 @@ s:3392:00820000:3390:0071:1:0:0,"Polsat Play HD",p:Cyfrowy Polsat S.A.
 s:3c92:00820000:1bbc:013e:1:0:0,"test service",p:Netmed
 s:6e92:00c00000:04b1:0001:1:0:0,"WDR Bielefeld",p:ARD
 s:7692:00c00000:041e:0001:1:0:0,"MULTIDEPORTE",p:DIGITAL+,C:0
+s:7792:00c00000:0424:0001:1:0:0,"10876V SID 0x7792",p:DVB-S QPSK 10876V 19.2Â°E,f:40
 s:7992:0e080000:02c7:0600:1:0:0,"Humor+ .",p:UPC Direct
 s:c792:011a0000:0815:0002:1:0:0,"Nick Jr+1",p:BSkyB,C:0
 s:0093:01860000:000f:001c:1:0:0,"Pink'O",C:0
@@ -3116,6 +3134,7 @@ s:0093:00303082:0065:0001:1:0:0,"NEW BOYLES SPORTS - CISCO 1",C:e00,f:40
 s:0193:0ce40000:0027:0036:1:0:0,"FOX Crime HD",p:FOX Crime HD,C:0
 s:0193:0ce40000:012f:162d:1:0:0,"M3",p:Pantelio
 s:0193:0ce40000:0068:0053:1:0:0,"Kuriakos TV",C:0
+s:0193:0dca0000:4ee8:077e:1:0:0,"Al Jazeera English",p:Al Jazeera,f:40
 s:0293:00c00000:0005:0085:1:0:0,"Handystar TV",p:BetaDigital
 s:0a93:0dca0000:0001:002a:1:0:0,"Fann",p:OSN,c:0030,c:012f,c:0330,C:1708,C:1709,C:170a,C:170b,f:1040
 s:1393:01c20000:0006:00d5:1:0:0,"TV 3",p:VIVACOM,C:0,f:40
@@ -3130,6 +3149,7 @@ s:7993:0e080000:02c7:0600:1:0:0,"Zenebutik.",p:UPC Direct
 s:c793:011a0000:0815:0002:1:0:0,"Nickelodeon",p:BSkyB,C:0
 s:0094:01860000:000d:001c:1:0:0,"Boomerang",C:0,f:40
 s:0094:00303082:0065:0001:1:0:0,"ALT VC 147",C:e00,f:40
+s:0194:0dca0000:4ee8:077e:1:0:0,"Al Jazeera Documentary",p:Al Jazeera,f:40
 s:0594:00820000:0320:fbff:1:0:0,"MTV Music",p:SkyItalia,C:0
 s:0594:00820000:19c8:fbff:1:0:0,"MTV Music",p:SkyItalia,C:0
 s:0a94:0dca0000:0001:002a:1:0:0,"Music Now",p:OSN,c:002d,c:012c,c:032d,C:1708,C:1709,C:170a,C:170b,f:1040
@@ -3147,6 +3167,7 @@ s:c794:011a0000:0815:0002:1:0:0,"Nick Jr.Too",p:BSkyB,C:0
 s:0195:0ce40000:0027:0036:1:0:0,"Travel Channel HD",p:SID Travel Channel HD,c:001080,c:011081,c:031080,c:051,C:0
 s:0195:0ce40000:0131:162d:1:0:0,"M5",p:Pantelio
 s:0195:0ce40000:0068:0053:1:0:0,"Kombat Sport",C:0
+s:0195:0dca0000:4ee8:077e:1:0:0,"Al Jazeera Mubasher 2",p:Al Jazeera,c:00208,c:012da,c:03208,f:40
 s:0295:00c00000:0021:0085:1:0:0,"AstroTV",p:BetaDigital
 s:1395:01c20000:0006:00d5:1:0:0,"Planeta RTR",p:VIVACOM,f:40
 s:1395:0ce40000:0030:0036:1:0:0,"BBC World News"
@@ -3154,6 +3175,7 @@ s:3c95:00820000:1bbc:013e:1:0:0,"Novacinema1HD",p:NetMed
 s:4295:00820000:2bc0:013e:1:0:0,"Boomerang HD",p:Cyfrowy Polsat S.A.
 s:6e95:00c00000:04b1:0001:1:0:0,"WDR Essen",p:ARD
 s:7595:0e080000:02bd:0600:1:0:0,"HBO",p:UPC
+s:7695:00c00000:041e:0001:1:0:0,"ALQUILER XY",p:TXY,C:0,f:40
 s:7795:00c00000:0424:0001:1:0:0,"CANAL DECASA",p:PRISA TV,C:0
 s:7995:0e080000:02c7:0600:1:0:0,"TV4 (SVT)",p:UPC Direct,c:002bd,c:012c6,c:032bd,C:b1c,C:1882,C:1886
 s:c495:011a0000:0811:0002:1:0:0,"Ahlulbayt TV",p:BSkyB
@@ -3163,6 +3185,7 @@ s:0096:0186afb5:0004:0001:1:0:0,"Nick Jr",p:BULSATCOM,C:0
 s:0096:0186afb6:0004:0001:1:0:0,"Nick Jr",p:BULSATCOM,C:0
 s:0096:0dca0000:9d6c:077e:1:0:0,"Al Maghribia HD",p:SNRT,f:40
 s:0196:0ce40000:0027:0036:1:0:0,"AXN White HD",p:AXN White HD,C:0
+s:0196:0dca0000:4ee8:077e:1:0:0,"TEST",p:Al Jazeera,f:40
 s:0296:00c00000:0005:0085:1:0:0,"1-2-3.tv",p:BetaDigital
 s:0a96:0e082f62:0003:0001:1:0:0,"Galaxy4",p:DigiTV
 s:0a96:00300000:0018:0044:1:0:0,"Sony Channel",p:VisionTV,f:40
@@ -3206,13 +3229,15 @@ s:0d98:0e082e7c:000c:0001:1:0:0,"HBO 3 HU",p:DigiTV
 s:1398:01c20000:0006:00d5:1:0:0,"Eurochannel",p:VIVACOM,C:0,f:40
 s:1398:0ce40000:0030:0036:1:0:0,"SPORT TV 5"
 s:3398:00820000:3390:0071:1:0:0,"Polsat Film HD",p:Cyfrowy Polsat S.A.
-s:3c98:00820000:1bbc:013e:1:0:0,"EPT SPORTS HD",p:NETMED
+s:3c98:00820000:1bbc:013e:1:0:0,"EPT SPORTS HD",p:NETMED,c:0015e,c:0115f,c:0315e,c:051,C:604
 s:4298:00820000:2bc0:013e:1:0:0,"VOX Music TV",p:Cyfrowy Polsat S.A.
 s:7598:0e080000:02bd:0600:1:0:0,"Sport1"
+s:7798:00c00000:0424:0001:1:0:0,"10876V SID 0x7798",p:DVB-S QPSK 10876V 19.2Â°E,f:40
 s:7998:0e080000:02c7:0600:1:0:0,"Kiwi TV",p:UPC Direct
 s:0099:00303082:0065:0001:1:0:0,"SIS UK with BTC and 2DB",C:e00,f:40
 s:0199:0ce40000:0027:0036:1:0:0,"Eurosport 1 HD",p:SID Eurosport 1 HD,C:0
 s:0199:0ce40000:0131:162d:1:0:0,"Sorozat+",p:Pantelio
+s:0199:0dca0000:4ee8:077e:1:0:0,"Qatar TV",p:Al Jazeera,f:40
 s:0599:00820000:0320:fbff:1:0:0,"Class CNBC",p:SkyItalia,C:0
 s:0899:0dca0000:0016:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0899:0dca0000:012c:077e:1:0:0,"beIN SPORTS HD10",p:beIN SPORTS,c:001ff,c:031ff,c:051,c:107,c:11202,c:13202,C:0,f:1040
@@ -3231,6 +3256,7 @@ s:009a:00303082:0065:0001:1:0:0,"ALT VC 152",C:e00,f:40
 s:019a:0dca0000:0010:006e:1:0:0,"SYRIA TV HD",p:EUTELSAT MENA,f:40
 s:019a:0ce40000:0027:0036:1:0:0,"FOX Life HD",p:SID FOX Life HD,C:0
 s:019a:0ce40000:0131:162d:1:0:0,"Prizma TV / RTL+",p:Pantelio
+s:019a:0dca0000:4ee8:077e:1:0:0,"Al Rayyan SD",p:Al Jazeera,f:40
 s:089a:0dca0000:0016:0800:1:0:0,"Test",p:Nilesat,f:40
 s:089a:0dca0000:012c:077e:1:0:0,"beIN SPORTS NEWS HD",p:beIN SPORTS,c:00203,c:012a8,c:03203,c:051,f:1040
 s:089a:00820000:01f4:013e:1:0:0,"CBC_Azerbaycan",p:iKOMG
@@ -3261,6 +3287,7 @@ s:339b:00820000:3390:0071:1:0:0,"Super Polsat",p:Cyfrowy Polsat SA
 s:3a9b:00820000:0514:013e:1:0:0,"ID HD",p:nc+
 s:429b:00820000:2bc0:013e:1:0:0,"Eska TV Extra",p:Cyfrowy Polsat S.A.
 s:749b:00c00000:041c:0001:1:0:0,"FOX NEWS",p:FOXNWS,C:0
+s:759b:00c00000:0422:0001:1:0:0,"10847V SID 0x759b",p:DVB-S QPSK 10847V 19.2Â°E,f:40
 s:769b:00c00000:041e:0001:1:0:0,"M. LaLiga 4",p:Movistar+,C:0
 s:799b:0e080000:02c7:0600:1:0:0,"Cartoon Network.",p:UPC Direct
 s:c49b:011a0000:0811:0002:1:0:0,"Spotlight TV",p:BSkyB
@@ -3323,7 +3350,7 @@ s:cb9f:011a0000:083c:0002:1:0:0,"revelation",p:BSkyB
 s:d39f:011a0000:0830:0002:1:0:0,"High Street TV 1",p:BSkyB
 s:00a0:00303082:0065:0001:1:0:0,"BETFRED TOG - CISCO 3",C:e00,f:40
 s:00a0:0dca0000:9d6c:077e:1:0:0,"Assadissa HD",p:SNRT,f:40
-s:01a0:0dca0000:0010:006e:1:0:0,"ALHADATH HD",p:EUTELSAT MENA,f:40
+s:01a0:0dca0000:0010:006e:1:0:0,"ALHADATH HD",p:EUTELSAT MENA,f:1040
 s:01a0:0ce40000:0131:162d:1:0:0,"Cool TV",p:Pantelio
 s:08a0:0dca0000:0016:0800:1:0:0,"Test",p:NILESAT,f:40
 s:08a0:00820000:01f4:013e:1:0:0,"NOUR TV",p:iKOMG
@@ -3401,6 +3428,8 @@ s:13a6:0dca0000:01f4:5000:1:0:0,"Shahrazad TV channel",p:Gulfsat,f:40
 s:1ca6:00820000:1ce8:0071:1:0:0,"Trójka - PR",p:Cyfrowy Polsat S.A.
 s:33a6:00820000:3390:0071:1:0:0,"Polsat Cafe HD",p:Cyfrowy Polsat S.A.
 s:33a6:00c00000:03eb:0001:1:0:0,"Volksmusik",p:-
+s:75a6:00c00000:0422:0001:1:0:0,"",p:Movistar+,f:40
+s:76a6:00c00000:041e:0001:1:0:0,"10788V SID 0x76a6",p:DVB-S QPSK 10788V 19.2Â°E,f:40
 s:06a7:00820000:3138:013e:1:0:0,"THT",p:GLOBECAST
 s:0fa7:0dca0000:0028:0800:1:0:0,"LBC SAT",p:Nilesat,f:40
 s:12a7:00820000:3458:013e:1:0:0,"nar elhob",p:Eutelsat
@@ -3451,6 +3480,7 @@ s:1faa:00820000:189c:fbff:1:0:0,"Roma TV",p:SkyItalia,C:0
 s:2aaa:00820000:1838:fbff:1:0:0,"Sky Sport Serie A",p:SkyItalia,c:00a2,c:01198,c:03a2,C:0
 s:33aa:00820000:3390:0071:1:0:0,"Polsat 2 HD",p:Cyfrowy Polsat S.A.
 s:33aa:00c00000:03eb:0001:1:0:0,"Starparadies AT",p:-
+s:75aa:00c00000:0422:0001:1:0:0,"",p:Digital +,f:40
 s:75aa:0e080000:02bd:0600:1:0:0,"Jocky TV",p:UPC
 s:77aa:0e080000:02c2:0600:1:0:0,"Comedy Central Romania",p:UPC
 s:cbaa:011a0000:083c:0002:1:0:0,"Peace TV Urdu",p:BSkyB
@@ -3460,6 +3490,7 @@ s:08ab:0dca0000:0016:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0fab:0dca0000:0028:0800:1:0:0,"Cairo cinema",p:Nilesat,f:40
 s:13ab:01c20000:0006:00d5:1:0:0,"RTL",p:VIVACOM,c:00140f,c:03140f,c:051,c:103,c:111473,c:141473,C:9bd,f:40
 s:13ab:0ce40000:0027:0036:1:0:0,"FOX Life HD"
+s:75ab:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:77ab:0e080000:02c2:0600:1:0:0,"RTL Spike",p:UPC
 s:02ac:0ce40000:0130:162d:1:0:0,"Reserved Local 684",p:Pantelio
 s:06ac:00820000:3138:013e:1:0:0,"RTR",p:GLOBECAST
@@ -3499,6 +3530,7 @@ s:0daf:005a0000:16a8:009c:1:0:0,"Rai Africa",p:Rai,c:007d3,c:01bbb,c:037d3,C:0
 s:13af:01c20000:0006:00d5:1:0:0,"Show Max",p:VIVACOM,f:40
 s:16af:0dca0000:003a:0800:1:0:0,"Test",p:Nilesat,f:40
 s:2aaf:00820000:1838:fbff:1:0:0,"Sky Sport Serie A",p:SkyItalia,c:00a2,c:01198,c:03a2,C:0
+s:75af:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:77af:0e080000:02c2:0600:1:0:0,"Paramount Romania",p:UPC
 s:02b0:0ce40000:0130:162d:1:0:0,"Reserved Local 688",p:Pantelio
 s:04b0:0030b048:0001:005e:1:0:0,"Discovery Poland",C:e00,f:40
@@ -3510,7 +3542,7 @@ s:13b0:0ce40000:0027:0036:1:0:0,"Eleven Sports 4",c:001d22,c:011d23,c:031d22,c:0
 s:16b0:0dca0000:003a:0800:1:0:0,"ANN",p:Nilesat,f:40
 s:1fb0:00820000:189c:fbff:1:0:0,"Lazio Style Ch",p:SkyItalia,C:0
 s:33b0:00c00000:03eb:0001:1:0:0,"Service 13232",p:ORS
-s:75b0:00c00000:0422:0001:1:0:0,"ALQUILER",p:Movistar+
+s:75b0:00c00000:0422:0001:1:0:0,"ALQUILER",p:Movistar+,c:00a3,c:01190,c:031fff
 s:75b0:0e080000:02bd:0600:1:0:0,"Spiler2",p:UPC
 s:77b0:0e080000:02c2:0600:1:0:0,"Nickelodeon Romania",p:UPC
 s:c7b0:011a0000:0817:0002:1:0:0,"Racing TV",p:BSkyB,C:0
@@ -3561,6 +3593,7 @@ s:0db5:005a0000:16a8:009c:1:0:0,"RTI"
 s:16b5:0dca0000:003a:0800:1:0:0,"Test",p:Nilesat,f:40
 s:1cb5:00820000:1ce8:0071:1:0:0,"Disney XD",p:Cyfrowy Polsat S.A.
 s:37b5:00820000:2008:fbff:1:0:0,"Milan TV",p:SkyItalia,C:0
+s:37b5:00820000:170c:fbff:1:0:0,"Milan TV",p:SkyItalia,C:0,f:40
 s:78b5:0e080000:02c5:0600:1:0:0,"Eurosport",p:UPC Direct,C:0
 s:c7b5:011a0000:0817:0002:1:0:0,"Boomerang",p:BSkyB,C:0
 s:ccb5:011a0000:080e:0002:1:0:0,"Animal Plnt+1",p:BSkyB,C:0
@@ -3604,12 +3637,13 @@ s:43b9:00820000:2cec:013e:1:0:0,"TVK",p:RRsat
 s:78b9:0e080000:02c5:0600:1:0:0,"CBS Reality",p:UPC Direct,C:0
 s:78b9:00c00000:03ec:0001:1:0:0,"11258V SID 0x78b9",p:DVB-S2 8PSK 11258V 19.2Â°E,f:40
 s:00ba:01860000:0012:001c:1:0:0,"Agro TV",C:0
-s:01ba:0dca0000:0010:006e:1:0:0,"AL HURRA TV SD",p:EUTELSAT MENA,f:40
+s:01ba:0dca0000:0010:006e:1:0:0,"AL HURRA TV SD",p:EUTELSAT MENA,f:1040
 s:04ba:0dca0000:000c:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0bba:0e08b00f:0002:005e:1:0:0,"DTX",C:e00
 s:0bba:0dca0000:001e:0800:1:0:0,"Al Mawsleya",p:NILESAT,f:40
 s:0dba:005a0000:16a8:009c:1:0:0,"EUROBET 14",p:encoder,C:0
 s:1cba:00820000:1ce8:0071:1:0:0,"ATM Rozrywka TV",p:Cyfrowy Polsat S.A.
+s:1fba:00820000:251c:fbff:1:0:0,"Fox",p:SkyItalia,C:0,f:40
 s:1fba:00820000:189c:fbff:1:0:0,"Fox",p:SkyItalia,C:0
 s:2aba:00820000:1838:fbff:1:0:0,"Sky Sport24",p:SkyItalia,C:0
 s:2bba:00820000:19c8:fbff:1:0:0,"Cielo_interact",p:SkyItalia
@@ -3626,7 +3660,7 @@ s:2abb:00820000:1838:fbff:1:0:0,"PPV Bundle2",p:SkyItalia
 s:77bb:0e080000:02c2:0600:1:0:0,"Nick Jr Czech (SVT)",p:UPC
 s:78bb:0e080000:02c5:0600:1:0:0,"SuperTV2",p:UPC Direct,C:0
 s:01bc:0dca0000:0010:006e:1:0:0,"AL HURRA IRAQ TV SD",p:EUTELSAT MENA,f:40
-s:02bc:0dca0000:0007:0800:1:0:0,"Iqraa",p:ART
+s:02bc:0dca0000:0007:0800:1:0:0,"Iqraa",p:ART,f:1000
 s:02bc:0ce40000:002f:0036:1:0:0,"SIC HD",p:SID SIC HD,C:0
 s:02bc:001e0000:0066:212c:1:0:0,"STAR",p:DIGEA,c:006d6,c:016d7,c:026d8,c:036d6,c:051,C:2600,f:40
 s:0bbc:0dca0000:001e:0800:1:0:0,"Test",p:NILESAT,f:40
@@ -3672,6 +3706,7 @@ s:0dbf:005a0000:16a8:009c:1:0:0,"RTS 1",p:Scopus Network Technologies,c:007e3,c:
 s:0fbf:00820000:1644:fbff:1:0:0,"DeAKids +1",p:SkyItalia,C:0
 s:14bf:00c00000:0407:0001:1:0:0,"Pro7 MAXX Austria",p:ProSiebenSat.1
 s:1bbf:00820000:17d4:013e:1:0:0,"Viasat History HD",p:NetMed,c:00200,c:0128a,c:03200,c:051,C:604
+s:1fbf:00820000:251c:fbff:1:0:0,"Fox",p:SkyItalia,C:0,f:40
 s:1fbf:00820000:189c:fbff:1:0:0,"Fox",p:SkyItalia,C:0
 s:2bbf:00820000:19c8:fbff:1:0:0,"IEPG Data",p:SkyItalia
 s:2dbf:00820000:1a2c:fbff:1:0:0,"Primafila 19",p:SkyItalia,C:0
@@ -3691,7 +3726,7 @@ s:76c0:00c00000:040e:0001:1:0:0,"M. ESTRENOS",p:Movistar+,C:0
 s:77c0:00c00000:040a:0001:1:0:0,"LA 1",p:TVE 1,C:0
 s:77c0:0e080000:02c2:0600:1:0:0,"Nickelodeon Hungary ( SVT)",p:UPC
 s:78c0:0e080000:02c5:0600:1:0:0,"Prime",p:UPC Direct
-s:02c1:0dca0000:0007:0800:1:0:0,"Hekayat2",p:JMC,c:0020a,c:012ee,c:038a,C:170b,C:170a,C:1709,C:1708,C:604,f:1000
+s:02c1:0dca0000:0007:0800:1:0:0,"Hekayat2",p:JMC,c:0020a,c:012ee,c:038a,C:604,C:1708,C:1709,C:170a,C:170b,f:1000
 s:02c1:0ce40000:0130:162d:1:0:0,"TV Povazie",p:Pantelio
 s:02c1:00820000:1b58:013e:1:0:0,"Al Jazeera Documentary",p:Telespazio
 s:0bc1:0dca0000:001e:0800:1:0:0,"Test",p:NILESAT,f:40
@@ -3712,7 +3747,7 @@ s:0bc2:0dca0000:001e:0800:1:0:0,"Test",p:NILESAT,f:40
 s:0dc2:005a0000:16a8:009c:1:0:0,"OPAP MG",p:encoder
 s:0fc2:00820000:1e14:fbff:1:0:0,"FoxLife +1",p:SkyItalia,C:0
 s:0fc2:00820000:1644:fbff:1:0:0,"FoxLife +1",p:SkyItalia,C:0
-s:12c2:00820000:2e7c:013e:1:0:0,"CANAL+ SPORT 3 HD",p:nc+,c:00a1,c:03a1,c:0454,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
+s:12c2:00820000:2e7c:013e:1:0:0,"CANAL+ SPORT 3 HD",p:nc+,c:00a1,c:03a1,c:0454,c:051,C:0
 s:1bc2:00820000:17d4:013e:1:0:0,"Novacinema3HD",p:NetMed
 s:38c2:00820000:2648:fbff:1:0:0,"Telereporter",p:SkyItalia
 s:76c2:0e080000:02c0:0600:1:0:0,"TVR 1",p:UPC Direct,C:0
@@ -3723,7 +3758,7 @@ s:c6c2:011a0000:082a:0002:1:0:0,"CNBC",p:BSkyB,c:0093a,c:0193b,c:0393a
 s:01c3:0ce40000:0068:0053:1:0:0,"Sport TV 1 HD",p:SID Sport TV 1 HD,c:001921,c:011922,c:031921,c:051,C:0
 s:0bc3:0dca0000:001e:0800:1:0:0,"Al Ahly TV",p:NILESAT,f:40
 s:0dc3:005a0000:16a8:009c:1:0:0,"OPAP HR",p:Encoder
-s:12c3:00820000:2e7c:013e:1:0:0,"CANAL+ SPORT 4 HD",p:nc+,c:00a2,c:03a2,c:0458,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
+s:12c3:00820000:2e7c:013e:1:0:0,"CANAL+ SPORT 4 HD",p:nc+,c:00a2,c:03a2,c:0458,c:051,C:0
 s:1bc3:00820000:17d4:013e:1:0:0,"nova MAD GREEKZ",p:NetMed
 s:2bc3:00820000:1a90:fbff:1:0:0,"Primafila 12",p:SkyItalia,C:0
 s:76c3:00c00000:040e:0001:1:0:0,"DISNEY CH.",p:DCH,C:0
@@ -3732,7 +3767,7 @@ s:77c3:0e080000:02c2:0600:1:0:0,"Paramount Romania.",p:UPC
 s:c6c3:011a0000:082a:0002:1:0:0,"PTV Global",p:BSkyB
 s:d3c3:011a0000:0829:0002:1:0:0,"PTC PUNJABI",p:BSkyB
 s:01c4:0ce40000:0068:0053:1:0:0,"Sport TV 2 HD",p:SID Sport TV 2 HD,c:001929,c:01192a,c:031929,c:051,C:0
-s:02c4:0dca0000:0007:0800:1:0:0,"Aflam 2",p:JMC,c:00204,c:012b2,c:0384,C:170b,C:170a,C:1709,C:1708,C:604,f:1000
+s:02c4:0dca0000:0007:0800:1:0:0,"Aflam 2",p:JMC,c:00204,c:012b2,c:0384,C:604,C:1708,C:1709,C:170a,C:170b,f:1000
 s:02c4:00820000:1b58:013e:1:0:0,"Al Jazeera",p:Telespazio
 s:09c4:0e08b00f:0002:005e:1:0:0,"Discovery Showcase HD Europe",C:e00
 s:09c4:0ce40000:0006:0006:1:0:0,"TSA-Record TV HD",p:TSA
@@ -3798,6 +3833,7 @@ s:0bc7:00820000:20d0:013e:1:0:0,"Euronews Hungarian",p:GLOBECAST
 s:1bc7:00820000:17d4:013e:1:0:0,"Disney Channel",p:NetMed
 s:2bc7:00820000:19c8:fbff:1:0:0,"Eurosport 2",p:SkyItalia,C:0
 s:2dc7:00820000:1a2c:fbff:1:0:0,"Sky Uno",p:SkyItalia,C:0
+s:75c7:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:76c7:00c00000:040e:0001:1:0:0,"TCM",p:TCM,C:0
 s:76c7:0e080000:02c0:0600:1:0:0,"Zu TV",p:UPC Direct
 s:77c7:00c00000:040a:0001:1:0:0,"CUATRO",p:Digital+,C:0
@@ -3813,6 +3849,7 @@ s:01c8:01860000:000d:001c:1:0:0,"Cinemax",C:0,f:40
 s:01c8:0ce40000:0068:0053:1:0:0,"FOX HD",p:SID FOX HD,C:0
 s:09c8:0e08b00f:0002:005e:1:0:0,"Discovery HD Turkish",C:e00
 s:0fc8:0e082e2f:000d:0001:1:0:0,"M1 HD",p:DigiTV,C:0
+s:12c8:00820000:2e7c:013e:1:0:0,"PLAYBOY TV HD",p:nc+,f:40
 s:1bc8:00820000:17d4:013e:1:0:0,"novasports3",p:NetMed
 s:38c8:00820000:2648:fbff:1:0:0,"Primafila 22",p:SkyItalia,C:0
 s:76c8:00c00000:040e:0001:1:0:0,"COMEDY CENTRAL",p:NC,C:0
@@ -3852,14 +3889,15 @@ s:2bca:00820000:1a90:fbff:1:0:0,"Primafila 8",p:SkyItalia,C:0
 s:2cca:00820000:2580:fbff:1:0:0,"K2",p:SkyItalia,C:0
 s:32ca:00c00000:045d:0001:1:0:0,"ORF2",p:ORF,C:0
 s:38ca:00820000:2648:fbff:1:0:0,"LEI",p:SkyItalia
-s:3bca:00820000:251c:fbff:1:0:0,"LaF",p:SkyItalia
+s:3bca:00820000:251c:fbff:1:0:0,"LaF",p:SkyItalia,C:0
 s:6dca:00c00000:044d:0001:1:0:0,"Das Erste",p:ARD
+s:75ca:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:76ca:00c00000:040e:0001:1:0:0,"M. SERIESMANIA",p:Movistar+,C:0
 s:76ca:0e080000:02c0:0600:1:0:0,"Favorit TV",p:UPC Direct
 s:77ca:0e080000:02c2:0600:1:0:0,"Nickelodeon Hungary.",p:UPC
 s:c6ca:011a0000:082a:0002:1:0:0,"B4U Music",p:BSkyB,C:0
 s:ccca:011a0000:080e:0002:1:0:0,"ID+1",p:BSkyB,C:0
-s:00cb:0dca0000:0002:0800:1:0:0,"GMA News TV",p:OSN,c:00cb,c:0112f,c:03cb,c:051,C:170b,C:170a,C:1709,C:1708,f:1000
+s:00cb:0dca0000:0002:0800:1:0:0,"GMA News TV",p:OSN,c:00cb,c:0112f,c:03cb,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:00cb:018630af:0005:0001:1:0:0,"Hobby TV HD",p:BULSATCOM,C:0,f:40
 s:00cb:018630b0:0005:0001:1:0:0,"Hobby TV HD",p:BULSATCOM,C:0,f:40
 s:00cb:01860000:0012:001c:1:0:0,"LookSport 2",c:00c26,c:01c8a,c:03c26,C:0
@@ -3874,7 +3912,7 @@ s:1fcb:00820000:189c:fbff:1:0:0,"Fox Crime",p:SkyItalia,C:0
 s:2bcb:00820000:1644:fbff:1:0:0,"CNN Intl.",p:SkyItalia,C:0
 s:32cb:00c00000:045d:0001:1:0:0,"ORF2 W",p:ORF,C:0
 s:38cb:00820000:2648:fbff:1:0:0,"LEI +1",p:SkyItalia
-s:3acb:00820000:0514:013e:1:0:0,"CANAL+ DOKUMENT HD",p:nc+
+s:3acb:00820000:0514:013e:1:0:0,"CANAL+ DOKUMENT HD",p:nc+,c:00a0,c:03a0,c:0450,c:051,C:100,C:500,C:b01,C:1813,C:1884
 s:6dcb:00c00000:044d:0001:1:0:0,"BR Fernsehen Süd",p:ARD
 s:76cb:0e080000:02c0:0600:1:0:0,"Film Cafe",p:UPC Direct
 s:77cb:0e080000:02c2:0600:1:0:0,"Nick Jr Hungary.",p:UPC
@@ -3954,6 +3992,7 @@ s:2dcf:00820000:1a2c:fbff:1:0:0,"Sky Cinema Drama",p:SkyItalia
 s:32cf:00c00000:045d:0001:1:0:0,"ORF2 S",p:ORF,C:0
 s:3dcf:00820000:0640:013e:1:0:0,"TVN STYLE HD",p:TVN,C:0
 s:6dcf:00c00000:044d:0001:1:0:0,"WDR Köln",p:ARD
+s:75cf:00c00000:0422:0001:1:0:0,"",p:Digital +,f:40
 s:76cf:00c00000:040e:0001:1:0:0,"AMC",p:CANAL+,C:0
 s:76cf:0e080000:02c0:0600:1:0:0,"Film Mania",p:UPC Direct
 s:77cf:0e080000:02c2:0600:1:0:0,"Nicktoons Romania.",p:UPC Direct
@@ -4012,7 +4051,7 @@ s:32d2:00c00000:045d:0001:1:0:0,"ORF2 St",p:ORF,C:0
 s:3dd2:00820000:0640:013e:1:0:0,"TVN 24 HD",p:TVN,C:0
 s:76d2:0e080000:02c0:0600:1:0:0,"Antena Stars",p:UPC Direct
 s:d3d2:011a0000:0829:0002:1:0:0,"TV One",p:BSkyB
-s:00d3:0dca0000:0002:0800:1:0:0,"GMA Life TV",p:OSN,c:00d3,c:01137,c:03d3,c:051,C:170b,C:170a,C:1709,C:1708,f:1000
+s:00d3:0dca0000:0002:0800:1:0:0,"GMA Life TV",p:OSN,c:00d3,c:01137,c:03d3,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:00d3:018630af:0005:0001:1:0:0,"VH 1 Classic",p:BULSATCOM,C:0,f:40
 s:00d3:018630b0:0005:0001:1:0:0,"VH 1 Classic",p:BULSATCOM,f:40
 s:00d3:01860000:0011:001c:1:0:0,"Etno"
@@ -4054,7 +4093,7 @@ s:1bd5:00820000:17d4:013e:1:0:0,"Novacinema2HD Cy",p:NetMed
 s:2bd5:00820000:1a90:fbff:1:0:0,"Sky Sport",p:SkyItalia,C:0
 s:76d5:0e080000:02c0:0600:1:0:0,"Antena 1.",p:UPC Direct
 s:d3d5:011a0000:0829:0002:1:0:0,"Aastha",p:BSkyB
-s:00d6:0dca0000:0002:0800:1:0:0,"ABS-CBN Sports+Action",p:OSN,c:00d6,c:0113a,c:03d6,c:051,C:170b,C:170a,C:1709,C:1708,f:1000
+s:00d6:0dca0000:0002:0800:1:0:0,"ABS-CBN Sports+Action",p:OSN,c:00d6,c:0113a,c:03d6,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:00d6:01860000:0010:001c:1:0:0,"FilmBox Premium",C:0
 s:00d6:0ce40000:0066:0053:1:0:0,"TV Cine Top",C:0
 s:07d6:0dca0000:0014:0800:1:0:0,"Spare 2006",p:OSN,f:40
@@ -4076,7 +4115,7 @@ s:00d7:0ce40000:0066:0053:1:0:0,"TV Cine Emotion",C:0
 s:02d7:00820000:1b58:013e:1:0:0,"El Sharq",p:Harmonic
 s:05d7:00820000:0320:fbff:1:0:0,"IEPG Data",p:SkyItalia
 s:07d7:0dca0000:0014:0800:1:0:0,"Spare 2007",p:OSN,f:40
-s:0dd7:00820000:2d50:013e:1:0:0,"HBO2 HD",p:nc+
+s:0dd7:00820000:2d50:013e:1:0:0,"HBO2 HD",p:nc+,c:00251,c:03251,c:04319,c:051,C:6ed,C:1803,C:1861,C:186c
 s:0fd7:00820000:1e14:fbff:1:0:0,"Fox Crime +2",p:SkyItalia,C:0
 s:0fd7:00820000:1644:fbff:1:0:0,"Fox Crime +2",p:SkyItalia,C:0
 s:10d7:0dca0000:002b:0800:1:0:0,"Test",p:Nilesat,f:40
@@ -4102,7 +4141,7 @@ s:39d8:00820000:1fa4:013e:1:0:0,"PMC SD",p:MX1
 s:76d8:0e080000:02c0:0600:1:0:0,"Happy Channel.",p:UPC Direct
 s:77d8:00c00000:040a:0001:1:0:0,"NAT GEO WILD",p:DIGITAL+,C:0
 s:ccd8:011a0000:080e:0002:1:0:0,"Discovery Shed",p:BSkyB
-s:00d9:0dca0000:0002:0800:1:0:0,"VIVA TV",p:OSN,f:1000
+s:00d9:0dca0000:0002:0800:1:0:0,"VIVA TV",p:OSN,c:00d9,c:0113d,c:03d9,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:00d9:0dca0000:0011:006e:1:0:0,"SAUDI FAMILY",p:NOORSAT,f:40
 s:00d9:0082afc2:0065:0001:1:0:0,"Azatlyk Radiosy 217"
 s:00d9:0ce40000:0066:0053:1:0:0,"CBS Reality",C:0
@@ -4138,7 +4177,7 @@ s:32db:00c00000:045d:0001:1:0:0,"RiC",p:-
 s:3adb:00820000:0514:013e:1:0:0,"TVP 1 HD",p:nc+
 s:76db:0e080000:02c0:0600:1:0:0,"Auto Motor Sport",p:UPC
 s:c4db:011a0000:0811:0002:1:0:0,"Al Jazeera Eng",p:BSkyB
-s:00dc:0dca0000:0002:0800:1:0:0,"Aksyon TV",p:OSN,f:1000
+s:00dc:0dca0000:0002:0800:1:0:0,"Aksyon TV",p:OSN,c:00dc,c:01140,c:03dc,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:00dc:00300000:0002:0055:1:0:0,"RTVi",C:0,f:40
 s:00dc:0082afc2:0065:0001:1:0:0,"RL North Caucasus 220"
 s:00dc:0ce40000:0066:0053:1:0:0,"Heróis da Galáxia",C:0
@@ -4147,7 +4186,7 @@ s:0adc:00300000:001a:0044:1:0:0,"BOLT",p:VisionTV,C:0,f:40
 s:0fdc:0e082e2f:000d:0001:1:0:0,"DIGI Sport 2 HD HU",p:DigiTV,c:00ff1,c:011009,c:03ff1,c:051,C:0
 s:10dc:00820000:03e8:013e:1:0:0,"Mango 24",p:TVN
 s:17dc:0dca0000:003d:0800:1:0:0,"Test",p:Nilesat,f:40
-s:32dc:00820000:0190:013e:1:0:0,"CANAL+ HD",p:nc+,C:0
+s:32dc:00820000:0190:013e:1:0:0,"CANAL+ PREMIUM HD",p:nc+,C:0
 s:3adc:00820000:0514:013e:1:0:0,"Romance TV",p:nc+
 s:76dc:0e080000:02c0:0600:1:0:0,"Auto Motor Sport( SVT)",p:UPC
 s:00dd:01c20000:0001:00d5:1:0:0,"TV 1 Russia",p:VIVACOM,f:40
@@ -4167,7 +4206,7 @@ s:02de:0dca0000:0007:0800:1:0:0,"Almasalah"
 s:0dde:0e082e7c:000c:0001:1:0:0,"LookSport",p:DigiTV
 s:0ede:0dca0000:0026:0800:1:0:0,"Test",p:Nilesat,f:40
 s:12de:0dca0000:01f4:5000:1:0:0,"KARAMAH",p:Gulfsat,f:40
-s:17de:0dca0000:003d:0800:1:0:0,"Al Arabiya",p:Nilesat,f:40
+s:17de:0dca0000:003d:0800:1:0:0,"Al Arabiya",p:Nilesat,f:1040
 s:32de:00820000:0190:013e:1:0:0,"CANAL+ SPORT HD",p:nc+,c:00169,c:03169,c:04181,c:051,C:100,C:500,C:b01,C:1813,C:1884
 s:38de:00820000:2648:fbff:1:0:0,"Shopping Tv",p:SkyItalia
 s:75de:00c00000:0422:0001:1:0:0,"TEST_CSD1",p:DIGITAL+
@@ -4199,7 +4238,7 @@ s:0ee1:0dca0000:0026:0800:1:0:0,"AL-Anbar",p:Nilesat,f:40
 s:10e1:00820000:1644:fbff:1:0:0,"Sky Meteo24",p:SkyItalia,C:0
 s:15e1:0dca0000:001a:0800:1:0:0,"Saudi Ch. For Quran",p:Nilesat,f:40
 s:15e1:0dca0000:001a:02be:1:0:0,"Saudi ch for Quran HD",p:SBA,f:40
-s:15e1:0dca0000:0038:0800:1:0:0,"Rotana Music",p:Nilesat,f:40
+s:15e1:0dca0000:0038:0800:1:0:0,"Rotana Music",p:Nilesat,f:1040
 s:17e1:0dca0000:003d:0800:1:0:0,"Test",p:Nilesat,f:40
 s:32e1:00820000:0190:013e:1:0:0,"EUROSPORT 4 HD",p:nc+
 s:38e1:00820000:2648:fbff:1:0:0,"Primafila 5",p:SkyItalia,C:0
@@ -4218,7 +4257,7 @@ s:0ee2:0dca0000:0026:0800:1:0:0,"Test",p:Nilesat,f:40
 s:13e2:0dca0000:01f4:5000:1:0:0,"Al Anis TV",p:GULFSAT,f:40
 s:15e2:0dca0000:001a:0800:1:0:0,"Saudi Ch. For Sunnah",p:Nilesat,f:40
 s:15e2:0dca0000:001a:02be:1:0:0,"Saudi Ch for Sunnah HD",p:SBA,f:40
-s:15e2:0dca0000:0038:0800:1:0:0,"Rotana Clip",p:Nilesat,f:40
+s:15e2:0dca0000:0038:0800:1:0:0,"Rotana Clip",p:Nilesat,f:1040
 s:44e2:00820000:0258:013e:1:0:0,"Kalemeh TV"
 s:75e2:00c00000:0422:0001:1:0:0,"TEST_CSD5",p:DIGITAL+
 s:cce2:011a0000:080e:0002:1:0:0,"HomeHealth+1",p:BSkyB
@@ -4231,8 +4270,9 @@ s:15e3:0dca0000:001a:02be:1:0:0,"SBC HD",p:SBA,f:1040
 s:15e3:0dca0000:0038:0800:1:0:0,"Test",p:Nilesat,f:40
 s:29e3:00820000:3cf0:013e:1:0:0,"SOYUZ",p:GLOBECAST
 s:2ee3:00c00000:0441:0001:1:0:0,"RTL Television",p:CBC
-s:3be3:00820000:170c:fbff:1:0:0,"Torino Channel",p:SkyItalia
+s:3be3:00820000:170c:fbff:1:0:0,"Torino Channel",p:SkyItalia,C:0
 s:44e3:00820000:0258:013e:1:0:0,"Payam E Afghan"
+s:75e3:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:79e3:0e080000:02c8:0600:1:0:0,"CNN",p:UPC,C:0
 s:00e4:0082afc2:0065:0001:1:0:0,"Ekho Kavkaza 228"
 s:00e4:005a0000:14b4:009c:1:0:0,"HSE 24 Extra",p:BASIS 1
@@ -4242,7 +4282,7 @@ s:0ee4:0dca0000:0026:0800:1:0:0,"Alhayat Muslsalat",p:Nilesat,f:40
 s:10e4:00820000:2580:fbff:1:0:0,"Real Time",p:SkyItalia
 s:15e4:0dca0000:001a:0800:1:0:0,"KSA Sports +1",p:Nilesat,f:40
 s:15e4:0dca0000:001a:02be:1:0:0,"KSA Sports 3",p:SBA,f:40
-s:15e4:0dca0000:0038:0800:1:0:0,"Rotana Khalijia",p:Nilesat,f:1040
+s:15e4:0dca0000:0038:0800:1:0:0,"Rotana Khalijia",p:Nilesat,c:0015ea,c:0115eb,c:0315ea,f:1040
 s:2ee4:00c00000:0441:0001:1:0:0,"RTL Regional NRW",p:CBC
 s:44e4:00820000:0258:013e:1:0:0,"Kalsan TV"
 s:79e4:0e080000:02c8:0600:1:0:0,"Test 31204",p:UPC,C:0
@@ -4308,7 +4348,7 @@ s:03e9:00a00000:5e24:016e:1:0:0,"OTV Valentino",p:STN
 s:03e9:0186b13a:0037:0001:1:0:0,"Nickelodeon BG",p:DGB2,C:0
 s:0ce9:00820000:1518:013e:1:0:0,"Rai Gulp",p:Rai
 s:0ce9:0dca0000:0021:0800:1:0:0,"Al Sumaria TV",p:dU,f:40
-s:15e9:0dca0000:0038:0800:1:0:0,"Rotana Cinema KSA",p:Nilesat,f:40
+s:15e9:0dca0000:0038:0800:1:0:0,"Rotana Cinema KSA",p:Nilesat,f:1040
 s:2ee9:00c00000:0441:0001:1:0:0,"RTL HH SH",p:CBC
 s:35e9:00820000:00c8:013e:1:0:0,"ESP2 Int'l",p:Eutelsat,C:0
 s:79e9:0e080000:02c8:0600:1:0:0,"Minimax Cz",p:UPC Direct
@@ -4340,7 +4380,7 @@ s:03eb:0186b13a:0037:0001:1:0:0,"Nick Toons BG",p:DGB2
 s:0ceb:00820000:1518:013e:1:0:0,"Rai Scuola",p:Rai
 s:0ceb:0dca0000:0021:0800:1:0:0,"AL-WAHA",p:dU,f:40
 s:0deb:00820000:1af4:fbff:1:0:0,"Match Music",p:SkyItalia
-s:15eb:0dca0000:0038:0800:1:0:0,"AL Resala",p:Nilesat,f:40
+s:15eb:0dca0000:0038:0800:1:0:0,"AL Resala",p:Nilesat,f:1040
 s:3deb:00820000:0640:013e:1:0:0,"TVN 7 HD_",p:TVN,C:0
 s:6eeb:00c00000:04b1:0001:1:0:0,"WDR Test A",p:ARD
 s:6feb:00c00000:0436:0001:1:0:0,"Nickelodeon HD",p:MTV Networks Europe,C:0
@@ -4388,6 +4428,7 @@ s:18ee:00c00000:03f4:0001:1:0:0,"RT Esp HD",p:GLOBECAST
 s:1eee:00300000:002e:0055:1:0:0,"K2",f:40
 s:3bee:00820000:0320:fbff:1:0:0,"Sky Music",p:SkyItalia
 s:3bee:00820000:189c:fbff:1:0:0,"Sky Music",p:SkyItalia
+s:75ee:00c00000:0422:0001:1:0:0,"",p:Digital +,f:40
 s:77ee:0e080000:02c3:0600:1:0:0,"JimJam",p:UPC Direct,C:0
 s:79ee:0e080000:02c8:0600:1:0:0,"Sorozat+",p:UPC Direct
 s:00ef:0ce40000:0030:0036:1:0:0,"TVE Internacional",p:SID TVE Internacional
@@ -4398,10 +4439,11 @@ s:03ef:00a00000:5e24:016e:1:0:0,"KCN",p:STN
 s:13ef:0dca0000:0033:0800:1:0:0,"Test",p:Nilesat,f:40
 s:13ef:00820000:05dc:013e:1:0:0,"DOMO+ HD",p:nc+,C:0
 s:18ef:00c00000:03f4:0001:1:0:0,"RT France HD",p:GLOBECAST
+s:75ef:00c00000:0422:0001:1:0:0,"",p:DIGITAL+,f:40
 s:77ef:0e080000:02c3:0600:1:0:0,"Disney Channel",p:UPC Direct,C:0
 s:79ef:0e080000:02c8:0600:1:0:0,"Muzsika TV",p:UPC Direct
 s:c4ef:011a0000:0813:0002:1:0:0,"Islam Channel",p:BSkyB
-s:00f0:01860000:000e:001c:1:0:0,"LookSport",C:0
+s:00f0:01860000:000e:001c:1:0:0,"LookSport",c:001f5,c:011f7,c:031f5,C:0
 s:00f0:0ce40000:0030:0036:1:0:0,"Biggs",p:SID Biggs
 s:00f0:0082afc2:0065:0001:1:0:0,"VOA EU SD 240"
 s:00f0:005a0000:14b4:009c:1:0:0,"BBC World",p:BASIS 1
@@ -4414,11 +4456,12 @@ s:0af0:0e08b00f:0002:005e:1:0:0,"Discovery Poland HD",C:e00
 s:0af0:0ce40000:0006:0006:1:0:0,"Feeds HD",p:TSA
 s:0ff0:0e082e2f:000d:0001:1:0:0,"DIGI Sport 2 HD RO",p:DigiTV,c:002be,c:012bf,c:032be,c:051,C:0
 s:0ff0:00820000:251c:fbff:1:0:0,"Alpha",p:SkyItalia,C:0
+s:12f0:00820000:2e7c:013e:1:0:0,"10892H SID 0x12f0",p:DVB-S2 8PSK 10892H 13.0Â°E,f:40
 s:13f0:0dca0000:0033:0800:1:0:0,"Oscar TV",p:Nilesat,f:40
 s:18f0:00c00000:03f4:0001:1:0:0,"EXTREMADURA SAT",p:GLOBECAST
 s:1ef0:00300000:002e:0055:1:0:0,"ZOOM",f:40
-s:32f0:00820000:0190:013e:1:0:0,"CANAL+ HD",p:nc+,c:00167,c:03167,c:0417a,c:051,C:100,C:500,C:b01,C:1813,C:1884
-s:3bf0:00820000:251c:fbff:1:0:0,"CACCIA e Pesca",p:SkyItalia
+s:32f0:00820000:0190:013e:1:0:0,"CANAL+ PREMIUM HD",p:nc+,c:00167,c:03167,c:0417a,c:051,C:100,C:500,C:b01,C:1813,C:1884
+s:3bf0:00820000:251c:fbff:1:0:0,"CACCIA e Pesca",p:SkyItalia,C:0
 s:6ff0:00c00000:0436:0001:1:0:0,"VH1",p:MTV Networks Europe,C:0
 s:77f0:0e080000:02c3:0600:1:0:0,"Animal Planet",p:UPC Direct,C:0
 s:79f0:0e080000:02c8:0600:1:0:0,"MTV Music",p:UPC Direct
@@ -4430,10 +4473,12 @@ s:02f1:00a00000:9d08:016e:1:0:0,"SK 3 Slo",p:Total TV,c:00fd,c:01dcb,c:03fd,c:05
 s:03f1:0dca0000:0320:0800:1:0:0,"ZAGROS TV HD",p:STN,f:40
 s:05f1:00820000:2c24:013e:1:0:0,"IRIB JAMEJAM",p:IRIB
 s:07f1:0dca0000:0011:006e:1:0:0,"AL-MUSTAKILA",p:NOORSAT,f:40
-s:13f1:0dca0000:0033:0800:1:0:0,"Al-Nahar One",p:Nilesat,f:40
+s:12f1:00820000:2e7c:013e:1:0:0,"10892H SID 0x12f1",p:DVB-S2 8PSK 10892H 13.0Â°E,f:40
+s:13f1:0dca0000:0033:0800:1:0:0,"Al-Nahar One",p:Nilesat,c:003e9,c:014b1,c:033e9,f:1040
 s:13f1:00820000:05dc:013e:1:0:0,"Fightklub HD",p:nc+
 s:18f1:00c00000:03f4:0001:1:0:0,"TVGA HD EUROPA",p:GLOBECAST
 s:6ff1:00c00000:0436:0001:1:0:0,"VH1 Classic",p:MTV Networks Europe,C:0
+s:75f1:00c00000:0422:0001:1:0:0,"",p:Digital+,f:40
 s:77f1:0e080000:02c3:0600:1:0:0,"HBO2",p:UPC Direct,C:0
 s:79f1:0e080000:02c8:0600:1:0:0,"RTL2 (SVT)",p:UPC Direct
 s:ccf1:011a0000:080e:0002:1:0:0,"ID",p:BSkyB
@@ -4443,8 +4488,9 @@ s:03f2:01862fef:0001:0001:1:0:0,"TV Plus",p:BULSATCOM,C:0
 s:03f2:0dca0000:0320:0800:1:0:0,"CIRA TV",p:STN,f:40
 s:07f2:0dca0000:0011:006e:1:0:0,"EL BILAD",f:40
 s:0cf2:00820000:1518:013e:1:0:0,"Senato",p:Rai
-s:13f2:0dca0000:0033:0800:1:0:0,"Al-Nahar Drama",p:Nilesat,f:1040
+s:13f2:0dca0000:0033:0800:1:0:0,"Al-Nahar Drama",p:Nilesat,c:0045c,c:0145d,c:0345c,f:1040
 s:1ef2:00300000:002e:0055:1:0:0,"PIXEL",f:40
+s:75f2:00c00000:0422:0001:1:0:0,"",p:Digital+,f:40
 s:77f2:0e080000:02c3:0600:1:0:0,"Discovery Science",p:UPC Direct,C:0
 s:79f2:0e080000:02c8:0600:1:0:0,"RTL+ (SVT)",p:UPC Direct
 s:00f3:01860000:000f:001c:1:0:0,"Viasat Explore",C:0
@@ -4455,8 +4501,9 @@ s:03f3:01862fef:0001:0001:1:0:0,"F Plus",p:BULSATCOM,C:0
 s:03f3:0e082de3:0005:1111:1:0:0,"Filmbox",p:ESS,C:0
 s:03f3:0dca0000:0320:0800:1:0:0,"Ronahi TV",p:STN,f:40
 s:07f3:0dca0000:0011:006e:1:0:0,"CHAMS TV",f:40
-s:13f3:0dca0000:0033:0800:1:0:0,"CBC Drama",p:Nilesat,f:1040
+s:13f3:0dca0000:0033:0800:1:0:0,"CBC Drama",p:Nilesat,c:0045e,c:0145f,c:0345e,f:1040
 s:13f3:00820000:05dc:013e:1:0:0,"Eleven Sports 1 HD",p:nc+,c:00a6,c:03a6,c:0468,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
+s:75f3:00c00000:0422:0001:1:0:0,"",p:Contactanos,f:40
 s:79f3:0e080000:02c8:0600:1:0:0,"RTL GOLD",p:UPC Direct
 s:00f4:0ce40000:0030:0036:1:0:0,"BBC World News",p:SID BBC World News
 s:01f4:0030b022:0001:005e:1:0:0,"Discovery Central Europe",C:e00,f:40
@@ -4473,6 +4520,7 @@ s:13f4:0dca0000:0033:0800:1:0:0,"CBC",p:Nilesat,f:1040
 s:13f4:00820000:05dc:013e:1:0:0,"FOX",p:nc+
 s:1ef4:00300000:002e:0055:1:0:0,"Enter Film",f:40
 s:2ef4:00c00000:0441:0001:1:0:0,"RTL2",p:CBC
+s:75f4:00c00000:0422:0001:1:0:0,"10847V SID 0x75f4",p:DVB-S QPSK 10847V 19.2Â°E,f:40
 s:77f4:0e080000:02c3:0600:1:0:0,"STORY 4",p:UPC Direct,C:0
 s:79f4:00c00000:0443:0001:1:0:0,"EURONEWS FRENCH SD",p:Globecast
 s:79f4:0e080000:02c8:0600:1:0:0,"Sorozat+ (SVT)",p:UPC Direct
@@ -4498,6 +4546,7 @@ s:13f5:0dca0000:0033:0800:1:0:0,"Extra News",p:Nilesat,f:40
 s:13f5:00820000:05dc:013e:1:0:0,"Eleven Sports 2 HD",p:nc+,c:00a8,c:03a8,c:0470,c:051,C:100,C:500,C:6ed,C:b01,C:1803,C:1813,C:1861,C:186c,C:1884
 s:35f5:00820000:00c8:013e:1:0:0,"ESP2 Rus",p:Eutelsat,C:0
 s:6ff5:00c00000:0436:0001:1:0:0,"Nick Jr",p:MTV Networks Europe,C:0
+s:75f5:00c00000:0422:0001:1:0:0,"",p:DIGITAL +,f:40
 s:77f5:0e080000:02c3:0600:1:0:0,"Cinemax",p:UPC Direct
 s:79f5:0e080000:02c8:0600:1:0:0,"Muzsika TV (SVT)",p:Slovak Telecom
 s:00f6:0ce40000:0030:0036:1:0:0,"France 24 (I)",p:France 24 (I)
@@ -4513,7 +4562,7 @@ s:05f6:00820000:2c24:013e:1:0:0,"SAHAR Balkan",p:IRIB
 s:09f6:00300000:0018:0044:1:0:0,"Sony Turbo",p:VisionTV,C:0,f:40
 s:0af6:0dca0000:001c:0800:1:0:0,"CITRUSS TV",p:dU,f:40
 s:0ff6:00820000:1e14:fbff:1:0:0,"Starsat",p:SkyItalia
-s:13f6:0dca0000:0033:0800:1:0:0,"CBC Sofra",p:Nilesat,f:40
+s:13f6:0dca0000:0033:0800:1:0:0,"CBC Sofra",p:Nilesat,f:1040
 s:1af6:0dca0000:0045:0800:1:0:0,"dmc",p:Nilesat,f:40
 s:6ff6:00c00000:0436:0001:1:0:0,"Nick Jr.",p:MTV Networks Europe,C:0
 s:75f6:00c00000:0422:0001:1:0:0,"GUÍA FÁCIL",p:PRISA TV
@@ -4549,6 +4598,7 @@ s:13f8:00820000:05dc:013e:1:0:0,"Eleven Sports 3 HD",p:nc+,c:00ab,c:03ab,c:047c,
 s:18f8:00c00000:03f4:0001:1:0:0,"RT Esp HD",p:GLOBECAST,c:003fd,c:033fd,c:043fe,c:051
 s:1af8:0dca0000:0045:0800:1:0:0,"Zamalek Sports",p:Nilesat,f:40
 s:1af8:00c00000:03fe:0001:1:0:0,"Russia Today",p:GLOBECAST
+s:32f8:00820000:0190:013e:1:0:0,"11278V SID 0x32f8",p:DVB-S2 8PSK 11278V 13.0Â°E,f:40
 s:77f8:0e080000:02c3:0600:1:0:0,"Spektrum",p:UPC Direct
 s:79f8:0e080000:02c8:0600:1:0:0,"Izaura TV.",p:UPC Direct
 s:00f9:0ce40000:0030:0036:1:0:0,"Hot",p:Hot
@@ -4660,7 +4710,7 @@ s:79fe:00c00000:0443:0001:1:0:0,"EURONEWS GERMAN SD",p:Globecast
 s:01ff:0e080000:001b:02c0:1:0:0,"MTV Rocks",p:MTV Networks Europe,C:0
 s:01ff:005a0000:2134:009c:1:0:0,"Kinomir",p:KabelKiosk
 s:02ff:00a00000:9d08:016e:1:0:0,"AXN",p:Total TV,C:0
-s:0aff:0dca0000:001c:0800:1:0:0,"ALAAN TV",p:dU,f:40
+s:0aff:0dca0000:001c:0800:1:0:0,"ALAAN TV",p:dU,f:1040
 s:35ff:00820000:00c8:013e:1:0:0,"ESP2 Biava",p:EUROSPORT,C:0
 s:6fff:00c00000:0436:0001:1:0:0,"MTV Music 24",p:MTV Networks Europe
 s:75ff:00c00000:0408:0001:1:0:0,"CANAL PANDA",p:PRISA TV,C:0
@@ -5562,6 +5612,7 @@ s:0099:00640000:1838:009e:2:0:0,"Bartok Radio (AAC)",p:MTVA
 s:0b99:0dde0000:51a4:055f:2:0:0,"RFM",p:EUTELSAT
 s:1399:0dca0000:0032:0800:2:0:0,"Oman English Radio",p:OMAN TV,f:40
 s:1c99:00820000:1ce8:0071:2:0:0,"Muzo.fm",p:Cyfrowy Polsat S.A.
+s:7599:00c00000:0422:0001:2:0:0,"10847V SID 0x7599",p:DVB-S QPSK 10847V 19.2Â°E,f:40
 s:009a:005a0000:1838:009e:2:0:0,"Nemzetisegi Radio (AAC)",p:MTVA
 s:009a:00640000:1838:009e:2:0:0,"Nemzetisegi Radio (AAC)",p:MTVA
 s:019a:0ce42c26:ea76:0001:2:0:0,"R1_ASTURI_PRADO",p:RNE,f:40
@@ -5569,12 +5620,15 @@ s:019a:0ce42c76:ea79:0001:2:0:0,"R1_ASTURI_PRADO",p:RNE,f:40
 s:0b9a:0dde0000:51a4:055f:2:0:0,"RADIO AFRICA N01",p:EUTELSAT
 s:139a:0dca0000:0032:0800:2:0:0,"Oman HolyQuran Radio",p:OMAN TV,f:40
 s:1c9a:00820000:1ce8:0071:2:0:0,"RMF Classic",p:Cyfrowy Polsat S.A.
+s:759a:00c00000:0422:0001:2:0:0,"10847V SID 0x759a",p:DVB-S QPSK 10847V 19.2Â°E,f:40
 s:009b:005a0000:1838:009e:2:0:0,"Parlamenti Radio (AAC)",p:MTVA
 s:009b:00640000:1838:009e:2:0:0,"Parlamenti Radio (AAC)",p:MTVA,c:034e7
+s:019b:0dca0000:4ee8:077e:2:0:0,"Sout Al Rayyan",p:Al Jazeera,f:40
 s:139b:0dca0000:0032:0800:2:0:0,"Oman Classic Radio",p:OMAN TV,f:40
 s:1c9b:00820000:1ce8:0071:2:0:0,"Jedynka - PR",p:Cyfrowy Polsat S.A.
 s:009c:005a0000:1838:009e:2:0:0,"Danko Radio (AAC)",p:MTVA
 s:009c:00640000:1838:009e:2:0:0,"Danko Radio (AAC)",p:MTVA
+s:019c:0dca0000:4ee8:077e:2:0:0,"Sout Al-Islam Doha",p:Al Jazeera,f:40
 s:129c:00820000:3458:013e:2:0:0,"VOISFARSI",p:Eutelsat
 s:139c:0dca0000:0032:0800:2:0:0,"Sawtoman Radio",p:OMAN TV,f:40
 s:1c9c:00820000:1ce8:0071:2:0:0,"Trójka - PR",p:Cyfrowy Polsat S.A.
@@ -6083,7 +6137,7 @@ s:3403:00c00000:03ed:0001:22:0:0,"Starparadies A",p:ORS
 s:0004:00820000:25e4:02be:22:0:0,"TEST",p:ARABSAT
 s:0004:01860000:25e4:02be:22:0:0,"TEST",p:ARABSAT
 s:0204:00c00000:0004:0085:22:0:0,"Sky Cinema Bud Spencer",p:SKY,C:0
-s:0204:00c00000:0006:0085:22:0:0,"Sky Cinema Classics",p:SKY,C:0
+s:0204:00c00000:0006:0085:22:0:0,"Sky Cinema Classics",p:SKY,C:0
 s:0604:00820000:005e:0055:22:0:0,"Zee TV",p:XTRA TV
 s:3404:00c00000:03ed:0001:22:0:0,"gotv neu",p:GoTV
 s:0105:00c00000:0003:0085:22:0:0,"Sky Select 2",C:0
@@ -6100,12 +6154,15 @@ s:0208:005a0000:c364:009e:22:0:0,"Meiden van Holland",p:Joyne,C:0
 s:1808:00300000:000c:0055:22:0:0,"FilmUADrama",p:1plus1 Media,f:40
 s:0009:00c00000:0003:0085:22:0:0,"Sky Cinema Action",p:SKY,C:0
 s:0009:01860000:25e4:02be:22:0:0,"TEST",p:ARABSAT
+s:1009:00c00000:0451:0035:22:0:0,"Brazzers TV",p:M7 Group,f:40
 s:000a:00c00000:0004:0085:22:0:0,"Sky Cinema Premieren",p:SKY,C:0
 s:100a:00c00000:0451:0035:22:0:0,"Eurosport2 ger",p:M7 Group
 s:180a:00300000:000c:0055:22:0:0,"36.6 TV",p:1plus1 Media,f:40
 s:000b:00c00000:0006:0085:22:0:0,"Sky Cinema +1",p:SKY,C:0
+s:100b:00c00000:0451:0035:22:0:0,"Hustler TV",p:M7 Group,f:40
 s:180c:00300000:000c:0055:22:0:0,"Paramount Channel",p:1plus1 Media,f:40
 s:020d:005a0000:c364:009e:22:0:0,"24 Kitchen",p:Joyne,C:0
+s:100d:00c00000:0451:0035:22:0:0,"Hustler TV CZ",p:M7 Group,f:40
 s:180e:00300000:000c:0055:22:0:0,"Nicktoons",p:1plus1 Media,f:40
 s:010f:00c00000:0002:0085:22:0:0,"Sky Select 3",C:0
 s:420f:00820000:2f44:013e:22:0:0,"La Deux",p:M7 Group,C:0
@@ -6128,7 +6185,7 @@ s:1e16:00300000:002c:0055:22:0:0,"TET.",p:1plus1 Media,f:40
 s:1e17:00300000:002c:0055:22:0:0,"2+2.",p:1plus1 Media,f:40
 s:0018:00c00000:0002:0085:22:0:0,"Classica",p:SKY,C:0
 s:0119:00c00000:0002:0085:22:0:0,"Sky Select 4",C:0
-s:001b:00c00000:000d:0085:22:0:0,"Nicktoons",p:SKY,C:0
+s:001b:00c00000:000d:0085:22:0:0,"Nicktoons",p:SKY,C:0
 s:1e1b:00300000:002c:0055:22:0:0,"Plus Plus.",p:1plus1 Media,f:40
 s:001c:00c00000:0003:0085:22:0:0,"Boomerang",p:SKY,C:0
 s:1e1c:00300000:002c:0055:22:0:0,"Bigudi.",p:1plus1 Media,f:40
@@ -6140,9 +6197,9 @@ s:001e:00c00000:0002:0085:22:0:0,"Sky Sport Austria 1",p:SKY,C:0
 s:101e:00c00000:0451:0035:22:0:0,"Elevensports1",p:M7 Group,c:00272,c:01a6,c:03272,c:051,C:100,C:500,C:1818,C:1819
 s:101f:00c00000:0451:0035:22:0:0,"ElevenSports2",p:M7 Group,c:00273,c:01a7,c:03273,c:051,C:100,C:500,C:1818,C:1819
 s:181f:00300000:000c:0055:22:0:0,"Music Box",p:1plus1 Media,f:40
-s:0320:00c00000:000c:0085:22:0:0,"STEST1",p:SKY,C:0
+s:0320:00c00000:000c:0085:22:0:0,"STEST1",p:SKY,C:0
 s:7920:0e080000:02c6:0600:22:0:0,"Prima Comedy Central",p:UPC Direct
-s:0321:00c00000:000c:0085:22:0:0,"STEST2",p:SKY,C:0
+s:0321:00c00000:000c:0085:22:0:0,"STEST2",p:SKY,C:0
 s:1821:00300000:000c:0055:22:0:0,"TEST 2",p:1plus1 Media,f:40
 s:0522:00820000:3d54:013e:22:0:0,"HRT int",p:OIV
 s:1e22:00300000:002c:0055:22:0:0,"Terra",f:40
@@ -6160,7 +6217,7 @@ s:0328:005a0000:c35a:009e:22:0:0,"Vitaya",p:Joyne,C:0
 s:0029:00c00000:0002:0085:22:0:0,"Sky Cinema Best Of",p:SKY,C:0
 s:0329:005a0000:c35a:009e:22:0:0,"CAZ",p:Joyne,C:0
 s:032a:005a0000:c35a:009e:22:0:0,"Q2",p:Joyne,C:0
-s:002b:00c00000:0006:0085:22:0:0,"Sky Cinema Premieren +24",p:SKY,C:0
+s:002b:00c00000:0006:0085:22:0:0,"Sky Cinema Premieren +24",p:SKY,C:0
 s:772b:0e080000:02c1:0600:22:0:0,"Filmbox Premium",p:UPC Direct
 s:032c:005a0000:c35a:009e:22:0:0,"VTM Kids",p:Joyne,C:0
 s:182c:00300000:000c:0055:22:0:0,"Plus Plus",p:1plus1 Media,f:40
@@ -6174,8 +6231,9 @@ s:772e:0e080000:02c1:0600:22:0:0,"Fashion TV",p:UPC Direct
 s:002f:00c00000:0021:0085:22:0:0,"REGIO TV",p:BetaDigital
 s:0130:0dde0000:4f4c:055f:22:0:0,"FRANCE O",p:EUTELSAT,C:0
 s:3330:00c00000:045b:0001:22:0:0,"LT1-OOE",p:-
-s:0031:00c00000:000d:0085:22:0:0,"Spiegel TV Wissen",p:SKY,C:0
+s:0031:00c00000:000d:0085:22:0:0,"Spiegel TV Wissen",p:SKY,C:0
 s:0131:0dde0000:4f4c:055f:22:0:0,"FRANCEINFO:",p:EUTELSAT,C:0
+s:1031:00c00000:0451:0035:22:0:0,"Brazzers TV CZ",p:M7 Group,f:40
 s:1831:00300000:000c:0055:22:0:0,"Unian TV",p:1plus1 Media,f:40
 s:1032:00c00000:0451:0035:22:0:0,"VElevensports1",p:M7 Group,c:00272,c:01a6,c:03272,c:051,C:100,C:500,C:1818,C:1819
 s:1832:00300000:000c:0055:22:0:0,"Kus-Kus",p:1plus1 Media,f:40
@@ -6235,7 +6293,7 @@ s:766b:0e080000:02bf:0600:22:0:0,"CT 24",p:UPC Direct
 s:766c:0e080000:02bf:0600:22:0:0,"CT2",p:UPC Direct
 s:076d:00820000:012c:013e:22:0:0,"MBC 1 EUROPE",p:Eutelsat,C:0
 s:766d:0e080000:02bf:0600:22:0:0,"Nova Sport",p:UPC Direct,c:00385,c:0138f,c:03385,c:051,C:653,C:b02,C:d97,C:1815
-s:076e:00820000:012c:013e:22:0:0,"MBC 3 EUROPE",p:Eutelsat,C:0
+s:076e:00820000:012c:013e:22:0:0,"MBC 3 EUROPE",p:Eutelsat,c:0079,c:017a,c:0379,c:051,C:6f0
 s:766e:0e080000:02bf:0600:22:0:0,"CT Sport",p:UPC Direct
 s:006f:00820000:04b0:0110:22:0:0,"Cine34",C:0
 s:076f:00820000:012c:013e:22:0:0,"MBC MASR",p:Eutelsat,C:0
@@ -6248,7 +6306,7 @@ s:0772:00820000:012c:013e:22:0:0,"MTV LEBANON",p:Eutelsat,C:0
 s:0773:00820000:012c:013e:22:0:0,"IQRAA INTERNATIONAL",p:Eutelsat,C:0
 s:0474:00820000:005e:0055:22:0:0,"Sony Entertainment",p:XTRA TV,C:0
 s:0774:00820000:012c:013e:22:0:0,"Gulli Bil Arabi",p:Eutelsat,C:0
-s:0775:00820000:012c:013e:22:0:0,"MBC DRAMA",p:Eutelsat,C:0
+s:0775:00820000:012c:013e:22:0:0,"MBC DRAMA",p:Eutelsat,c:00bf,c:01c0,c:03bf,c:051,C:6f0
 s:0776:00820000:012c:013e:22:0:0,"ZEE ALWAN",p:Eutelsat,C:0
 s:0077:00820000:04b0:0110:22:0:0,"RADIO MONTE CARLO",C:0
 s:0777:00820000:012c:013e:22:0:0,"ENNAHAR",p:Eutelsat,C:0
@@ -6333,7 +6391,9 @@ s:00de:00c00000:0002:0085:22:0:0,"Sky Sport 2",p:SKY,C:0
 s:17de:00300000:000c:0055:22:0:0,"TET",p:1plus1 Media,C:0,f:40
 s:1cde:00300000:0013:0055:22:0:0,"INTER +",p:INTER +,C:0,f:40
 s:00df:00c00000:0004:0085:22:0:0,"Sky Sport Bundesliga 1",p:SKY,C:0
+s:0fe0:00c00000:0451:0035:22:0:0,"Vivid",p:M7 Group,C:0,f:40
 s:17e0:00300000:000c:0055:22:0:0,"Plus Plus",p:1plus1 Media,C:0,f:40
+s:0fe1:00c00000:0451:0035:22:0:0,"Vivid CZ",p:M7 Group,C:0,f:40
 s:15e1:00c00000:0403:0001:22:0:0,"TVRUS",p:SES ASTRA
 s:0fe2:00c00000:0451:0035:22:0:0,"RTL Lounge",p:M7 Group,C:0
 s:17e2:00300000:000c:0055:22:0:0,"Bigudi",p:1plus1 Media,C:0,f:40
@@ -6422,19 +6482,19 @@ s:1e0a:00300000:002b:0055:25:0:0,"English Club HD",f:40
 s:200a:00c00000:0430:0001:25:0:0,"BEIN SPORTS MAX 5",p:CSAT,c:00d2,c:03d2,c:04dd,c:051,C:0
 s:220a:00c00000:044c:0001:25:0:0,"MCM",p:CSAT,C:0
 s:000b:00c00000:0004:0085:25:0:0,"Sky Cinema Thriller HD",p:SKY,C:0,f:40
-s:010b:00c00000:0006:0085:25:0:0,"Sky Sport Bundesliga 2 HD",p:SKY,c:007ff,c:0220,c:037ff,c:04802,c:051,C:0
+s:010b:00c00000:0006:0085:25:0:0,"Sky Sport Bundesliga 2 HD",p:SKY,c:007ff,c:0220,c:037ff,c:04802,c:051,C:0
 s:040b:0e082de3:0005:1111:25:0:0,"Nat Geo HD (ROU)",p:MX1
 s:070b:0dca0000:0012:0800:25:0:0,"Test",p:NILESAT,f:40
 s:200b:00c00000:0430:0001:25:0:0,"BEIN SPORTS MAX 6",p:CSAT,C:0
 s:250b:00820000:170c:fbff:25:0:0,"Sky Sport MotoGP HD",p:SkyItalia,C:0
 s:750b:00c00000:0420:0001:25:0:0,"M. DRAMA HD",p:Movistar+,C:0
-s:010c:00c00000:0006:0085:25:0:0,"Sky Sport 3 HD",p:SKY,C:0
+s:010c:00c00000:0006:0085:25:0:0,"Sky Sport 3 HD",p:SKY,C:0
 s:170c:00c00000:0419:0001:25:0:0,"TV Mainfranken HD",p:BMT
 s:200c:00c00000:0430:0001:25:0:0,"NRJ HITS",p:CSAT,C:0
 s:750c:00c00000:0420:0001:25:0:0,"HOLLYWOODHD",p:DIGITAL+,C:0
 s:170d:00c00000:0419:0001:25:0:0,"Franken Fernsehen HD",p:BMT,c:007e4,c:017e6,c:037e4,c:051
 s:200d:00c00000:0430:0001:25:0:0,"SUNDANCE TV",p:CSAT,C:0
-s:010e:00c00000:0006:0085:25:0:0,"Eurosport360HD 1",p:SKY
+s:010e:00c00000:0006:0085:25:0:0,"Eurosport360HD 1",p:SKY
 s:170e:00c00000:0419:0001:25:0:0,"TVA Ostbayern HD",p:BMT
 s:200e:00c00000:0430:0001:25:0:0,"M6 BOUTIQUE",p:CSAT
 s:420e:00820000:2f44:013e:25:0:0,"La Une HD",p:M7 Group,c:00227,c:0122,c:0233,c:03227,c:051,C:0
@@ -6455,7 +6515,7 @@ s:2011:00c00000:0430:0001:25:0:0,"RMC DECOUVERTE",p:CSAT,C:0
 s:4211:00820000:2f44:013e:25:0:0,"RTL-TVi HD",p:M7 Group,C:0
 s:ef11:00c00000:0421:0001:25:0:0,"VOX HD",p:CBC,C:0
 s:0212:00820000:0384:013e:25:0:0,"World Fashion Channel",p:DVB
-s:2012:00c00000:0430:0001:25:0:0,"BEIN SPORTS 2",p:CSAT,c:003f2,c:033f2,c:043fd,c:051,C:1883,C:1863,C:1811,C:500
+s:2012:00c00000:0430:0001:25:0:0,"BEIN SPORTS 2",p:CSAT,c:003f2,c:033f2,c:043fd,c:051,C:500,C:1811,C:1863,C:1883
 s:2013:00c00000:0430:0001:25:0:0,"BEIN SPORTS 3",p:CSAT,c:00456,c:03456,c:04461,c:051,C:0
 s:2b13:00820000:1900:fbff:25:0:0,"Discovery Sci HD",p:SkyItalia,C:0
 s:0114:01860000:0002:001c:25:0:0,"TVR 1 HD",C:0,f:40
@@ -6464,17 +6524,17 @@ s:2b14:0e082f3c:000b:1111:25:0:0,"Mooz Dance HD",p:MX1
 s:ef14:00c00000:0421:0001:25:0:0,"n-tv HD",p:CBC,C:0
 s:0015:0ce40000:012f:162d:25:0:0,"CT 1 HD",p:Pantelio
 s:0115:01860000:0002:001c:25:0:0,"PRO TV HD",C:0,f:40
-s:0115:00c00000:000d:0085:25:0:0,"Sky Sport Bundesliga 3 HD",p:SKY
+s:0115:00c00000:000d:0085:25:0:0,"Sky Sport Bundesliga 3 HD",p:SKY
 s:0215:00820000:0384:013e:25:0:0,"NHK WORLD-JAPAN"
 s:1015:00820000:1d4c:fbff:25:0:0,"Discovery HD",p:SkyItalia,C:0
 s:2015:00c00000:0430:0001:25:0:0,"TMC",p:CSAT
 s:ef15:00c00000:0421:0001:25:0:0,"RTLII HD",p:CBC,C:0
 s:0016:0ce40000:012f:162d:25:0:0,"CT 2 HD",p:Pantelio
 s:0116:01860000:0002:001c:25:0:0,"Antena 1 HD",C:0,f:40
-s:0116:00c00000:000d:0085:25:0:0,"Sky Sport 4 HD",p:SKY,C:0
+s:0116:00c00000:000d:0085:25:0:0,"Sky Sport 4 HD",p:SKY,C:0
 s:0216:00820000:0384:013e:25:0:0,"Iraqia News HD",p:Nilesat
 s:1c16:0e080000:0029:0046:25:0:0,"HISTORY 2 HD",p:Telenor
-s:2016:00c00000:0430:0001:25:0:0,"DISNEY+",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:1883,C:1863,C:1811,C:500
+s:2016:00c00000:0430:0001:25:0:0,"DISNEY+",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:500,C:1811,C:1863,C:1883
 s:2b16:00820000:1900:fbff:25:0:0,"Sky Cinema Comedy HD",p:SkyItalia,c:00ac,c:022bf,c:03ac,c:041ca,c:051,C:0
 s:4316:0e080000:0029:0046:25:0:0,"BBC Earth HD (ST)",p:Telenor
 s:0017:00c00000:0004:0085:25:0:0,"Sky Krimi HD",p:SKY,C:0
@@ -6482,8 +6542,8 @@ s:0017:0ce40000:012f:162d:25:0:0,"CT Sport HD",p:Pantelio,c:004cf,c:014d0,c:034c
 s:0117:01860000:0002:001c:25:0:0,"Viasat History HD",C:0,f:40
 s:2017:00c00000:0430:0001:25:0:0,"MELODY",p:CSAT
 s:0118:01860000:0002:001c:25:0:0,"HBO HD",C:0,f:40
-s:0118:00c00000:000d:0085:25:0:0,"Eurosport360HD 2",p:SKY
-s:1018:00820000:14b4:fbff:25:0:0,"cielo HD",p:SkyItalia,C:0
+s:0118:00c00000:000d:0085:25:0:0,"Eurosport360HD 2",p:SKY
+s:1018:00820000:14b4:fbff:25:0:0,"cielo HD",p:SkyItalia,c:00ac,c:022c0,c:03ac,c:041a9,c:051,C:0
 s:1518:00c00000:0455:0001:25:0:0,"sonnenklar.TV HD",p:BetaDigital
 s:0019:0ce40000:0132:162d:25:0:0,"Test P 25",p:Pantelio,C:0
 s:0019:0dca2da0:2a94:0000:25:0:0,"A3 HD",p:TDA DZ,f:40
@@ -6503,36 +6563,36 @@ s:071c:0dde0000:2904:055f:25:0:0,"RMC SPORT 1",p:EUTELSAT,C:0
 s:151c:00c00000:0455:0001:25:0:0,"pearl.tv HD Shop",p:BetaDigital
 s:791c:0e080000:02c6:0600:25:0:0,"NOVA Sport 1 HD",p:UPC Direct,c:00fb,c:01105,c:03fb,c:051,C:653,C:b02,C:b1c,C:d97,C:1815,C:1882,C:1886
 s:001d:0ce40000:0132:162d:25:0:0,"Nova HD",p:Pantelio
-s:011d:01860000:0002:001c:25:0:0,"Telekom Sport 1 HD",c:00889,c:01c71,c:03889,c:051,C:952,C:92f,f:40
+s:011d:01860000:0002:001c:25:0:0,"Telekom Sport 1 HD",c:00889,c:01c71,c:03889,c:051,C:92f,C:952,f:40
 s:071d:0dde0000:2904:055f:25:0:0,"RMC SPORT 4",p:EUTELSAT,C:0
 s:161d:0dca0000:0236:0800:25:0:0,"Spare 5661",p:OSN,C:0,f:40
 s:2b1d:00820000:1900:fbff:25:0:0,"Sky Sport24 HD",p:SkyItalia,c:00ad,c:03ad,c:041cc,c:051,C:0
 s:791d:0e080000:02c6:0600:25:0:0,"HBO HD",p:UPC Direct,C:0
 s:001e:0ce40000:0132:162d:25:0:0,"Nova Cinema HD",p:Pantelio
 s:071e:0dde0000:2904:055f:25:0:0,"BFM BUSINESS",p:EUTELSAT,C:0
-s:161e:0dca0000:0236:0800:25:0:0,"OSN Cinema",p:OSN,c:00ca,c:03ca,c:0412e,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:161e:0dca0000:0236:0800:25:0:0,"OSN Cinema",p:OSN,c:00ca,c:03ca,c:0412e,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:791e:0e080000:02c6:0600:25:0:0,"m4 HD",p:UPC Direct,c:0015f,c:0315f,c:04170,c:051,C:653,C:b02,C:b1c,C:d97,C:1802,C:1815,C:1880,C:1882,C:1886
 s:011f:01860000:0003:001c:25:0:0,"Telekom Sport 2 HD",c:00399,c:0139a,c:03399,c:051,C:0
-s:011f:00c00000:000c:0085:25:0:0,"Sky Sport Bundesliga 4 HD",p:SKY
+s:011f:00c00000:000c:0085:25:0:0,"Sky Sport Bundesliga 4 HD",p:SKY
 s:071f:0dde0000:2904:055f:25:0:0,"BFM PARIS",p:EUTELSAT,C:0
-s:161f:0dca0000:0236:0800:25:0:0,"Nickelodeon HD",p:OSN,c:00cb,c:01193,c:03cb,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:161f:0dca0000:0236:0800:25:0:0,"Nickelodeon HD",p:OSN,c:00cb,c:01193,c:03cb,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:1c1f:0e080000:0029:0046:25:0:0,"HISTORY 2 HD",p:Telenor
 s:791f:0e080000:02c6:0600:25:0:0,"Sundance TV",p:UPC Direct
 s:0020:0ce40000:0132:162d:25:0:0,"Discovery Science HD",p:Pantelio
-s:0120:00c00000:000c:0085:25:0:0,"Sky Sport 5 HD",p:SKY,C:0
+s:0120:00c00000:000c:0085:25:0:0,"Sky Sport 5 HD",p:SKY,C:0
 s:0320:0dca0000:0008:0800:25:0:0,"Amman TV",p:Harmonic,f:1040
 s:1020:00820000:206c:fbff:25:0:0,"Disney Ch. HD",p:SkyItalia,C:0
 s:1620:0dca0000:0236:0800:25:0:0,"MTV Live HD",p:OSN,c:00cc,c:03cc,c:04130,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:2b20:00820000:1900:fbff:25:0:0,"Sky Sport24 HD",p:SkyItalia,c:00ad,c:03ad,c:041cc,c:051,C:0
 s:7820:00c00000:0428:0001:25:0:0,"NICKELODEONHD",p:Movistar+,C:0
 s:0721:0dde0000:2904:055f:25:0:0,"RMC SPORT 2",p:EUTELSAT,c:001483,c:011484,c:031483,c:051,C:0
-s:1621:0dca0000:0236:0800:25:0:0,"Discovery HD",p:OSN,c:00cd,c:03cd,c:04131,c:051,c:0925d0202,C:170b,C:170a,C:1709,C:1708,f:1040
+s:1621:0dca0000:0236:0800:25:0:0,"Discovery HD",p:OSN,c:00cd,c:03cd,c:04131,c:051,c:0925d0202,C:1708,C:1709,C:170a,C:170b,f:1040
 s:7921:0e080000:02c6:0600:25:0:0,"Discovery HD Showcase",p:UPC Direct
 s:0022:0ce40000:012d:162d:25:0:0,"BARRANDOV TV",p:Pantelio
-s:0122:00c00000:000c:0085:25:0:0,"Eurosport360HD 3",p:SKY
+s:0122:00c00000:000c:0085:25:0:0,"Eurosport360HD 3",p:SKY
 s:0322:005a0000:c35a:009e:25:0:0,"Ziggo Sport Select HD",p:Joyne,c:004b1,c:014b2,c:034b1,c:051,C:0
 s:0722:0dde0000:2904:055f:25:0:0,"RMC SPORT 3",p:EUTELSAT,C:0
-s:1622:0dca0000:0236:0800:25:0:0,"OSN Movies Disney",p:OSN,c:00ce,c:03ce,c:04196,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:1622:0dca0000:0236:0800:25:0:0,"OSN Movies Disney",p:OSN,c:00ce,c:03ce,c:04196,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0723:0dde0000:2904:055f:25:0:0,"RMC SPORT NEWS",p:EUTELSAT,C:0
 s:1623:0dca0000:0236:0800:25:0:0,"H2 HD",p:OSN,c:00cf,c:01133,c:03cf,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:7823:00c00000:0428:0001:25:0:0,"MEZZO LIVE HD",p:DIGITAL+,C:0
@@ -6559,13 +6619,13 @@ s:0028:0ce40000:0132:162d:25:0:0,"Nova Action HD",p:Pantelio
 s:7728:0e080000:02c1:0600:25:0:0,"RTL Klub HD",p:UPC Direct,C:0
 s:7828:00c00000:0428:0001:25:0:0,"M. DEPORTESHD",p:Movistar+,c:00a1,c:03a1,c:0457,c:051,C:0
 s:0029:0ce40000:012f:162d:25:0:0,"CT D / art HD",p:Pantelio
-s:0129:00c00000:0009:0085:25:0:0,"Sky Sport Bundesliga 5 HD",p:SKY
+s:0129:00c00000:0009:0085:25:0:0,"Sky Sport Bundesliga 5 HD",p:SKY
 s:0529:00820000:3d54:013e:25:0:0,"RADIO ZETA HD",p:M-Three satcom
 s:1c29:00820000:206c:fbff:25:0:0,"Sky Sport Serie A HD",p:SkyItalia,C:0
 s:7729:0e080000:02c1:0600:25:0:0,"Sport 2 HD",p:UPC Direct,c:0012d,c:01137,c:0312d,c:051,C:653,C:b02,C:d97,C:1815,C:1886
 s:7829:00c00000:0428:0001:25:0:0,"NAT GEO HD",p:DIGITAl+,C:0
 s:002a:0ce40000:012d:162d:25:0:0,"CT 24 HD",p:Pantelio
-s:012a:00c00000:0009:0085:25:0:0,"Sky Sport 6 HD",p:SKY,C:0
+s:012a:00c00000:0009:0085:25:0:0,"Sky Sport 6 HD",p:SKY,C:0
 s:1c2a:0e080000:0029:0046:25:0:0,"BBC Earth HD",p:Telenor,c:004da,c:034da,c:04ca0,c:051,C:b00,C:b1c,C:1882,C:1886
 s:232a:00c00000:0442:0001:25:0:0,"NATIONAL GEO",p:CSAT,C:0
 s:772a:0e080000:02c1:0600:25:0:0,"Arena Sport 1 HD",p:UPC Direct,c:0015f,c:0116c,c:0315f,c:051,C:653,C:b02,C:b1c,C:d97,C:1815,C:1882,C:1886
@@ -6575,20 +6635,20 @@ s:052b:00820000:3d54:013e:25:0:0,"RTL 102.5 Radio Doc",p:M-Three satcom
 s:232b:00c00000:0442:0001:25:0:0,"TF1 SERIES FILMS",p:CSAT,C:0
 s:2c2b:00820000:251c:fbff:25:0:0,"Documentari HD",p:SkyItalia
 s:002c:0ce40000:0131:162d:25:0:0,"Travel Channel HD.",p:Pantelio,C:0
-s:012c:00c00000:0009:0085:25:0:0,"Eurosport360HD 4",p:SKY
+s:012c:00c00000:0009:0085:25:0:0,"Eurosport360HD 4",p:SKY
 s:232c:00c00000:0442:0001:25:0:0,"PARIS PREMIERE",p:CSAT,C:0
 s:002d:0ce40000:0132:162d:25:0:0,"TravelXP 4K",p:Pantelio
-s:012d:0dca0000:0003:0800:25:0:0,"OSN Movies First",p:OSN,c:00c9,c:03c9,c:04191,c:051,C:0,f:1040
+s:012d:0dca0000:0003:0800:25:0:0,"OSN Movies First",p:OSN,c:00c9,c:03c9,c:04191,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:012d:0dde0000:4f4c:055f:25:0:0,"FRANCE 2",p:EUTELSAT,C:0
 s:152d:00c00000:0455:0001:25:0:0,"TELE 5 HD Austria",p:BetaDigital,C:0
 s:232d:00c00000:0442:0001:25:0:0,"BOING",p:CSAT,C:0
 s:782d:00c00000:0428:0001:25:0:0,"TOROS HD",p:Movistar+,C:0
-s:012e:0dca0000:0003:0800:25:0:0,"OSN Movies Action",p:OSN,c:00ca,c:03ca,c:04192,c:051,c:0925a0101,C:170b,C:170a,C:1709,C:1708,f:1040
+s:012e:0dca0000:0003:0800:25:0:0,"OSN Movies Action",p:OSN,c:00ca,c:03ca,c:04192,c:051,c:0925a0101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:012e:0dde0000:4f4c:055f:25:0:0,"FRANCE 3",p:EUTELSAT,C:0
 s:032e:005a0000:c35a:009e:25:0:0,"ZiggoSport Voetbal HD",p:Joyne,c:00961,c:01962,c:03961,c:051,C:b00,C:bc1
 s:152e:00c00000:0455:0001:25:0:0,"DMAX HD Austria",p:BetaDigital,C:0
 s:232e:00c00000:0442:0001:25:0:0,"PLANETE+",p:CSAT,c:00262,c:03262,c:0426d,c:051,C:0
-s:012f:0dca0000:0003:0800:25:0:0,"OSN On Demand",p:OSN,c:00cb,c:03cb,c:04193,c:051,c:0925b0101,C:170b,C:170a,C:1709,C:1708,f:1040
+s:012f:0dca0000:0003:0800:25:0:0,"OSN On Demand",p:OSN,c:00cb,c:03cb,c:04193,c:051,c:0925b0101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:012f:0dde0000:4f4c:055f:25:0:0,"FRANCE 4",p:EUTELSAT,C:0
 s:012f:0dca0000:00c9:0800:25:0:0,"HRN",p:DU,f:40
 s:032f:005a0000:c35a:009e:25:0:0,"Ziggo Sport Racing",p:Joyne,C:0
@@ -6596,7 +6656,7 @@ s:132f:00c00000:03ef:0001:25:0:0,"ORF1 HD",p:ORF,c:00780,c:02785,c:03780,c:04781
 s:232f:00c00000:0442:0001:25:0:0,"DISNEY CHANNEL",p:CSAT,C:0
 s:772f:0e080000:02c1:0600:25:0:0,"Look Plus HD",p:UPC Direct
 s:0030:0ce40000:0131:162d:25:0:0,"Kisss TV 4K",p:Pantelio,C:0
-s:0130:0dca0000:0003:0800:25:0:0,"OSN Series First",p:OSN,c:00cc,c:03cc,c:04194,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:0130:0dca0000:0003:0800:25:0:0,"OSN Series First",p:OSN,c:00cc,c:03cc,c:04194,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0130:01c20000:0004:00d5:25:0:0,"Nova HD",p:VIVACOM,C:0,f:40
 s:0330:005a0000:c35a:009e:25:0:0,"Ziggo Sport Golf",p:Joyne,C:0
 s:1330:00c00000:03ef:0001:25:0:0,"ORF2W HD",p:ORF,C:0
@@ -6606,7 +6666,7 @@ s:1331:00c00000:03ef:0001:25:0:0,"ServusTV HD Oesterreich",p:ServusTV,C:0
 s:2331:00c00000:0442:0001:25:0:0,"LCI",p:CSAT
 s:4331:00820000:300c:013e:25:0:0,"SRF 1 HD",p:Schweizer Radio und Fernsehen,c:001f6,c:021fb,c:031f6,c:041f9,c:051,C:0
 s:7531:00c00000:0426:0001:25:0:0,"M.FORMULA1HD",p:Movistar+,c:00a0,c:03a0,c:0450,c:051,C:0
-s:0132:0dca0000:0003:0800:25:0:0,"OSN YH Cinema",p:OSN,c:00ce,c:03ce,c:04196,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:0132:0dca0000:0003:0800:25:0:0,"OSN YH Cinema",p:OSN,c:00ce,c:03ce,c:04196,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0132:0dde0000:4f4c:055f:25:0:0,"CANAL+",p:EUTELSAT,c:00295,c:03295,c:051,c:107,c:11296,c:13296,C:500
 s:1332:00c00000:03ef:0001:25:0:0,"ServusTV HD Deutschland",p:ServusTV
 s:1c32:00820000:206c:fbff:25:0:0,"DiscoveryT&L HD",p:SkyItalia
@@ -6631,7 +6691,7 @@ s:4334:00820000:300c:013e:25:0:0,"RTS Deux HD",p:Radio Television Suisse,c:0021e
 s:7534:00c00000:0426:0001:25:0:0,"ANTENA 3 HD",p:CANAL+,c:00a3,c:03a3,c:0462,c:051,C:0
 s:0135:0dca0000:0003:0800:25:0:0,"OSN YaHala",p:OSN,c:00d1,c:03d1,c:04199,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0135:0dde0000:4f4c:055f:25:0:0,"OCS CITY",p:EUTELSAT,C:0
-s:0835:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD5",p:beIN SPORTS,c:001c3,c:031c3,c:051,c:107,c:111c6,c:131c6,C:0,f:1040
+s:0835:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD5",p:beIN SPORTS,c:001c3,c:031c3,c:051,c:107,c:111c6,c:131c6,C:603,C:627,C:9b5,f:1040
 s:2335:00c00000:0442:0001:25:0:0,"CSTAR",p:CSAT,C:0
 s:4335:00820000:300c:013e:25:0:0,"Test17205",p:SRG SSR,C:0
 s:7535:00c00000:0426:0001:25:0:0,"CUATRO HD",p:CANAL+,c:00a4,c:03a4,c:0468,c:051,C:0
@@ -6649,10 +6709,10 @@ s:2337:00c00000:0442:0001:25:0:0,"LCP",p:CSAT
 s:7537:00c00000:0426:0001:25:0:0,"LA SEXTA HD",p:CANAL+,C:0
 s:0138:01c20000:0004:00d5:25:0:0,"БНТ 3 HD",p:VIVACOM,C:0,f:40
 s:0138:0dde0000:4f4c:055f:25:0:0,"OCS MAX",p:EUTELSAT,C:0
-s:0838:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD8",p:beIN SPORTS,C:0,f:1040
+s:0838:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD8",p:beIN SPORTS,c:001e1,c:031e1,c:051,c:107,c:111e4,c:131e4,C:603,C:627,C:9b5,f:1040
 s:1c38:00820000:206c:fbff:25:0:0,"Sky Cinema Uno +24 HD",p:SkyItalia,C:0
 s:0139:01c20000:0004:00d5:25:0:0,"MAX Sport 3 HD",p:VIVACOM,c:00c8d,c:03c8d,c:051,c:103,c:11cf1,c:14cf1,C:0,f:40
-s:0839:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD9",p:beIN SPORTS,c:001eb,c:031eb,c:051,c:131ee,C:0,f:1040
+s:0839:0dca0000:00c8:077e:25:0:0,"beIN SPORTS HD9",p:beIN SPORTS,c:001eb,c:031eb,c:051,c:107,c:111ee,c:131ee,C:0,f:1040
 s:1839:0dca0000:003e:0800:25:0:0,"Nilesat Promo_HD",p:Nilesat,f:40
 s:7739:0e080000:02c1:0600:25:0:0,"Sport 2 HD (SVT)",p:UPC Direct,c:0012d,c:01137,c:0312d,c:051,C:b1c,C:1882,C:1886
 s:013a:01c20000:0004:00d5:25:0:0,"History HD",p:VIVACOM,C:0,f:40
@@ -6705,17 +6765,17 @@ s:1646:0dca0000:0039:0800:25:0:0,"ON E HD",p:Nilesat,f:1040
 s:1c46:0e080000:0029:0046:25:0:0,"Nat Geo Wild HD",p:Telenor
 s:1f46:00c00000:042e:0001:25:0:0,"HISTOIRE TV",p:CSAT,C:0
 s:2c46:00820000:251c:fbff:25:0:0,"Cinema HD",p:SkyItalia
-s:0147:00c00000:0006:0085:25:0:0,"Sky Sport Bundesliga 8 HD",p:SKY
+s:0147:00c00000:0006:0085:25:0:0,"Sky Sport Bundesliga 8 HD",p:SKY
 s:1647:0dca0000:0039:0800:25:0:0,"ONTIME SPORTS HD",p:Nilesat,c:00164b,c:01164c,c:03164b,c:051,f:40
-s:1f47:00c00000:042e:0001:25:0:0,"RMC SPORT 4",p:CSAT,c:002c6,c:032c6,c:042d1,c:051,C:1883,C:1863,C:1811
-s:0148:00c00000:0006:0085:25:0:0,"Sky Sport 9 HD",p:SKY
+s:1f47:00c00000:042e:0001:25:0:0,"RMC SPORT 4",p:CSAT,c:002c6,c:032c6,c:042d1,c:051,C:1811,C:1863,C:1883
+s:0148:00c00000:0006:0085:25:0:0,"Sky Sport 9 HD",p:SKY
 s:1648:0dca0000:0039:0800:25:0:0,"ON Plus HD",p:Nilesat,f:40
 s:1f48:00c00000:042e:0001:25:0:0,"NICKELODEON",p:CSAT,C:0
-s:0149:00c00000:0006:0085:25:0:0,"Sky Sport Austria 2 HD",p:SKY,C:0
+s:0149:00c00000:0006:0085:25:0:0,"Sky Sport Austria 2 HD",p:SKY,C:0
 s:1049:0dca0000:0029:0800:25:0:0,"Jordan Sport HD",p:JMC,f:40
 s:1f49:00c00000:042e:0001:25:0:0,"PINK X",p:CSAT,f:40
 s:014a:01c20000:0004:00d5:25:0:0,"Diema Sport 2 HD",p:VIVACOM,f:40
-s:014a:00c00000:0006:0085:25:0:0,"Eurosport360HD 7",p:SKY
+s:014a:00c00000:0006:0085:25:0:0,"Eurosport360HD 7",p:SKY
 s:104a:00820000:14b4:fbff:25:0:0,"Classica HD",p:SkyItalia,C:0
 s:1f4a:00c00000:042e:0001:25:0:0,"MEZZO",p:CSAT,C:0
 s:c44a:011a0000:0837:0002:25:0:0,"Iran Int'l HD",p:BSkyB
@@ -6729,21 +6789,21 @@ s:1f4d:00c00000:042e:0001:25:0:0,"MULTISPORTS 1",p:CSAT,c:0051e,c:0351e,c:04529,
 s:2c4d:00820000:251c:fbff:25:0:0,"Primafila HD",p:SkyItalia
 s:004e:0ce40000:0131:162d:25:0:0,"Discovery Channel CZ HD.",p:Pantelio
 s:044e:0dca0000:000b:0800:25:0:0,"MBN Alhurra HD",p:NILESAT,f:40
-s:1f4e:00c00000:042e:0001:25:0:0,"OL TV",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:1883,C:1863,C:1811,C:500
+s:1f4e:00c00000:042e:0001:25:0:0,"OL TV",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:500,C:1811,C:1863,C:1883
 s:004f:0ce40000:0131:162d:25:0:0,"Lounge TV 4K",p:Pantelio
 s:1f4f:00c00000:042e:0001:25:0:0,"TRACE LATINA",p:CSAT,C:0
 s:c44f:011a0000:0837:0002:25:0:0,"LoveWorld HD",p:BSkyB,c:00907,c:03907,c:04908,c:051
 s:1c50:00820000:206c:fbff:25:0:0,"Sky Sport Football HD",p:SkyItalia,C:0
 s:0051:0ce40000:0131:162d:25:0:0,"Test PL 77 HD.",p:Pantelio
-s:0151:00c00000:0010:0085:25:0:0,"Sky Sport Bundesliga 9 HD",p:SKY
+s:0151:00c00000:0010:0085:25:0:0,"Sky Sport Bundesliga 9 HD",p:SKY
 s:0451:0dca0000:000b:0800:25:0:0,"Egyptian TV HD",p:NILESAT,f:40
-s:0152:00c00000:0010:0085:25:0:0,"Sky Sport 10 HD",p:SKY
+s:0152:00c00000:0010:0085:25:0:0,"Sky Sport 10 HD",p:SKY
 s:0b52:0dde0000:51a4:055f:25:0:0,"BEIN SPORTS 1",p:EUTELSAT,C:0
 s:2c52:00820000:251c:fbff:25:0:0,"Sport HD",p:SkyItalia
-s:0153:00c00000:0010:0085:25:0:0,"Sky Sport Austria 3 HD",p:SKY
+s:0153:00c00000:0010:0085:25:0:0,"Sky Sport Austria 3 HD",p:SKY
 s:0b53:0dde0000:51a4:055f:25:0:0,"BEIN SPORTS 2",p:EUTELSAT,C:0
 s:1e53:00820000:15e0:fbff:25:0:0,"MTV HD",p:SkyItalia,C:0
-s:0154:00c00000:0010:0085:25:0:0,"Eurosport360HD 8",p:SKY
+s:0154:00c00000:0010:0085:25:0:0,"Eurosport360HD 8",p:SKY
 s:1e54:00820000:15e0:fbff:25:0:0,"Sky Sport NBA HD",p:SkyItalia,c:00a0,c:03a0,c:04190,c:051,C:0
 s:7854:00c00000:041a:0001:25:0:0,"ALQUILER HD",p:Movistar+,c:00a4,c:03a4,c:0468,c:051,C:0
 s:0055:0dca0000:0001:002a:25:0:0,"OBN Horn of Africa",p:EUTELSAT MENA,f:40
@@ -6790,11 +6850,11 @@ s:2461:00c00000:0440:0001:25:0:0,"EUROSPORT 1",p:CSAT,C:0
 s:7861:00c00000:041a:0001:25:0:0,"M.LCAMPEON1",p:Movistar+,c:00aa,c:03aa,c:048c,c:051,C:0
 s:1e62:00820000:15e0:fbff:25:0:0,"Canale di servizio",p:SkyItalia,C:0
 s:2262:00c00000:0438:0001:25:0:0,"CANAL+ DECALE",p:CSAT,C:0
-s:2462:00c00000:0440:0001:25:0:0,"BEIN SPORTS 1",p:CSAT,c:00582,c:03582,c:0458d,c:051,c:090,C:0
+s:2462:00c00000:0440:0001:25:0:0,"BEIN SPORTS 1",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:500,C:1811,C:1863,C:1883
 s:0063:0ce40000:0131:162d:25:0:0,"ID HD.",p:Pantelio
 s:0363:005a0000:c35a:009e:25:0:0,"MUSEUM",p:A1 Broadcasting,C:0
 s:1b63:0e080000:0af7:00bb:25:0:0,"Epic Drama HD",p:Slovak Telekom,C:0
-s:1e63:00820000:15e0:fbff:25:0:0,"Sky Cinema Due +24 HD",p:SkyItalia,C:0
+s:1e63:00820000:15e0:fbff:25:0:0,"#IoRestoACasa 2 HD",p:SkyItalia,c:00a7,c:022bf,c:03a7,c:0419e,c:051,C:9cd
 s:2263:00c00000:0438:0001:25:0:0,"CANAL+ CINEMA",p:CSAT,C:0
 s:7863:00c00000:041a:0001:25:0:0,"LA 1 HD",p:Movisrta+,c:00ab,c:0241,c:03ab,c:0492,c:051,C:0
 s:2264:00c00000:0438:0001:25:0:0,"CANAL+ SPORT",p:CSAT,c:0019a,c:0319a,c:041a5,c:051,C:0
@@ -6806,7 +6866,7 @@ s:0065:00640000:1838:009e:25:0:0,"M1 HD",p:MTVA,C:b1d
 s:0365:005a0000:c35a:009e:25:0:0,"ESport24 TV",p:A1 Broadcasting
 s:1965:00c00000:044e:0001:25:0:0,"NATIONAL GEOGRAPHIC WILD",p:CSAT,C:0
 s:1b65:0e080000:0af7:00bb:25:0:0,"Prima LOVE HD",p:Slovak Telekom,c:00516,c:03516,c:051,c:103,c:11517,c:14517,C:0
-s:2265:00c00000:0438:0001:25:0:0,"CANAL+ FAMILY",p:CSAT,C:0
+s:2265:00c00000:0438:0001:25:0:0,"CANAL+ FAMILY",p:CSAT,c:001fe,c:031fe,c:04209,c:051,C:0
 s:0066:0ce40000:012f:162d:25:0:0,"Eurosport 2 HD",p:Pantelio
 s:0066:005a0000:1838:009e:25:0:0,"M2 HD",p:MTVA,c:0044e,c:025e6,c:0344e,c:044b2,c:051,C:b1d
 s:0066:00640000:1838:009e:25:0:0,"M2 HD",p:MTVA,C:b1d
@@ -6829,7 +6889,7 @@ s:1068:00300000:001a:0044:25:0:0,"ViP Premiere",p:VisionTV,C:0,f:40
 s:1068:0dca0000:0029:0800:25:0:0,"Al-Etejah TV",p:Harmonic,f:40
 s:1968:00c00000:044e:0001:25:0:0,"DJAZZ",p:CSAT,C:0
 s:2268:00c00000:0438:0001:25:0:0,"CINE+ FAMIZ",p:CSAT,C:0
-s:0069:00c00000:000c:0085:25:0:0,"Sky Sport Bundesliga 1 HD",p:SKY,c:00ff,c:0220,c:03ff,c:04102,c:051,C:0
+s:0069:00c00000:000c:0085:25:0:0,"Sky Sport Bundesliga 1 HD",p:SKY,c:00ff,c:0220,c:03ff,c:04102,c:051,C:0
 s:0069:005a0000:0065:0012:25:0:0,"AFN|prime Pacific",C:e00
 s:1969:00c00000:044e:0001:25:0:0,"SERIE CLUB",p:CSAT,C:0
 s:1b69:0e080000:0af7:00bb:25:0:0,"Nova Cinema HD",p:Slovak Telekom,C:0
@@ -6840,13 +6900,13 @@ s:006a:005a0000:0065:0012:25:0:0,"AFN|spectrum",C:e00
 s:106a:00820000:2008:fbff:25:0:0,"Sky Cinema Uno HD",p:SkyItalia,C:0
 s:106a:0e080000:0029:0046:25:0:0,"HISTORY HD",p:Telenor,C:0
 s:196a:00c00000:044e:0001:25:0:0,"WARNER TV",p:CSAT,C:0
-s:006b:00c00000:000c:0085:25:0:0,"Sky Cinema Best Of HD",p:SKY,C:0
+s:006b:00c00000:000c:0085:25:0:0,"Sky Cinema Best Of HD",p:SKY,C:0
 s:006b:0ce40000:012f:162d:25:0:0,"Arena Sport 1 HD",p:Pantelio,c:00817,c:01818,c:03817,c:051,C:604,C:4afc
 s:196b:00c00000:044e:0001:25:0:0,"MAN X",p:CSAT,C:0
 s:2c6b:00820000:251c:fbff:25:0:0,"Intrattenim. HD",p:SkyItalia
-s:006c:00c00000:000c:0085:25:0:0,"Sky Sport News HD",p:SKY,c:003ff,c:033ff,c:04403,c:051
+s:006c:00c00000:000c:0085:25:0:0,"Sky Sport News HD",p:SKY,c:003ff,c:033ff,c:04403,c:051
 s:006c:005a0000:0065:0012:25:0:0,"AFN|family",c:007ad,c:01785,c:037ad,c:051,C:e00
-s:106c:00820000:14b4:fbff:25:0:0,"Sylvester Stallone Mania HD",p:SkyItalia,C:0
+s:106c:00820000:14b4:fbff:25:0:0,"Sky Cinema 007 HD",p:SkyItalia,C:0
 s:196c:00c00000:044e:0001:25:0:0,"COMEDIE+",p:CSAT
 s:526c:00c00000:041d:0001:25:0:0,"ANIXE HD",p:BetaDigital
 s:006d:00c00000:000b:0085:25:0:0,"Eurosport 2 HD",p:SKY,c:007ff,c:037ff,c:04803,c:051,C:0
@@ -6855,14 +6915,14 @@ s:006d:005a0000:0065:0012:25:0:0,"AFN|movie",C:e00
 s:196d:00c00000:044e:0001:25:0:0,"EXTREME SPORTS",p:CSAT
 s:206d:00c00000:0432:0001:25:0:0,"BFM TV",p:CSAT,C:0
 s:226d:00c00000:0438:0001:25:0:0,"OCS CITY",p:CSAT,C:0
-s:006e:00c00000:000d:0085:25:0:0,"Sky Atlantic HD",p:SKY,C:0
+s:006e:00c00000:000d:0085:25:0:0,"Sky Atlantic HD",p:SKY,C:0
 s:106e:0e080000:0029:0046:25:0:0,"HISTORY HD",p:Telenor,C:0
 s:106e:00820000:14b4:fbff:25:0:0,"Sky Cinema Action HD",p:SkyItalia,C:0
 s:196e:00c00000:044e:0001:25:0:0,"PIWI+",p:CSAT
 s:206e:00c00000:0432:0001:25:0:0,"POLAR+",p:CSAT,C:0
 s:226e:00c00000:0438:0001:25:0:0,"OCS MAX",p:CSAT,C:0
 s:286e:00c00000:0425:0001:25:0:0,"rbb Brandenburg HD",p:ARD
-s:006f:00c00000:000d:0085:25:0:0,"Sky Cinema Special HD",p:SKY,c:00ff,c:03ff,c:04103,c:051,C:0
+s:006f:00c00000:000d:0085:25:0:0,"Sky Cinema  Fast & Furious HD",p:SKY,c:00ff,c:03ff,c:04103,c:051,C:0
 s:006f:005a0000:1838:009e:25:0:0,"M1 HD (Europa)",p:MTVA
 s:006f:00640000:1838:009e:25:0:0,"M1 HD (Europa)",p:MTVA
 s:106f:0e080000:0029:0046:25:0:0,"HISTORY HD (ST)",p:Telenor,C:0
@@ -6870,7 +6930,7 @@ s:196f:00c00000:044e:0001:25:0:0,"CANAL J",p:CSAT
 s:206f:00c00000:0432:0001:25:0:0,"BFM BUSINESS",p:CSAT,C:0
 s:286f:00c00000:0425:0001:25:0:0,"rbb Berlin HD",p:ARD
 s:526f:00c00000:041d:0001:25:0:0,"QVC HD",p:BetaDigital
-s:0070:00c00000:000d:0085:25:0:0,"NatGeo HD",p:SKY,C:0
+s:0070:00c00000:000d:0085:25:0:0,"NatGeo HD",p:SKY,C:0
 s:0070:005a0000:1838:009e:25:0:0,"M2 HD (Europa)",p:MTVA
 s:0070:00640000:1838:009e:25:0:0,"M2 HD (Europa)",p:MTVA
 s:1970:00c00000:044e:0001:25:0:0,"NICKELODEON TEEN",p:CSAT
@@ -6883,7 +6943,7 @@ s:0071:00640000:1838:009e:25:0:0,"Duna HD (Europa)",p:MTVA
 s:1971:00c00000:044e:0001:25:0:0,"MULTISPORTS 3",p:CSAT
 s:2071:00c00000:0432:0001:25:0:0,"BEIN SPORTS MAX 7",p:CSAT,C:0
 s:2871:00c00000:0425:0001:25:0:0,"MDR S-Anhalt HD",p:ARD
-s:0072:00c00000:000d:0085:25:0:0,"Sky Sport 2 HD",p:SKY,c:003ff,c:0220,c:033ff,c:04402,c:051,c:062,C:0
+s:0072:00c00000:000d:0085:25:0:0,"Sky Sport 2 HD",p:SKY,c:003ff,c:0220,c:033ff,c:04402,c:051,c:062,C:0
 s:0072:005a0000:1838:009e:25:0:0,"M4 Sport HD (Europa)",p:MTVA
 s:0072:00640000:1838:009e:25:0:0,"M4 Sport HD (Europa)",p:MTVA,c:00450,c:025dd,c:03450,c:044b4,c:051
 s:0672:005a0000:170c:009e:25:0:0,"myZen.tv HD",p:Eutelsat
@@ -6897,19 +6957,19 @@ s:2073:00c00000:0432:0001:25:0:0,"BEIN SPORTS MAX 9",p:CSAT,C:0
 s:2873:00c00000:0425:0001:25:0:0,"hr-fernsehen HD",p:ARD
 s:5273:00c00000:041d:0001:25:0:0,"Comedy Central HD",p:MTV Networks,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:0074:01c20000:0001:00d5:25:0:0,"Планета HD",p:VIVACOM,C:0,f:40
-s:0074:00c00000:0009:0085:25:0:0,"Sky Cinema Action HD",p:SKY,C:0
+s:0074:00c00000:0009:0085:25:0:0,"Sky Cinema Action HD",p:SKY,C:0
 s:0074:005a0000:1838:009e:25:0:0,"M5 HD (Europa)",p:MTVA
 s:0074:00640000:1838:009e:25:0:0,"M5 HD (Europa)",p:MTVA
 s:2074:00c00000:0432:0001:25:0:0,"BEIN SPORTS MAX 10",p:CSAT,c:0032a,c:0332a,c:04335,c:051,C:0
 s:2774:00c00000:0409:0001:25:0:0,"TLC HD",p:BetaDigital,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:5274:00c00000:041d:0001:25:0:0,"WELT HD",p:BetaDigital,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:ef74:00c00000:03f9:0001:25:0:0,"SAT.1 HD",p:ProSiebenSat.1,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
-s:0075:00c00000:000c:0085:25:0:0,"Sky Serien & Shows HD",p:SKY,c:004ff,c:034ff,c:04503,c:051,C:0
+s:0075:00c00000:000c:0085:25:0:0,"Sky Serien & Shows HD",p:SKY,c:004ff,c:034ff,c:04503,c:051,C:0
 s:2075:00c00000:0432:0001:25:0:0,"RMC STORY",p:CSAT,c:0038e,c:0338e,c:04399,c:051,C:0
 s:2775:00c00000:0409:0001:25:0:0,"Zee One HD",p:BetaDigital
 s:ef75:00c00000:03f9:0001:25:0:0,"ProSieben HD",p:ProSiebenSat.1,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
-s:0076:00c00000:0006:0085:25:0:0,"Nat Geo Wild HD",p:SKY,C:0
-s:2076:00c00000:0432:0001:25:0:0,"L'EQUIPE",p:CSAT,c:003f2,c:033f2,c:043fd,c:051,C:0
+s:0076:00c00000:0006:0085:25:0:0,"Nat Geo Wild HD",p:SKY,C:0
+s:2076:00c00000:0432:0001:25:0:0,"L'EQUIPE",p:CSAT,c:003f2,c:033f2,c:043fd,c:051,C:500,C:1811,C:1863,C:1883
 s:2776:00c00000:0409:0001:25:0:0,"Handystar TV HD",p:BetaDigital
 s:ef76:00c00000:03f9:0001:25:0:0,"kabel eins HD",p:ProSiebenSat.1,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:2077:00c00000:0432:0001:25:0:0,"LA CHAINE METEO",p:CSAT,C:0
@@ -6925,12 +6985,12 @@ s:0479:005a0000:1af4:009e:25:0:0,"E! Entertainment Europe",p:Arqiva,c:0076d,c:02
 s:1079:00820000:1900:fbff:25:0:0,"Test1",p:SkyItalia,C:0,f:40
 s:2779:00c00000:0409:0001:25:0:0,"QVC STYLE HD",p:BetaDigital
 s:ef79:00c00000:03f9:0001:25:0:0,"Kabel Eins Doku HD",p:ProSiebenSat.1,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
-s:007a:00c00000:0010:0085:25:0:0,"DAZN 2 Bar HD",p:SKY,c:003ff,c:033ff,c:04403,c:051,C:0
-s:007a:00820000:04b0:0110:25:0:0,"Canale 5 HD",c:004ba,c:0222f,c:034ba,c:044bb,c:051,C:0
+s:007a:00c00000:0010:0085:25:0:0,"DAZN 2 Bar HD",p:SKY,c:003ff,c:033ff,c:04403,c:051,C:0
+s:007a:00820000:04b0:0110:25:0:0,"Canale 5 HD",c:004ba,c:0222f,c:034ba,c:044bb,c:051,C:9cd,C:183d,C:183e,C:1856
 s:107a:00820000:1900:fbff:25:0:0,"Test2",p:SkyItalia,C:0,f:40
 s:2b7a:00c00000:03f3:0001:25:0:0,"zdf_neo HD",p:ZDFvision,c:0018a6,c:0218ba,c:0318a6,c:0418b2,c:051
 s:377a:00820000:044c:013e:25:0:0,"14202",p:nc+
-s:007b:00c00000:0009:0085:25:0:0,"TNT Serie HD",p:SKY,C:0
+s:007b:00c00000:0009:0085:25:0:0,"TNT Serie HD",p:SKY,C:0
 s:007b:00820000:04b0:0110:25:0:0,"Rete 4 HD",C:0
 s:377b:00820000:044c:013e:25:0:0,"CANAL+ FAMILY HD",p:nc+
 s:007c:01c20000:0001:00d5:25:0:0,"Gametoon HD",p:VIVACOM,C:0,f:40
@@ -6945,14 +7005,14 @@ s:157d:00c00000:041f:0001:25:0:0,"HSE24 EXTRA HD",p:BetaDigital
 s:377d:00820000:044c:013e:25:0:0,"teleTOON+ HD",p:nc+
 s:427d:00c00000:0446:0001:25:0:0,"AB1",p:AB SAT,C:100,C:500
 s:527d:00c00000:041d:0001:25:0:0,"Comedy Central HD AT",p:MTV Networks,C:0
-s:007e:00c00000:000c:0085:25:0:0,"SYFY HD",p:SKY,c:001ff,c:031ff,c:04204,c:051,C:0
+s:007e:00c00000:000c:0085:25:0:0,"SYFY HD",p:SKY,c:001ff,c:031ff,c:04204,c:051,C:0
 s:157e:00c00000:041f:0001:25:0:0,"1-2-3.tv HD",p:BetaDigital
 s:177e:0e080000:0af6:00bb:25:0:0,"AMC HD",p:Slovak Telekom,C:0
 s:277e:00c00000:0409:0001:25:0:0,"TLC HD Austria",p:BetaDigital,C:0
 s:377e:00820000:044c:013e:25:0:0,"Planete+ HD",p:nc+
 s:427e:00c00000:0446:0001:25:0:0,"ANIMAUX",p:AB SAT,c:007a,c:0226e,c:037a,c:04142,c:051,C:100,C:500
 s:527e:00c00000:041d:0001:25:0:0,"WELT HD",p:BetaDigital,C:0
-s:007f:00c00000:000d:0085:25:0:0,"13th Street HD",p:SKY,C:0
+s:007f:00c00000:000d:0085:25:0:0,"13th Street HD",p:SKY,C:0
 s:157f:00c00000:041f:0001:25:0:0,"Deluxe Music HD",p:BetaDigital,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:377f:00820000:044c:013e:25:0:0,"Kuchnia+ HD",p:nc+
 s:427f:00c00000:0446:0001:25:0:0,"Science et Vie",p:AB SAT,C:100,C:500
@@ -6961,7 +7021,7 @@ s:0e80:00820000:3200:013e:25:0:0,"ANIXE HD",p:MB Satellite
 s:1580:00c00000:041f:0001:25:0:0,"QVC ZWEI HD",p:BetaDigital
 s:3780:00820000:044c:013e:25:0:0,"Motowizja HD",p:nc+
 s:6f80:00c00000:0457:0001:25:0:0,"WDR HD Aachen",p:ARD
-s:0081:00c00000:0006:0085:25:0:0,"Sky Sport 1 HD",p:SKY,c:002ff,c:0220,c:032ff,c:04302,c:051,C:0
+s:0081:00c00000:0006:0085:25:0:0,"Sky Sport 1 HD",p:SKY,c:002ff,c:0220,c:032ff,c:04302,c:051,C:0
 s:0b81:0dde0000:51a4:055f:25:0:0,"BEIN SPORTS 3",p:EUTELSAT
 s:1581:00c00000:041f:0001:25:0:0,"SPORT1 HD",p:BetaDigital,c:005ff,c:0225,c:035ff,c:04603,c:051,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:2081:00c00000:0432:0001:25:0:0,"ARTE",p:CSAT,C:0
@@ -6969,18 +7029,18 @@ s:2781:00c00000:0409:0001:25:0:0,"MTV HD Austria",p:BetaDigital,C:0
 s:3781:00820000:044c:013e:25:0:0,"Ale kino+ HD",p:nc+
 s:4281:00c00000:0446:0001:25:0:0,"TREK",p:AB SAT,C:100,C:500
 s:6f81:00c00000:0457:0001:25:0:0,"WDR HD Wuppertal",p:ARD
-s:0082:00c00000:0006:0085:25:0:0,"Discovery HD",p:SKY,C:0
+s:0082:00c00000:0006:0085:25:0:0,"Discovery HD",p:SKY,C:0
 s:0182:00c00000:0003:0085:25:0:0,"Sky Sport 13 HD",p:SKY
 s:1782:0e080000:0af6:00bb:25:0:0,"Nova Sport 2 HD",p:Slovak Telekom,c:0070a,c:0170c,c:0370a,c:051,C:0
 s:2082:00c00000:0432:0001:25:0:0,"FRANCE O",p:CSAT,c:008a2,c:038a2,c:048ad,c:051,C:0
 s:3782:00820000:044c:013e:25:0:0,"CANAL+ SERIALE HD",p:nc+
 s:6f82:00c00000:0457:0001:25:0:0,"WDR HD Bonn",p:ARD
 s:7882:00c00000:0414:0001:25:0:0,"M. SERIES HD",p:Movistar+,C:0
-s:0083:00c00000:0006:0085:25:0:0,"Sky Cinema Premieren HD",p:SKY,C:0
+s:0083:00c00000:0006:0085:25:0:0,"Sky Cinema Premieren HD",p:SKY,C:0
 s:1783:0e080000:0af6:00bb:25:0:0,"Sport 1 HD",p:Slovak Telekom,c:0076e,c:0176f,c:0376e,c:051,C:0
 s:2083:00c00000:0432:0001:25:0:0,"GULLI",p:CSAT,C:0
 s:6f83:00c00000:0457:0001:25:0:0,"WDR HD Duisburg",p:ARD
-s:0084:00c00000:0009:0085:25:0:0,"DAZN 1 Bar HD",p:SKY,c:006ff,c:036ff,c:04703,c:051,C:9c4,C:98d,C:98c
+s:0084:00c00000:0009:0085:25:0:0,"DAZN 1 Bar HD",p:SKY,c:006ff,c:036ff,c:04703,c:051,C:0
 s:0085:00c00000:0003:0085:25:0:0,"Beate Uhse HD",p:SKY,C:0
 s:7885:00c00000:0414:0001:25:0:0,"TCM HD",p:Movistar+,C:0
 s:0086:00c00000:000b:0085:25:0:0,"Sky Cinema +1 HD",p:SKY,c:0016ff,c:0316ff,c:041704,c:051,C:98c,C:98d,C:9c4
@@ -6997,11 +7057,11 @@ s:2e87:00c00000:0411:0001:25:0:0,"RTL HD Austria",p:CBC,C:0
 s:4287:00c00000:0446:0001:25:0:0,"MANGAS",p:AB SAT,C:100,C:500
 s:0088:01c20000:0001:00d5:25:0:0,"Diema Sport HD",p:VIVACOM,c:004d4,c:034d4,c:051,c:103,c:11538,c:14538,C:9bd,f:40
 s:0088:00c00000:000b:0085:25:0:0,"TNT Comedy HD",p:SKY,C:0
-s:0c88:0dca0000:0020:0800:25:0:0,"AlHayat HD",p:NILESAT,f:1040
+s:0c88:0dca0000:0020:0800:25:0:0,"AlHayat HD",p:NILESAT,c:003fb,c:013fc,c:033fb,c:051,f:1040
 s:1788:0e080000:0af6:00bb:25:0:0,"Wau HD",p:Slovak Telekom,C:0
 s:2888:00c00000:040f:0001:25:0:0,"ONE HD",p:ARD
 s:7888:00c00000:0414:0001:25:0:0,"TNT HD",p:DIGITAL+,C:0
-s:0089:00c00000:0010:0085:25:0:0,"Spiegel Geschichte HD",p:SKY,C:0
+s:0089:00c00000:0010:0085:25:0:0,"Spiegel Geschichte HD",p:SKY,C:0
 s:1089:00820000:2008:fbff:25:0:0,"Sky Sport HD",p:SkyItalia,C:0
 s:1389:0ce40000:0132:162d:25:0:0,"Pantelio UHD 1",p:Pantelio
 s:1589:00c00000:041f:0001:25:0:0,"Deluxe Music HD Austria",p:BetaDigital,C:0
@@ -7029,7 +7089,7 @@ s:428d:00c00000:0446:0001:25:0:0,"A La Maison",p:AB SAT
 s:788d:00c00000:0414:0001:25:0:0,"CAZAyPESCA HD",p:Movistar+,c:00a6,c:0237,c:03a6,c:0472,c:051,C:0
 s:178e:0e080000:0af6:00bb:25:0:0,"Discovery Channel HD",p:Slovak Telekom,c:00bba,c:01bbb,c:03bba,c:051,C:0
 s:2b8e:00c00000:03f2:0001:25:0:0,"3sat HD",p:ZDFvision,c:00196e,c:021982,c:03196e,c:04197a,c:051
-s:008f:00c00000:0009:0085:25:0:0,"Sky Sport Austria 1 HD",p:SKY,c:003ff,c:033ff,c:04403,c:051,C:0
+s:008f:00c00000:0009:0085:25:0:0,"Sky Sport Austria 1 HD",p:SKY,c:003ff,c:033ff,c:04403,c:051,C:0
 s:108f:00820000:2008:fbff:25:0:0,"Primafila 10 HD",p:SkyItalia,C:0
 s:138f:01c20000:0006:00d5:25:0:0,"VIVACOM Arena HD",p:VIVACOM,C:0,f:40
 s:178f:0e080000:0af6:00bb:25:0:0,"Prima ZOOM HD",p:Slovak Telekom,C:0
@@ -7039,13 +7099,13 @@ s:0191:01860000:0003:001c:25:0:0,"Telekom Sport 2 HD",c:00399,c:0139a,c:03399,c:
 s:0191:0ce40000:012f:162d:25:0:0,"M1 HD",p:Pantelio
 s:0191:005a0000:0065:0012:25:0:0,"Reaper (EPG Video)",C:e00
 s:0191:0dde0000:4fb0:055f:25:0:0,"TF1",p:EUTELSAT,C:0
-s:0a91:0dca0000:0001:002a:25:0:0,"Series +2 HD",p:OSN,c:0036,c:0135,c:0336,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:0a91:0dca0000:0001:002a:25:0:0,"Series +2 HD",p:OSN,c:0036,c:0135,c:0336,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:2e91:00c00000:0411:0001:25:0:0,"VOX HD Austria",p:CBC,C:0
 s:0192:005a0000:c40e:009e:25:0:0,"Discovery HD",p:Joyne,C:0
 s:0192:0dca0000:0010:006e:25:0:0,"AL SHALLAL",p:EUTELSAT MENA,f:40
 s:0192:0ce40000:012f:162d:25:0:0,"M2 HD",p:Pantelio
 s:0192:005a0000:0065:0012:25:0:0,"Bars & Tone"
-s:0a92:0dca0000:0001:002a:25:0:0,"Series Channel HD",p:OSN,c:0033,c:0132,c:0333,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:0a92:0dca0000:0001:002a:25:0:0,"Series Channel HD",p:OSN,c:0033,c:0132,c:0333,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:1092:00820000:2008:fbff:25:0:0,"Calcio Overlay HD",p:SkyItalia
 s:1392:00c00000:03ea:0001:25:0:0,"INSIGHT TV HD",p:SES ASTRA,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
 s:3792:00820000:2008:fbff:25:0:0,"Sky Atlantic HD",p:SkyItalia,C:0
@@ -7067,27 +7127,27 @@ s:0196:005a0000:1964:009c:25:0:0,"SUPER RTL HD",p:BASIS 2,c:0069d,c:026a0,c:0369
 s:1196:00c00000:0406:0001:25:0:0,"eSPORTS1",p:SES,c:002ff,c:01300,c:032ff,c:051,C:1867
 s:1196:0dca0000:002d:0800:25:0:0,"OSN Living HD",p:OSN,c:00ca,c:03ca,c:04192,c:051,c:0925a0101,C:0,f:1040
 s:0197:01860000:0003:001c:25:0:0,"TDC HD",C:0
-s:1197:00c00000:0406:0001:25:0:0,"EDGEsport",p:SES,c:003ff,c:01400,c:033ff,c:051,C:1867
-s:1197:0dca0000:002d:0800:25:0:0,"OSN Movies",p:OSN,c:00cb,c:03cb,c:04193,c:051,c:0925b0101,C:0,f:1040
+s:1197:00c00000:0406:0001:25:0:0,"EDGEsport",p:SES,c:003ff,c:01400,c:033ff,c:051,C:1867
+s:1197:0dca0000:002d:0800:25:0:0,"OSN Movies",p:OSN,c:00cb,c:03cb,c:04193,c:051,c:0925b0101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:1198:00c00000:0406:0001:25:0:0,"WAIDWERK",p:SES,C:1867,f:40
-s:1198:0dca0000:002d:0800:25:0:0,"Enigma",p:OSN,c:00cc,c:03cc,c:04194,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:1198:0dca0000:002d:0800:25:0:0,"Enigma",p:OSN,c:00cc,c:03cc,c:04194,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:2b98:00c00000:03f2:0001:25:0:0,"KiKA HD",p:ZDFvision
-s:1199:0dca0000:002d:0800:25:0:0,"OSN Mix",p:OSN,c:00cd,c:03cd,c:04195,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
-s:019a:01860000:0003:001c:25:0:0,"Telekom Sport 3 HD",c:003ad,c:013ae,c:033ad,c:051,C:952,C:92f
+s:1199:0dca0000:002d:0800:25:0:0,"OSN Mix",p:OSN,c:00cd,c:03cd,c:04195,c:051,c:0925d0201,C:170b,C:170a,C:1709,C:1708,f:1040
+s:019a:01860000:0003:001c:25:0:0,"Telekom Sport 3 HD",c:003ad,c:013ae,c:033ad,c:051,C:0
 s:019a:0dde0000:4fb0:055f:25:0:0,"BOING",p:EUTELSAT,C:0
-s:119a:0dca0000:002d:0800:25:0:0,"OSN Movies Kids",p:OSN,c:00ce,c:03ce,c:04196,c:051,c:0925e0101,C:170b,C:170a,C:1709,C:1708,f:1040
+s:119a:0dca0000:002d:0800:25:0:0,"OSN Movies Kids",p:OSN,c:00ce,c:03ce,c:04196,c:051,c:0925e0101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:019b:01860000:0003:001c:25:0:0,"Telekom Sport 4 HD",c:003d5,c:013d6,c:033d5,c:051,C:0
 s:019b:0dde0000:4fb0:055f:25:0:0,"BOOMERANG",p:EUTELSAT,C:0
-s:119b:0dca0000:002d:0800:25:0:0,"Star World HD",p:OSN,c:00cf,c:011fb,c:03cf,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:119b:0dca0000:002d:0800:25:0:0,"Star World HD",p:OSN,c:00cf,c:011fb,c:03cf,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:2e9b:00c00000:0411:0001:25:0:0,"SUPER RTL HD",p:CBC,C:0
 s:cf9b:011a0000:083a:0002:25:0:0,"NHK World HD",p:BSkyB
-s:019c:01860000:0003:001c:25:0:0,"Telekom Sport 3 HD",c:003ad,c:013ae,c:033ad,c:051,C:0
+s:019c:01860000:0003:001c:25:0:0,"Telekom Sport 3 HD",c:003ad,c:013ae,c:033ad,c:051,C:92f,C:952
 s:019c:0dde0000:4fb0:055f:25:0:0,"TOONAMI",p:EUTELSAT,C:0
-s:119c:0dca0000:002d:0800:25:0:0,"OSN Series Com",p:OSN,c:00d0,c:03d0,c:04198,c:051,c:092600101,C:170b,C:170a,C:1709,C:1708,f:1040
+s:119c:0dca0000:002d:0800:25:0:0,"OSN Series Com",p:OSN,c:00d0,c:03d0,c:04198,c:051,c:092600101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:379c:00820000:2008:fbff:25:0:0,"NationalGeo HD",p:SkyItalia,C:0
 s:379c:00820000:15e0:fbff:25:0:0,"NationalGeo HD",p:SkyItalia,C:0
 s:cf9c:011a0000:083a:0002:25:0:0,"RT HD",p:BSkyB
-s:019d:01860000:0003:001c:25:0:0,"Telekom Sport 4 HD",C:0
+s:019d:01860000:0003:001c:25:0:0,"Telekom Sport 4 HD",c:003d5,c:013d6,c:033d5,c:051,C:92f,C:952
 s:119d:0dca0000:002d:0800:25:0:0,"OSN Yahala Oula",p:OSN,c:00d1,c:03d1,c:04199,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:219d:00c00000:0448:0001:25:0:0,"ASSOCIATION MATERIEL",p:CSAT,C:0
 s:379d:00820000:14b4:fbff:25:0:0,"Fox HD",p:SkyItalia,C:0
@@ -7120,7 +7180,7 @@ s:06a5:0dca0000:0011:0800:25:0:0,"OSN News",p:OSN,c:00c9,c:0112d,c:03c9,c:051,C:
 s:2ea5:00c00000:0411:0001:25:0:0,"RTL II HD Austria",p:CBC,C:0
 s:6ea5:00c00000:04b1:0001:25:0:0,"WDR HD Köln",p:ARD
 s:01a6:0dde0000:4fb0:055f:25:0:0,"6TER",p:EUTELSAT,c:00975,c:03975,c:051,c:107,c:11976,c:13976,C:0
-s:06a6:0dca0000:0011:0800:25:0:0,"OSN KidZone",p:OSN,c:00ca,c:0112e,c:03ca,c:051,C:170b,C:170a,C:1709,C:1708,f:1000
+s:06a6:0dca0000:0011:0800:25:0:0,"OSN KidZone",p:OSN,c:00ca,c:0112e,c:03ca,c:051,C:0,f:1000
 s:37a6:00820000:14b4:fbff:25:0:0,"Fox HD",p:SkyItalia,C:0
 s:6ea6:00c00000:04b1:0001:25:0:0,"WDR HD Bielefeld",p:ARD
 s:c7a6:011a0000:0817:0002:25:0:0,"Smithsonian HD",p:BSkyB,c:0090c,c:0390c,c:0490d,c:051
@@ -7130,7 +7190,7 @@ s:13a7:00c00000:03ea:0001:25:0:0,"Al Jazeera English HD",p:Al Jazeera
 s:6ea7:00c00000:04b1:0001:25:0:0,"WDR HD Dortmund",p:ARD
 s:01a8:005a0000:c40e:009e:25:0:0,"Fox Sports 1 HD",p:Joyne,c:00d49,c:01d4a,c:03d49,c:051,C:0
 s:01a8:0dde0000:4fb0:055f:25:0:0,"TFX",p:EUTELSAT,C:0
-s:06a8:0dca0000:0011:0800:25:0:0,"OSN Pop Up Family Fun",p:OSN,c:00cc,c:03cc,c:04194,c:051,c:0925c0101,C:170b,C:170a,C:1709,C:1708,f:1000
+s:06a8:0dca0000:0011:0800:25:0:0,"OSN Pop Up Adel Imam",p:OSN,c:00cc,c:01130,c:03cc,c:051,c:0925c0101,C:1708,C:1709,C:170a,C:170b,f:1000
 s:16a8:00c00000:03ff:0001:25:0:0,"a.tv HD",p:BMT
 s:33a8:00c00000:03eb:0001:25:0:0,"Bibel TV HD",p:ORS
 s:6ea8:00c00000:04b1:0001:25:0:0,"WDR HD Düsseldorf",p:ARD
@@ -7140,12 +7200,12 @@ s:06a9:0dca0000:0011:0800:25:0:0,"Star World HD",p:OSN,c:00cd,c:01131,c:03cd,c:0
 s:16a9:0dca0000:003a:0800:25:0:0,"Test HD",p:Nilesat,f:40
 s:16a9:00c00000:03ff:0001:25:0:0,"münchen.tv HD",p:BMT
 s:33a9:00c00000:03eb:0001:25:0:0,"Schau TV HD",p:-
-s:37a9:00820000:14b4:fbff:25:0:0,"Crime + Inv. HD",p:SkyItalia,C:0
+s:37a9:00820000:14b4:fbff:25:0:0,"Crime + Inv. HD",p:SkyItalia,c:00aa,c:022c7,c:03aa,c:041a5,c:051,C:0
 s:37a9:00820000:1af4:fbff:25:0:0,"Crime + Inv. HD",p:SkyItalia,C:0
 s:6ea9:00c00000:04b1:0001:25:0:0,"WDR HD Essen",p:ARD
 s:01aa:005a0000:c40e:009e:25:0:0,"Fox Sports 3 HD",p:Joyne,C:0
 s:02aa:0ce40000:0130:162d:25:0:0,"Park TV",p:Pantelio
-s:06aa:0dca0000:0011:0800:25:0:0,"Yalla OSN Support",p:OSN
+s:06aa:0dca0000:0011:0800:25:0:0,"Yalla OSN Support",p:OSN,c:00ce,c:01132,c:03ce,c:051,f:1000
 s:16aa:00c00000:03ff:0001:25:0:0,"rfo HD Fernsehen Oberbayern",p:BMT
 s:6eaa:00c00000:04b1:0001:25:0:0,"WDR HD Münster",p:ARD
 s:06ab:0dca0000:0011:0800:25:0:0,"OSN",p:OSN
@@ -7153,11 +7213,11 @@ s:16ab:0dca0000:003a:0800:25:0:0,"Remas TV",p:NILESAT,f:40
 s:16ab:00c00000:03ff:0001:25:0:0,"Ulm-Allgäu HD",p:BMT
 s:33ab:00c00000:03eb:0001:25:0:0,"HopeTV",p:-
 s:6eab:00c00000:04b1:0001:25:0:0,"WDR HD Siegen",p:ARD
-s:06ac:0dca0000:0011:0800:25:0:0,"OSN Pop Up 2",p:OSN,c:00d0,c:03d0,c:04198,c:051,C:170b,C:170a,C:1709,C:1708,f:1000
+s:06ac:0dca0000:0011:0800:25:0:0,"Spare 1708",p:OSN,c:00d0,c:03d0,c:04198,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:13ac:01c20000:0006:00d5:25:0:0,"MAX Sport 1 HD",p:VIVACOM,c:001410,c:031410,c:051,c:103,c:111474,c:141474,C:9bd,f:40
 s:16ac:00c00000:03ff:0001:25:0:0,"tv.ingolstadt HD",p:BMT
 s:33ac:00c00000:03eb:0001:25:0:0,"ATV HD",p:ATV,c:008e8,c:018e9,c:028ed,c:038e8,c:051,C:500,C:648,C:650,C:6e2,C:98c,C:98d,C:9c4,C:d95,C:d98
-s:06ad:0dca0000:0011:0800:25:0:0,"Spare 1709",p:OSN
+s:06ad:0dca0000:0011:0800:25:0:0,"100% SpongeBob with OSN",p:OSN,c:00d1,c:01135,c:03d1,c:051,C:1708,C:1709,C:170a,C:170b,f:1000
 s:13ad:01c20000:0006:00d5:25:0:0,"MAX Sport 2 HD",p:VIVACOM,c:001411,c:031411,c:051,c:103,c:111475,c:141475,C:9bd,f:40
 s:16ad:00c00000:03ff:0001:25:0:0,"Lokal-TV-Portal HD",p:BMT
 s:26ad:00c00000:043e:0001:25:0:0,"MUSEUM",p:CSAT,C:0
@@ -7193,7 +7253,7 @@ s:0bb8:0dde0000:4e84:055f:25:0:0,"TF1 SERIES FILMS",p:EUTELSAT,C:0
 s:0db8:00820000:14b4:fbff:25:0:0,"Fox Life HD",p:SkyItalia,C:0
 s:0db8:00820000:1af4:fbff:25:0:0,"Fox Life HD",p:SkyItalia,C:0
 s:14b8:00c00000:0407:0001:25:0:0,"PULS 24 HD",p:ProSiebenSat.1
-s:26b8:00c00000:043e:0001:25:0:0,"PLANETE+ A&E",p:CSAT,c:004ba,c:034ba,c:044c5,c:051,C:1883,C:1863,C:1819,C:1818,C:1811,C:500,C:100
+s:26b8:00c00000:043e:0001:25:0:0,"PLANETE+ A&E",p:CSAT,c:004ba,c:034ba,c:044c5,c:051,C:100,C:500,C:1811,C:1818,C:1819,C:1863,C:1883
 s:78b8:00c00000:03ec:0001:25:0:0,"COSMO HD",p:DIGITAL+,C:0
 s:0bb9:0dde0000:4e84:055f:25:0:0,"L'EQUIPE",p:EUTELSAT,c:007db,c:037db,c:051,C:0
 s:0db9:00820000:1af4:fbff:25:0:0,"History HD",p:SkyItalia,C:0
@@ -7225,7 +7285,7 @@ s:24c0:00c00000:043c:0001:25:0:0,"DISNEY CHANNEL+1",p:CSAT,C:0
 s:78c0:00c00000:03ec:0001:25:0:0,"COMEDYCENTRALHD",p:PRISA TV,C:0
 s:0dc1:00820000:1af4:fbff:25:0:0,"Sky TG24 HD",p:SkyItalia,C:0
 s:12c1:0dca0000:0030:0800:25:0:0,"Nick Toons HD",p:OSN,c:00c9,c:01191,c:03c9,c:051,C:0,f:1040
-s:24c1:00c00000:043c:0001:25:0:0,"PLANETE+ CI",p:CSAT,c:0038e,c:0338e,c:04399,c:051,C:1883,C:1863,C:1819,C:1818,C:1811,C:500,C:100
+s:24c1:00c00000:043c:0001:25:0:0,"PLANETE+ CI",p:CSAT,c:0038e,c:0338e,c:04399,c:051,C:100,C:500,C:1811,C:1818,C:1819,C:1863,C:1883
 s:26c1:00c00000:043e:0001:25:0:0,"MULTISPORTS 5",p:CSAT,C:0
 s:12c2:0dca0000:0030:0800:25:0:0,"History Channel HD",p:OSN,C:0,f:1040
 s:24c2:00c00000:043c:0001:25:0:0,"CSTAR HITS FRANCE",p:CSAT,C:0
@@ -7233,22 +7293,22 @@ s:26c2:00c00000:043e:0001:25:0:0,"TOONAMI",p:CSAT,C:0
 s:02c3:0ce40000:0130:162d:25:0:0,"Bratislava TV HD",p:Pantelio
 s:06c3:00820000:2f44:013e:25:0:0,"HSE24 HD",p:M-Three satcom
 s:0bc3:0dde0000:4e84:055f:25:0:0,"CNEWS",p:EUTELSAT
-s:12c3:0dca0000:0030:0800:25:0:0,"Discovery Science HD",p:OSN,c:00cb,c:03cb,c:0412f,c:051,c:091030202,C:170b,C:170a,C:1709,C:1708,f:1040
+s:12c3:0dca0000:0030:0800:25:0:0,"Discovery Science HD",p:OSN,c:00cb,c:03cb,c:0412f,c:051,c:091030202,C:1708,C:1709,C:170a,C:170b,f:1040
 s:24c3:00c00000:043c:0001:25:0:0,"TELETOON+",p:CSAT,C:0
 s:0bc4:0dde0000:4e84:055f:25:0:0,"BFM TV",p:EUTELSAT
 s:12c4:0dca0000:0030:0800:25:0:0,"Disney HD",p:Arqiva,f:1040
 s:24c4:00c00000:043c:0001:25:0:0,"TELETOON+1",p:CSAT,C:0
-s:2fc4:00820000:1900:fbff:25:0:0,"Gambero Rosso HD",p:SkyItalia,C:0
+s:2fc4:00820000:1900:fbff:25:0:0,"Gambero Rosso HD",p:SkyItalia,c:00a2,c:03a2,c:04194,c:051,C:9cd
 s:0bc5:0dde0000:4e84:055f:25:0:0,"C8",p:EUTELSAT
 s:0dc5:005a0000:16a8:009c:25:0:0,"MCM TOP",p:PBS,c:007e9,c:01bd1,c:02fb9,c:037e9,c:051,C:500
-s:12c5:0dca0000:0030:0800:25:0:0,"Sky News HD",p:Arqiva,c:0076d,c:01131,c:0376d,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:12c5:0dca0000:0030:0800:25:0:0,"Sky News HD",p:Arqiva,c:0076d,c:01131,c:0376d,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:22c5:00c00000:0434:0001:25:0:0,"CLIQUE TV",p:CSAT,C:0
 s:24c5:00c00000:043c:0001:25:0:0,"COLMAX TV",p:CSAT,C:0
 s:0bc6:0dde0000:4e84:055f:25:0:0,"CSTAR",p:EUTELSAT
-s:12c6:0dca0000:0030:0800:25:0:0,"Disney XD",p:OSN,c:00ce,c:01196,c:03ce,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:12c6:0dca0000:0030:0800:25:0:0,"Disney XD",p:OSN,c:00ce,c:01196,c:03ce,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:24c6:00c00000:043c:0001:25:0:0,"TRACE URBAN",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:500,C:1811,C:1863,C:1883
 s:0bc7:0dde0000:4e84:055f:25:0:0,"GULLI",p:EUTELSAT
-s:12c7:0dca0000:0030:0800:25:0:0,"DJ Cema",p:Arqiva,c:00cf,c:01133,c:03cf,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:12c7:0dca0000:0030:0800:25:0:0,"DJ Cema",p:Arqiva,c:00cf,c:01133,c:03cf,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:24c7:00c00000:043c:0001:25:0:0,"GAME ONE",p:CSAT
 s:00c9:005a0000:14b4:009c:25:0:0,"ProSieben MAXX HD",p:BASIS 1,C:0
 s:00c9:0dde0000:4ee8:055f:25:0:0,"RTL9",p:EUTELSAT,C:0
@@ -7261,7 +7321,7 @@ s:2dca:00820000:1a2c:fbff:25:0:0,"Food Network HD",p:SkyItalia,C:0
 s:32ca:0e080000:0029:0046:25:0:0,"Test_13002",p:Telenor
 s:00cb:005a0000:14b4:009c:25:0:0,"WELT HD",p:BASIS 1,C:0
 s:00cb:0dde0000:4ee8:055f:25:0:0,"AB 1",p:EUTELSAT
-s:19cb:0dca0000:0042:0800:25:0:0,"Dubai TV HD",p:dU,f:40
+s:19cb:0dca0000:0042:0800:25:0:0,"Dubai TV HD",p:dU,c:00277,c:01278,c:03277,c:051,f:1040
 s:19cb:00c00000:0444:0001:25:0:0,"RMC SPORT NEWS",p:CSAT,c:00136,c:03136,c:04141,c:051,C:0
 s:32cb:0e080000:0029:0046:25:0:0,"Test_13003",p:Telenor
 s:00cc:0dde0000:4ee8:055f:25:0:0,"AUTOMOTO",p:EUTELSAT
@@ -7285,16 +7345,16 @@ s:00d0:0dde0000:4ee8:055f:25:0:0,"ANIMAUX",p:EUTELSAT
 s:19d0:00c00000:0444:0001:25:0:0,"PENTHOUSE BLACK",p:CSAT,C:0,f:40
 s:22d0:00c00000:0434:0001:25:0:0,"NICKELODEON JUNIOR",p:CSAT,C:0
 s:00d1:0dde0000:4ee8:055f:25:0:0,"SCIENCE ET VIE",p:EUTELSAT
-s:07d1:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD1",p:beIN SPORTS,c:0019b,c:0319b,c:051,c:107,c:1119e,c:1319e,C:0,f:1040
+s:07d1:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD1",p:beIN SPORTS,c:0019b,c:0319b,c:051,c:107,c:1119e,c:1319e,C:603,C:627,C:9b5,f:1040
 s:19d1:00c00000:0444:0001:25:0:0,"CHAINE EVENEMENT",p:CSAT,C:0
 s:22d1:00c00000:0434:0001:25:0:0,"MULTISPORTS 2",p:CSAT,C:0
-s:07d2:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD2",p:beIN SPORTS,c:001a5,c:031a5,c:051,c:107,c:111a8,c:131a8,C:9b5,C:627,C:603,f:1040
-s:19d2:0dca0000:0042:0800:25:0:0,"SAMA DUBAI HD",p:dU,f:1040
+s:07d2:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD2",p:beIN SPORTS,c:001a5,c:031a5,c:051,c:107,c:111a8,c:131a8,C:603,C:627,C:9b5,f:1040
+s:19d2:0dca0000:0042:0800:25:0:0,"SAMA DUBAI HD",p:dU,c:002bd,c:012be,c:032bd,c:051,f:1040
 s:19d2:00c00000:0444:0001:25:0:0,"SEASONS",p:CSAT,C:0
 s:22d2:00c00000:0434:0001:25:0:0,"RMC SPORT 1",p:CSAT,c:00582,c:03582,c:0458d,c:051,C:0
-s:07d3:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD3",p:beIN SPORTS,c:001af,c:031af,c:051,c:107,c:111b2,c:131b2,C:0,f:1040
+s:07d3:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD3",p:beIN SPORTS,c:001af,c:031af,c:051,c:107,c:111b2,c:131b2,C:603,C:627,C:9b5,f:1040
 s:19d3:0dca0000:0042:0800:25:0:0,"AL DAFRA HD",p:dU,f:40
-s:19d3:00c00000:0444:0001:25:0:0,"FOOT+ 24/24",p:CSAT,c:00456,c:03456,c:04461,c:051,C:1883,C:1863,C:1811,C:500
+s:19d3:00c00000:0444:0001:25:0:0,"FOOT+ 24/24",p:CSAT,c:00456,c:03456,c:04461,c:051,C:500,C:1811,C:1863,C:1883
 s:74d3:00c00000:03f8:0001:25:0:0,"VIAJAR HD",p:DIGITAL+,C:0
 s:00d4:0dde0000:4ee8:055f:25:0:0,"ACTION",p:EUTELSAT
 s:07d4:0dca0000:0064:077e:25:0:0,"beIN SPORTS HD4",p:beIN SPORTS,c:001b9,c:031b9,c:051,c:107,c:111bc,c:131bc,C:0,f:1040
@@ -7313,9 +7373,10 @@ s:30d6:00c00000:0413:0001:25:0:0,"Eurosport 1 HD",p:SES ASTRA,C:1830,C:1842,C:18
 s:74d6:00c00000:03f8:0001:25:0:0,"#VAMOSHD",p:Movistar+,c:00a3,c:03a3,c:0464,c:051,C:0
 s:0dd7:00820000:1af4:fbff:25:0:0,"Blaze HD",p:SkyItalia,C:0
 s:30d7:00c00000:0413:0001:25:0:0,"Eurosport 2 HD Xtra",p:SES ASTRA,c:003ff,c:033ff,c:04403,c:051,C:1830,C:1842,C:1843,C:1860,C:186a,C:186d
+s:19d8:0dca0000:0042:0800:25:0:0,"Baynounah TV HD",p:du,f:40
 s:3dd8:00820000:0640:013e:25:0:0,"Travel Channel HD",p:TVN,C:0
 s:74d8:00c00000:03f8:0001:25:0:0,"M.CineDoc&Roll",p:Movistar+,C:0
-s:07d9:0dca0000:0014:0800:25:0:0,"Baynounah TV HD",p:OSN,f:40
+s:07d9:0dca0000:0014:0800:25:0:0,"Spare 2009",p:OSN,f:40
 s:13d9:00c00000:03ea:0001:25:0:0,"MB LIVE",p:SES ASTRA
 s:3dd9:00820000:0640:013e:25:0:0,"Food Network HD",p:TVN,C:0
 s:07db:0e080000:0af2:00bb:25:0:0,"CT 2 HD",p:Slovak Telekom,C:0
@@ -7329,7 +7390,7 @@ s:19dd:00c00000:0444:0001:25:0:0,"MULTISPORTS 6",p:CSAT,C:0
 s:cbdd:011a0000:0831:0002:25:0:0,"Al Jazeera HD",p:BSkyB,c:0090b,c:0390b,c:0490c,c:051
 s:00de:01c20000:0004:00d5:25:0:0,"Trace Sports Stars HD",p:VIVACOM,c:00c96,c:03c96,c:051,c:103,c:11cfa,c:14cfa,C:0,f:40
 s:07de:0e080000:0af2:00bb:25:0:0,"Digi Sport 3 HD",p:Slovak Telekom,c:0057a,c:0357a,c:051,c:103,c:1157b,c:1457b,C:0
-s:07df:0dca0000:0014:0800:25:0:0,"Sky News Arabia HD",p:OSN,f:40
+s:07df:0dca0000:0014:0800:25:0:0,"Sky News Arabia HD",p:OSN,c:00d7,c:0113b,c:03d7,c:051,f:1040
 s:07df:0e080000:0af2:00bb:25:0:0,"Eurosport 1 HD",p:Slovak Telekom,C:0
 s:07e0:0e080000:0af2:00bb:25:0:0,"Eurosport 2 HD",p:Slovak Telekom,C:0
 s:0be0:00300000:001a:0044:25:0:0,"Discovery Showcase HD",p:VisionTV,C:0,f:40
@@ -7362,27 +7423,27 @@ s:03ea:0dca0000:000a:0800:25:0:0,"Spare 1002",p:OSN,C:0,f:40
 s:10ea:00820000:03e8:013e:25:0:0,"TVN24 BiS HD",p:TVN,C:0
 s:30ea:00c00000:0413:0001:25:0:0,"Eurosport 1 HD Austria",p:SES ASTRA,C:0
 s:00eb:005a0000:1644:009c:25:0:0,"TLC HD",p:BASIS 1
-s:03eb:0dca0000:000a:0800:25:0:0,"OSN Binge",p:OSN,c:00cb,c:03cb,c:04193,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:03eb:0dca0000:000a:0800:25:0:0,"OSN Binge",p:OSN,c:00cb,c:03cb,c:04193,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:10eb:00820000:03e8:013e:25:0:0,"HGTV HD",p:TVN,C:0
 s:d7eb:011a0000:082c:0002:25:0:0,"eir Sport 1 HD",p:BSkyB,c:00901,c:03901,c:04902,c:051,C:0
-s:03ec:0dca0000:000a:0800:25:0:0,"Nat Geo Wild HD",p:OSN,c:00cc,c:011f8,c:03cc,c:051,c:0925c0101,C:170b,C:170a,C:1709,C:1708,f:1040
+s:03ec:0dca0000:000a:0800:25:0:0,"Nat Geo Wild HD",p:OSN,c:00cc,c:011f8,c:03cc,c:051,c:0925c0101,C:1708,C:1709,C:170a,C:170b,f:1040
 s:0dec:00820000:14b4:fbff:25:0:0,"Sky Cinema Due HD",p:SkyItalia,C:0
 s:10ec:00820000:03e8:013e:25:0:0,"Food Network HD EMEA",p:TVN
 s:d7ec:011a0000:082c:0002:25:0:0,"eir Sport 1 HD",p:BSkyB,c:00901,c:03901,c:04902,c:051,C:960,C:961,C:963
-s:03ed:0dca0000:000a:0800:25:0:0,"Nat Geo People HD",p:OSN,c:00cd,c:011f9,c:03cd,c:051,c:0925d0100,C:170b,C:170a,C:1709,C:1708,f:1040
+s:03ed:0dca0000:000a:0800:25:0:0,"Nat Geo People HD",p:OSN,c:00cd,c:011f9,c:03cd,c:051,c:0925d0100,C:1708,C:1709,C:170a,C:170b,f:1040
 s:10ed:00820000:03e8:013e:25:0:0,"Fine Living HD EMEA",p:TVN
-s:03ee:0dca0000:000a:0800:25:0:0,"Nat Geo HD",p:OSN,c:00ce,c:011fa,c:03ce,c:051,c:0925e0101,C:170b,C:170a,C:1709,C:1708,f:1040
-s:03ef:0dca0000:000a:0800:25:0:0,"Star Movies HD",p:OSN,c:00cf,c:011fb,c:03cf,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
-s:03f0:0dca0000:000a:0800:25:0:0,"Paramount HD",p:OSN,c:00d0,c:03d0,c:04198,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:03ee:0dca0000:000a:0800:25:0:0,"Nat Geo HD",p:OSN,c:00ce,c:011fa,c:03ce,c:051,c:0925e0101,C:1708,C:1709,C:170a,C:170b,f:1040
+s:03ef:0dca0000:000a:0800:25:0:0,"Star Movies HD",p:OSN,c:00cf,c:011fb,c:03cf,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
+s:03f0:0dca0000:000a:0800:25:0:0,"Paramount HD",p:OSN,c:00d0,c:03d0,c:04198,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:05f0:00820000:005e:0055:25:0:0,"Star Cinema HD",p:XTRA TV
 s:19f0:00300000:0010:0055:25:0:0,"FOOTBALL 2 HD",C:0,f:40
-s:03f1:0dca0000:000a:0800:25:0:0,"Comedy Central HD",p:OSN,c:00d1,c:03d1,c:04199,c:051,C:170b,C:170a,C:1709,C:1708,f:1040
+s:03f1:0dca0000:000a:0800:25:0:0,"Comedy Central HD",p:OSN,c:00d1,c:03d1,c:04199,c:051,C:1708,C:1709,C:170a,C:170b,f:1040
 s:03f3:0e080000:0af1:00bb:25:0:0,"Jednotka HD",p:Slovak Telekom,C:0
 s:2cf3:00820000:2580:fbff:25:0:0,"Real Time HD",p:SkyItalia,C:0
 s:03f4:0e080000:0af1:00bb:25:0:0,"Dvojka HD",p:Slovak Telekom,C:0
 s:01f5:005a0000:c364:009e:25:0:0,"NPO 1 HD",p:Joyne,C:0
 s:03f5:0e080000:0af1:00bb:25:0:0,"Markiza HD",p:Slovak Telekom,C:0
-s:1af5:0dca0000:0045:0800:25:0:0,"dmc HD",p:Nilesat,f:40
+s:1af5:0dca0000:0045:0800:25:0:0,"dmc HD",p:Nilesat,f:1040
 s:33f5:00c00000:03ed:0001:25:0:0,"ORF2St HD",p:ORF,C:0
 s:01f6:0dca0000:0005:0800:25:0:0,"AL Oula HD",p:NILESAT,f:40
 s:01f6:005a0000:c364:009e:25:0:0,"NPO 2 HD",p:Joyne,C:0
@@ -7411,7 +7472,7 @@ s:33fc:00c00000:03ed:0001:25:0:0,"ORF III HD",p:ORF,C:0
 s:01fd:005a0000:2134:009c:25:0:0,"Mezzo Live HD",p:KabelKiosk
 s:01fd:005a0000:c364:009e:25:0:0,"Net5 HD",p:Joyne,C:0
 s:21fd:00c00000:044c:0001:25:0:0,"FRANCE 4",p:CSAT,C:0
-s:33fd:00c00000:03ed:0001:25:0:0,"ORF SPORT+ HD",p:ORF,c:00c12,c:02c17,c:03c12,c:04c13,c:051,C:d98,C:d95,C:9c4,C:98d,C:98c,C:6e2,C:650,C:648,C:500
+s:33fd:00c00000:03ed:0001:25:0:0,"ORF SPORT+ HD",p:ORF,c:00c12,c:02c17,c:03c12,c:04c13,c:051,C:500,C:648,C:650,C:6e2,C:98c,C:98d,C:9c4,C:d95,C:d98
 s:01fe:005a0000:c364:009e:25:0:0,"RTL 8 HD",p:Joyne,C:0
 s:21fe:00c00000:044c:0001:25:0:0,"RMC SPORT 3",p:CSAT,c:00d2,c:03d2,c:04dd,c:051,C:0
 s:33fe:00c00000:03ed:0001:25:0:0,"flimmit Zusatzpaket",p:ORF
@@ -7422,8 +7483,8 @@ s:0bb9:00820000:1d4c:fbff:27:0:0,"PUSH REF HD 3001",p:SkyItalia
 s:0001:00c00000:040b:0001:31:0:0,"SES UHD Demo Channel",p:SES
 s:0001:0ce40000:03e8:03e9:31:0:0,"Hispasat 4K HEVC",p:Hispasat,f:40
 s:0002:00c00000:040b:0001:31:0:0,"UHD1 by ASTRA / HD+",p:SES ASTRA
-s:0228:00c00000:0010:0085:31:0:0,"Sky Sport Bundesliga UHD",p:SKY,C:0
-s:0229:00c00000:0010:0085:31:0:0,"Sky Sport UHD",p:SKY,C:0
+s:0228:00c00000:0010:0085:31:0:0,"Sky Sport Bundesliga UHD",p:SKY,C:0
+s:0229:00c00000:0010:0085:31:0:0,"Sky Sport UHD",p:SKY,C:0
 s:4532:00820000:30d4:013e:31:0:0,"Rai 4K",p:Rai,C:0
 s:113d:00820000:2af8:013e:31:0:0,"CANAL+ 4K ULTRA HD",p:nc+
 s:3459:00c00000:03e9:0001:31:0:0,"Service 13401",p:ORS,C:0
@@ -7547,13 +7608,39 @@ s:270e:0dca0000:00c8:077e:100:0:0,"11055H SID 0x270e",p:DVB-S2 8PSK 11055H 353.0
 s:270f:0dca0000:00c8:077e:100:0:0,"11055H SID 0x270f",p:DVB-S2 8PSK 11055H 353.0Â°E,f:40
 s:7510:00c00000:0420:0001:100:0:0,"10817V SID 0x7510",p:DVB-S2 8PSK 10817V 19.2Â°E,f:40
 s:0320:0dca0000:001f:006e:100:0:0,"11177H SID 0x320",p:DVB-S QPSK 11177H 353.0Â°E,f:40
+s:1322:00820000:2e7c:013e:100:0:0,"10892H SID 0x1322",p:DVB-S2 8PSK 10892H 13.0Â°E,f:40
 s:012a:01860000:0002:001c:100:0:0,"12328V SID 0x12a",p:DVB-S2 8PSK 12328V 39.0Â°E,f:40
+s:012a:01860000:000d:001c:100:0:0,"12524V SID 0x12a",p:DVB-S QPSK 12524V 39.0Â°E,f:40
+s:012a:01860000:0011:001c:100:0:0,"12688V SID 0x12a",p:DVB-S QPSK 12688V 39.0Â°E,f:40
+s:012a:01860000:0012:001c:100:0:0,"12405V SID 0x12a",p:DVB-S QPSK 12405V 39.0Â°E,f:40
+s:782c:00c00000:0428:0001:100:0:0,"10935V SID 0x782c",p:DVB-S2 8PSK 10935V 19.2Â°E,f:40
 s:272e:0dca0000:012c:077e:100:0:0,"12604H SID 0x272e",p:DVB-S2 8PSK 12604H 353.0Â°E,f:40
+s:782e:00c00000:0428:0001:100:0:0,"10935V SID 0x782e",p:DVB-S2 8PSK 10935V 19.2Â°E,f:40
 s:272f:0dca0000:012c:077e:100:0:0,"12604H SID 0x272f",p:DVB-S2 8PSK 12604H 353.0Â°E,f:40
 s:0640:01860000:0002:001c:100:0:0,"12328V SID 0x640",p:DVB-S2 8PSK 12328V 39.0Â°E,f:40
+s:0640:01860000:000d:001c:100:0:0,"12524V SID 0x640",p:DVB-S QPSK 12524V 39.0Â°E,f:40
+s:0640:01860000:000f:001c:100:0:0,"12175V SID 0x640",p:DVB-S QPSK 12175V 39.0Â°E,f:40
+s:0640:01860000:0011:001c:100:0:0,"12688V SID 0x640",p:DVB-S QPSK 12688V 39.0Â°E,f:40
+s:0640:01860000:0012:001c:100:0:0,"12405V SID 0x640",p:DVB-S QPSK 12405V 39.0Â°E,f:40
 s:7865:00c00000:041a:0001:100:0:0,"10729V SID 0x7865",p:DVB-S2 8PSK 10729V 19.2Â°E,f:40
+s:2c80:00820000:251c:fbff:100:0:0,"12616H SID 0x2c80",p:DVB-S QPSK 12616H 13.0Â°E,f:40
+s:7791:00c00000:0424:0001:100:0:0,"10876V SID 0x7791",p:DVB-S QPSK 10876V 19.2Â°E,f:40
+s:7794:00c00000:0424:0001:100:0:0,"10876V SID 0x7794",p:DVB-S QPSK 10876V 19.2Â°E,f:40
+s:7698:00c00000:041e:0001:100:0:0,"10788V SID 0x7698",p:DVB-S QPSK 10788V 19.2Â°E,f:40
+s:76a1:00c00000:041e:0001:100:0:0,"10788V SID 0x76a1",p:DVB-S QPSK 10788V 19.2Â°E,f:40
+s:75a4:00c00000:0422:0001:100:0:0,"10847V SID 0x75a4",p:DVB-S QPSK 10847V 19.2Â°E,f:40
+s:75a7:00c00000:0422:0001:100:0:0,"10847V SID 0x75a7",p:DVB-S QPSK 10847V 19.2Â°E,f:40
+s:75a8:00c00000:0422:0001:100:0:0,"10847V SID 0x75a8",p:DVB-S QPSK 10847V 19.2Â°E,f:40
+s:75ad:00c00000:0422:0001:100:0:0,"10847V SID 0x75ad",p:DVB-S QPSK 10847V 19.2Â°E,f:40
 s:78c2:00c00000:03ec:0001:100:0:0,"11258V SID 0x78c2",p:DVB-S2 8PSK 11258V 19.2Â°E,f:40
+s:74d0:00c00000:03f8:0001:100:0:0,"11435V SID 0x74d0",p:DVB-S2 8PSK 11435V 19.2Â°E,f:40
+s:75d6:00c00000:0422:0001:100:0:0,"10847V SID 0x75d6",p:DVB-S QPSK 10847V 19.2Â°E,f:40
+s:74dc:00c00000:03f8:0001:100:0:0,"11435V SID 0x74dc",p:DVB-S2 8PSK 11435V 19.2Â°E,f:40
+s:0ded:00820000:2d50:013e:100:0:0,"10834V SID 0xded",p:DVB-S2 8PSK 10834V 13.0Â°E,f:40
+s:fff2:01860000:000f:001c:100:0:0,"12175V SID 0xfff2",p:DVB-S QPSK 12175V 39.0Â°E,f:40
 s:fffe:01860000:0002:001c:100:0:0,"12328V SID 0xfffe",p:DVB-S2 8PSK 12328V 39.0Â°E,f:40
+s:fffe:01860000:000e:001c:100:0:0,"12565V SID 0xfffe",p:DVB-S QPSK 12565V 39.0Â°E,f:40
+s:fffe:01860000:0011:001c:100:0:0,"12688V SID 0xfffe",p:DVB-S QPSK 12688V 39.0Â°E,f:40
 s:fffe:0dca0000:012c:077e:100:0:0,"12604H SID 0xfffe",p:DVB-S2 8PSK 12604H 353.0Â°E,f:40
 s:fffe:0dca0000:0064:077e:100:0:0,"11012H SID 0xfffe",p:DVB-S2 8PSK 11012H 353.0Â°E,f:40
 s:fffe:0dca0000:00c8:077e:100:0:0,"11055H SID 0xfffe",p:DVB-S2 8PSK 11055H 353.0Â°E,f:40
@@ -7750,4 +7837,4 @@ s:0fff:00820000:1e14:fbff:251:0:0,"Fusion BGDL 4095",p:SkyItalia
 s:10c1:00820000:2008:fbff:252:0:0,"Fusion Bootloader",p:SkyItalia
 s:1fed:00820000:189c:fbff:252:0:0,"Fusion FGDL",p:SkyItalia
 s:38fd:00820000:2648:fbff:252:0:0,"Fusion FGDL",p:SkyItalia
-# done. 457 channels and 7287 services
+# done. 457 channels and 7374 services
