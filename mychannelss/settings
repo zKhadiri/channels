@@ -14,3 +14,6 @@ config.plugins.iptvplayer.alternativeIptvMoviePlayer=exteplayer
 config.plugins.iptvplayer.alternativeIptvMoviePlayer0=exteplayer
 config.plugins.iptvplayer.defaultIptvMoviePlayer=exteplayer
 config.plugins.iptvplayer.defaultIptvMoviePlayer0=exteplayer
+config.plugins.WeatherPlugin.Entry.0.city=Casablanca, Morocco
+config.plugins.WeatherPlugin.Entry.0.weatherlocationcode=wc:MOXX0001
+config.plugins.WeatherPlugin.entrycount=1
