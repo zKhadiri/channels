@@ -1,8 +1,8 @@
-config.Nims.0.diseqcA=390
-config.Nims.0.diseqcB=3300
-config.Nims.0.diseqcC=192
-config.Nims.0.diseqcD=130
-config.Nims.0.diseqcMode=diseqc_a_b_c_d
+config.Nims.1.diseqcA=390
+config.Nims.1.diseqcB=3300
+config.Nims.1.diseqcC=192
+config.Nims.1.diseqcD=130
+config.Nims.1.diseqcMode=diseqc_a_b_c_d
 config.plugins.OSDPositionSetup.dst_height=550
 config.plugins.OSDPositionSetup.dst_left=18
 config.plugins.OSDPositionSetup.dst_top=14
