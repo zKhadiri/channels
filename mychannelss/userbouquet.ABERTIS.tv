@@ -1,4 +1,9 @@
 #NAME ### ABERTIS SAT (30W) ###
+#SERVICE 1:64:36:0:0:0:0:0:0:0::10922V-802-TVE Pruebas-NID12552-762MHz
+#SERVICE 1:0:1:30D5:A:22D4:0:0:0:0:http%3a//0.0.0.0%3a9999/abertis/pid802plp0:TVE UHD
+#DESCRIPTION TVE UHD
+#SERVICE 1:0:1:30D6:A:22D4:0:0:0:0:http%3a//0.0.0.0%3a9999/abertis/pid802plp0:UHD-2
+#DESCRIPTION UHD-2
 #SERVICE 1:0:1:1E0:2D85:12D:0:0:0:0:http%3a//localhost%3a9999/abertis/pid301:La 1 Canarias [301]
 #DESCRIPTION La 1 Canarias [301]
 #SERVICE 1:0:1:1E4:2D85:12D:0:0:0:0:http%3a//localhost%3a9999/abertis/pid301:La 1 HD Canarias [301]
